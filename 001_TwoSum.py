@@ -12,7 +12,7 @@ return [0, 1].
 '''
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums, target):
         dict={}
         for index,n in enumerate(nums):
             if target-n in dict:
@@ -20,3 +20,7 @@ class Solution:
             dict[n]=index        
         return []
   
+  
+ 
+sol = Solution()
+assert sol.twoSum([2, 7, 11, 15],9)==[0, 1]

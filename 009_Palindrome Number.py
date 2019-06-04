@@ -51,12 +51,12 @@ class Solution:
       
 sol =Solution()
 
-print ( sol.isPalindrome_res(121) )
+assert sol.isPalindrome_res(121)==True
 
-print ( sol.isPalindrome(-121) )
+assert sol.isPalindrome_res(-121)==False
 
-print ( sol.isPalindrome(10) )
+assert sol.isPalindrome_res(10)==False
 
-print ( sol.isPalindrome(1001) )
+assert sol.isPalindrome_res(1001)==True
 
-print ( sol.isPalindrome(12321) )
+assert sol.isPalindrome_res(12321)==True

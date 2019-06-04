@@ -57,7 +57,7 @@ class Solution:
         return m
 
     '''
-        一般的解法 速度較慢
+        Normal sol ,speed slow
     '''
     def lengthOfLongestSubstring_Normal(self, s):       
         tempstring=""
@@ -79,12 +79,14 @@ class Solution:
         
 sol =Solution()
 
-print (sol.lengthOfLongestSubstring('abcabcbb'))
 
-print (sol.lengthOfLongestSubstring('bbbbb'))
+assert sol.lengthOfLongestSubstring('abcabcbb')==3
 
-print (sol.lengthOfLongestSubstring('pwwkew'))
+assert sol.lengthOfLongestSubstring('bbbbb')==1
 
-print (sol.lengthOfLongestSubstring(" "))
+assert sol.lengthOfLongestSubstring('pwwkew')==3
 
-print (sol.lengthOfLongestSubstring("au"))
+assert sol.lengthOfLongestSubstring(' ')==1
+
+assert sol.lengthOfLongestSubstring('au')==2
+
