@@ -56,7 +56,6 @@ class Solution:
         return   "1" + output if flag else output
 
 
-
 sol =Solution()
 
 assert sol.addBinary('11','1')=='100'
