@@ -41,6 +41,15 @@ class Solution(object):
                 count+=1
         return  count
 
+    def hammingWeight(self, n):
+        count=0
+        while n :
+            n,res=divmod(i, 2)        
+            if res==1:
+               count+=1
+        return  count
+
+
 
 sol =Solution()
 
