@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# encoding=utf-8
 '''
 345. Reverse Vowels of a String
 Easy
@@ -23,6 +25,7 @@ Note:
 The vowels does not include the letter "y".
 '''
 
+
 class Solution:   
 
     def reverseVowels(self, s):
@@ -39,10 +42,10 @@ class Solution:
                 reverse+=vowels.pop()     
         return reverse
         
-    '''
-        ㄢ皐だ眖繷Ю,狦皐竚ぃ琌ダ碞1,讽常琌ダ碞ユ传じ,オ娩皐单娩
+    
+    # ㄢ皐だ眖繷Ю,狦皐竚ぃ琌ダ碞1,讽常琌ダ碞ユ传じ,オ娩皐单娩
         
-    '''
+    
     def reverseVowels_pointer(self, s):
         vowels="aeiouAEIOU"
         l,r=0,len(s)-1

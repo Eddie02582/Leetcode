@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# encoding=utf-8
 '''
 Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
@@ -20,7 +22,7 @@ Input:
 ]
 Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 '''
-#!/usr/bin/python
+
 class Solution:
     ## 順序是[E,S,W,N],只要碰壁 或是 數字在Output 陣列裡面,回到上一步 改方向,直到所有值取出
 

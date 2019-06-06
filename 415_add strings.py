@@ -34,12 +34,18 @@ class Solution:
                 n += ord(num1[p]) - 48
             if p >=-len(num2):
                 n += ord(num2[p]) - 48 
-            n,flag=divmod(n+flag,10)
-            msg = str((n)+ msg 
-            p -= 1
+                
+            flag,n=divmod(n+flag,10)
+            msg = str((n))+ msg 
+            p -= 1        
         return  "{}{}".format(flag,msg) if flag else msg
         
 
 
 sol =Solution()
-assert so1.addStrings ('1','1')=='2'
+assert sol.addStrings ('1','1')=='2'
+
+
+assert sol.addStrings ('110','2')=='112'
+
+assert sol.addStrings ('120','91')=='211'

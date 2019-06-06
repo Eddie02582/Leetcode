@@ -27,7 +27,7 @@ In Java, the compiler represents the signed integers using 2's complement notati
 
 '''
 
-
+# encoding=utf-8
 
 
 class Solution(object):
@@ -41,10 +41,10 @@ class Solution(object):
                 count+=1
         return  count
 
-    def hammingWeight(self, n):
+    def hammingWeight_res(self, n):
         count=0
         while n :
-            n,res=divmod(i, 2)        
+            n,res=divmod(n, 2)        
             if res==1:
                count+=1
         return  count
@@ -53,6 +53,6 @@ class Solution(object):
 
 sol =Solution()
 
-assert sol.hammingWeight(5)=='2'
+assert sol.hammingWeight(5)==2
 
 
