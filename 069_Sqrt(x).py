@@ -50,13 +50,18 @@ class Solution(object):
         return int(result)        
 
     #Binary
-    def mySqrt(self, x):
-        r = x
+     def mySqrt(self, x: int) -> int:
         l = 0
+        r = x
         while l < r:
-            mid =(l + r)//2
-            if  mid**mid < x:
-                l = mid + 1
+            mid = (l + r + 1) // 2
+            if mid * mid == x:
+                return mid
+            elif mid * mid > x:
+                r = mid - 1
+            else:
+                l = mid
+        return r
                   
     
 
