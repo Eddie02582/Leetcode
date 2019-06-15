@@ -46,8 +46,8 @@ class Solution:
     
     #bin(5)=101
     # 2 = 0b101 ^0b111
-    # 0b111 =0b1111-1
-    # 所以將 b>>位數 -1 即可以得到要xor 的數字
+    # 0b111 =0b1000 -1
+    # 所以將 b左移位數 -1 即可以得到要xor 的數字
     def findComplement_xor_not_bin(self, num):
         a = num
         b = 1
