@@ -33,7 +33,8 @@ IP to CIDR
 
 '''
 
-
+#!/usr/bin/python
+# encoding=utf-8
 class Solution:
     def findComplement(self, num):        
         s=''.join([ '1'  if i=='0' else '0' for i in format(num,'b') ]) 
@@ -42,7 +43,25 @@ class Solution:
     def findComplement_xor(self, num):
         n='1' *len(format(num,'b'))          
         return num ^ int(n,2)
-        
+    
+    #bin(5)=101
+    # 2 = 0b101 ^0b111
+    # 0b111 =0b1111-1
+    # 所以將 b>>位數 -1 即可以得到要xor 的數字
+    def findComplement_xor_not_bin(self, num):
+        a = num
+        b = 1
+        while a:
+            a = a >> 1            
+            b =b << 1         
+        return num ^ (b-1)
+    
+    #簡化上面
+    def findComplement_xor_simplify(self, num):
+        i = 1
+        while i <= num:
+            i = i << 1
+        return (i - 1) ^ num       
         
         
 sol =Solution()
