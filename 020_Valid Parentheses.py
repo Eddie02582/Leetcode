@@ -39,7 +39,7 @@ class Solution:
             elif dict[x]==result[-1]:
                 result.pop()
             else:
-                result.append(x)
+                return False
         
         return result==[]
         
