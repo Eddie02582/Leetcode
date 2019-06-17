@@ -18,30 +18,30 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3. 
              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 '''
-
-class Solution:
-    def lengthOfLongestSubstring(self, s):
-        left,right,max_length=0,1,0
-        if len(s)<2:
-            return len(s)
-            
-        mgs=s[0]
+#!/usr/bin/python
+# encoding=utf-8
+class Solution:  
+    '''        
+        另用map 紀錄出現字母,right指針向右,如果沒出現就紀錄長度
+        ,當出現過的字母,left 指針就跑到重複出現字母的位置 
         
-        while right<len(s):        
-            if s[right] not in mgs:
-                mgs+=s[right]
-                right+=1
+    '''
+    def lengthOfLongestSubstring(self, s):    
+        left,right,max_length=0,0,0       
+        maps=set()
+        
+        while right<len(s):                
+            if s[right] not in maps:
+                maps.add(s[right])
+                right+=1 
+                max_length=max(right-left,max_length)     
             else:
-                max_length=max(right-left,max_length)
-                left+=1
-                mgs=s[left:right] 
-            
-            if right==len(s):
-                max_length=max(right-left,max_length)
-            
+                maps.remove(s[left])
+                left+=1 
         return max_length
+ 
 
-    def lengthOfLongestSubstring2(self, s):
+    def lengthOfLongestSubstring_map(self, s):
         if not s:
             return 0
         if len(s) <= 1:

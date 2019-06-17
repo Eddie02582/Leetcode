@@ -16,16 +16,13 @@ Output: "bb"
 class Solution: 
         
     def longestPalindrome(self, s):
-        if len(s) < 2:
-            return s
-        if len(set(s))==1:
+        if len(s) < 2 or len(set(s))==1:
             return s
 
         msg,temp=s[0],''
-
         for i in range (10,len(s)*10-1,5):
             index = i // 10 
-            left= index-1            
+            left= index - 1            
             right= index + i % 2        
             temp=self.getPalindrome(s,left,right)
 
@@ -35,14 +32,21 @@ class Solution:
         return  msg   
 
 
-    def getPalindrome(self, s,left,right):  
+    def getPalindrome2(self, s,left,right):  
         
         st=s[left] 
         while left>=0 and  right<len(s) and s[left] == s[right]:   
             st=s[left:right+1]                  
             left, right= left-1 , right+1  
         return st
-     
+        
+    def getPalindrome(self, s,left,end):  
+        
+        st=s[left] 
+        while left>=0 and  right<len(s) and s[left] == s[right]:   
+            st=s[left:right+1]                  
+            left, right= left-1 , right+1  
+        return st     
         
         
 sol =Solution()
