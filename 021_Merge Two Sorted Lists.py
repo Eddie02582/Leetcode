@@ -20,10 +20,10 @@ class Solution:
         current = head        
         while l1 and l2 :            
             if  l1.val < l2.val:
-                current.next = l1
+                current.next = ListNode(l1.val)
                 l1 = l1.next
             else:
-                current.next = l2
+                current.next = ListNode(l2.val)
                 l2 = l2.next            
             current = current.next
                               
