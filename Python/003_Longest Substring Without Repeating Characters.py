@@ -30,15 +30,34 @@ class Solution:
         left,right,max_length=0,0,0       
         maps=set()
         
-        while right<len(s):                
+        while right < len(s):                
             if s[right] not in maps:
                 maps.add(s[right])
-                right+=1 
-                max_length=max(right-left,max_length)     
+                right += 1                 
             else:
                 maps.remove(s[left])
-                left+=1 
+                left += 1 
+            max_length=max(right-left,max_length)        
         return max_length
+        
+ 
+
+    def lengthOfLongestSubstring(self, s):
+        locations = [0]*256    
+        l,r=0,-1      
+        res = 0        
+        while l < len(s):                
+            if r + 1 < len(s) and not locations[ord(s[r +1])]:  
+                r += 1                              
+                locations[ord(s[r])] += 1  
+               
+            else:
+                locations[ord(s[l])] -= 1   
+                l += 1 
+            res =max(res,r - l + 1)
+        return res 
+
+ 
  
 
     def lengthOfLongestSubstring_map(self, s):
@@ -56,24 +75,10 @@ class Solution:
             locations[ord(v)] = i
         return m
 
-    '''
-        Normal sol ,speed slow
-    '''
-    def lengthOfLongestSubstring_Normal(self, s):       
-        tempstring=""
-        result=""	
-        for i in range(len(s)):			
-            tempstring=s[i]
-            for j in range(i+1,len(s)):
-                if  s[j] in tempstring:
-                    break
-                else:
-                    tempstring+=s[j]			
-            if len(tempstring)> len(result):
-                result=tempstring 
-        return len(result)
-		        
+
         
+        
+   
         
         
         
