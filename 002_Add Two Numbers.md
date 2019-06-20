@@ -19,6 +19,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 <img src="https://github.com/Eddie02582/Leetcode/blob/master/picture/2.addTwoNumbers.gif" alt="Smiley face">
 
+(图片来自：<a href="https://github.com/MisterBooo/LeetCodeAnimation">https://github.com/MisterBooo/LeetCodeAnimation</a>)
+
+
 ## Code
 
 #### Python
