@@ -1,7 +1,7 @@
 # Two Sum
 
 
-##原題目:
+## 原題目:
 ```
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -16,7 +16,7 @@ return [0, 1].
 
 ```
 
-##思路
+## 思路
 
 建立一個map字典,用來紀錄數值和陣列的位置,遍歷所有數字若target-數字在字典,回傳index
 
