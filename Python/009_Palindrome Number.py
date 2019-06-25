@@ -39,8 +39,7 @@ class Solution:
    
     def isPalindrome_res(self, x):
         if x < 0:
-            return False      
-        
+            return False   
         res,n=0,x
         
         while n:
@@ -48,10 +47,24 @@ class Solution:
             n = n //10
         return res == x 
     
+    def sPalindrome_div(self, x):      
+        if x < 0:
+            return False
+        div = 1
+        while x / div >= 10 :
+            div *= 10
+        while x > 0:
+            left = x // div
+            right = x % 10
+            if left != right:
+                return False
+            x = (x % div) // 10
+            div //= 100
+        return True
       
 sol =Solution()
 
-assert sol.isPalindrome_res(121)==True
+assert sol.sPalindrome_div(121)==True
 
 assert sol.isPalindrome_res(-121)==False
 
