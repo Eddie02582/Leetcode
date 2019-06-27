@@ -46,7 +46,18 @@ class Solution(object):
                 break
 ```  
 
-利用雙指針比較nums1 和 nums2 的值小的先填當填完即結束 </br>
+
+
+我們需要三个指針：</br>
+
+  1.current 記錄目前前填到的位置</br>
+
+  2.m 記錄 nums1 數組處理到哪個元素</br>
+
+  3.n 記錄 nums2 數組處理到哪個元素</br>
+
+
+
 
 1.當i,j 指針都有值時比較,當num2[j]>=num1[i] 填值,反過來時要小心,當num1[i]填入[i + j + 1]時,原本num1[i]須改成0,或是nums2[j]
 2.當只剩 i >= 0,num1[i]填入[i + j + 1]時,原本num1[i]須改成0
