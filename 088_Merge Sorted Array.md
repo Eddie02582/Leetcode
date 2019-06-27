@@ -50,68 +50,77 @@ class Solution(object):
 
 我們需要三个指針：</br>
 
-  1.current 記錄目前前填到的位置</br>
+&nbsp&nbsp1.current 記錄目前前填到的位置</br>
 
-  2.m 記錄 nums1 數組處理到哪個元素</br>
+&nbsp&nbsp2.i 記錄 nums1 數組處理到哪個元素</br>
 
-  3.n 記錄 nums2 數組處理到哪個元素</br>
-
-
+&nbsp&nbsp3.j 記錄 nums2 數組處理到哪個元素</br>
 
 
-1.當i,j 指針都有值時比較,當num2[j]>=num1[i] 填值,反過來時要小心,當num1[i]填入[i + j + 1]時,原本num1[i]須改成0,或是nums2[j]
-2.當只剩 i >= 0,num1[i]填入[i + j + 1]時,原本num1[i]須改成0
-3.當只剩 j >= 0,num2[j]直接填入[i + j + 1]
+分三種情況：</br>
+
+&nbsp&nbsp 1.當i,j >=0 時 num2[j]>=num1[i] 填值,反過來時要小心,當num1[i]填入nums1[current]時,原本num1[i]須改成0,或是nums2[j]</br>
+
+&nbsp&nbsp 2.j >=0,i < 0,直接填值
+
+&nbsp&nbsp 3.i >=0,j < 0,離開,因為nums本身已經排序,後面不需要排
+
+
+
+&nbsp&nbsp1.當i,j >=0 時 num2[j]>=num1[i] 填值,反過來時要小心,當num1[i]填入nums1[current]時,原本num1[i]須改成0,或是nums2[j] </br>
+&nbsp&nbsp2.當只剩 i >= 0,num1[i]填入nums1[current]時,原本num1[i]須改成0 </br>
+&nbsp&nbsp3.當只剩 j >= 0,num2[j]直接填入nums1[current] </br>
 
 note: 為何num2[j]>=num1[i] 可以直接填值,因為當要填入num1[i + j + 1]時,值都是0(num1[i] >num2[j] 換掉或是一開始陣列長度(m)外的0 )
 
 
 ``` python
 class Solution(object):
-    def merge2(self, nums1, m, nums2, n): 
+    def merge(self, nums1, m, nums2, n): 
         i = m - 1
         j = n - 1
-        count =  m + n 
         
-        while count >= 0 :
+        current = m + n - 1
+        while current >= 0 :
             if i >=0 and j >=0:            
                 if  nums2[j] >= nums1[i] :
-                    nums1[i + j + 1] = nums2[j]
+                    nums1[current] = nums2[j]
                     j -= 1
                 else:  
-                    nums1[i + j + 1] ,nums1[i]=  nums1[i],0         
+                    nums1[current] ,nums1[i]=  nums1[i],0       
                     i -= 1 
-            elif i >= 0 :
-                i -= 1 
-                nums1[i + j + 1] ,nums1[i]=  nums1[i], 0              
-            elif j >=0:
-                nums1[i + j + 1] = nums2[j]
-                j -= 1
-            count -= 1
+            elif j >=0 :   
+                nums1[current] = nums2[j]
+                j -= 1       
+            else :
+                break
+            current -= 1
         return nums1
+      
 ``` 
 
+由上面可知當j < 0時表示不需要再插入,所以分兩種情況<br>
 
-簡化上面,因為nums1 以排序所以當nums值插入完表示牌序完畢
-1.只要i小於0(i 排完了) 或是 nums2[j] >= nums1[i],nums1[i + j + 1] = nums2[j]
+&nbsp&nbsp1.當i,<0 或 num2[j]>=num1[i] 填值</br>
+&nbsp&nbsp2.num2[j]<num1[i] 且 i,j >= 0
+
 
 
 ``` python
 class Solution(object):
-    def merge2(self, nums1, m, nums2, n): 
+    def merge(self, nums1, m, nums2, n): 
         i = m - 1
         j = n - 1           
-
+        current = m + n - 1
         while j >= 0 :                  
             if  i < 0 or nums2[j] >= nums1[i] :
-                nums1[i + j + 1] = nums2[j]
+                nums1[current] = nums2[j]
                 j -= 1
             else:  
-                nums1[i + j + 1] ,nums1[i]=  nums1[i], 0 
-                #nums1[i + j + 1] ,nums1[i]=  nums1[i],nums2[j]
-                i -= 1    
-           
-        return nums1
+                nums1[current] ,nums1[i]=  nums1[i], 0 
+                #nums1[current] ,nums1[i]=  nums1[i],nums2[j]
+                i -= 1   
+            current -= 1
 ``` 
 
 
