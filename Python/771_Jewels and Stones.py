@@ -23,19 +23,6 @@ Note:
 '''
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Solution(object):
     def numJewelsInStones(self, J, S):
         count = 0

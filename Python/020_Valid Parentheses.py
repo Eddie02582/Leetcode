@@ -36,13 +36,23 @@ class Solution:
         for x in s:
             if not result or x not in dict:
                 result.append(x)
-            elif dict[x]==result[-1]:
-                result.pop()
-            else:
+            elif dict[x] != result.pop():
                 return False
         
         return result==[]
+  
+    def isValid(self, s):
+        result=[]
+        dict={')':'(','}':'{',']':'['}
+        for x in s:
+            if not result or x not in dict:
+                result.append(x)
+            elif dict[x] != result.pop():
+                return False
         
+        return result==[]
+
+  
         
 sol =Solution()
 
