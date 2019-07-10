@@ -23,3 +23,5 @@ result = [
 
 sol = Solution()
 assert sol.generateParenthesis(3) == result
+
+
