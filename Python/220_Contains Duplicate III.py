@@ -32,6 +32,7 @@ class Solution(object):
         return False
 
 sol =Solution()  
+
 assert sol.containsNearbyAlmostDuplicate([1,2,3,1],3,0) == True
   
 assert sol.containsNearbyAlmostDuplicate([1,0,1,1],1,2) == True
