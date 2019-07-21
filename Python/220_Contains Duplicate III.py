@@ -23,19 +23,19 @@ class Solution(object):
         :type t: int
         :rtype: bool
         """
-        for index,n in enumerate(nums):
-            print (k,t)
-            first,last  = 0,0
-            if k > t:
-                first,last = index+t,index+k
-            elif k<= t :
-                last,first = index+k,index+t
-            if first ==index:
-                index -= 1
-            
-            if n in nums[index+1:first]:
-                firstindex = nums[index:first].index(n)
-                if n in nums[firstindex+1:last]:
-                    return True                
+    
+        for index,n in enumerate(nums):            
+            array = nums[index + 1:index + k + 1]
+            for p in array:
+                if abs(n - p) <= t :
+                    return True            
+        return False
+
+sol =Solution()  
+assert sol.containsNearbyAlmostDuplicate([1,2,3,1],3,0) == True
   
-        return False    
+assert sol.containsNearbyAlmostDuplicate([1,0,1,1],1,2) == True
+
+assert sol.containsNearbyAlmostDuplicate([1,5,9,1,5,9],2,3) == False 
+
+assert sol.containsNearbyAlmostDuplicate([2,1],1,1) == True
