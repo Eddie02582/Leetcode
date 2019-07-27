@@ -15,7 +15,7 @@ class Solution:
     def twoSum(self, nums, target):
         dict={}
         for index,n in enumerate(nums):
-            if target-n in dict:
+            if target - n in dict:
                 return [dict[target-n],index]            
             dict[n]=index        
         return []
