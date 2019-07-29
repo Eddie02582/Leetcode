@@ -25,7 +25,7 @@ class Solution:
     def isAnagram_sorted(self, s, t):       
         return sorted(list(s)) == sorted(list(t))     
 
-    def isAnagram(self, s: str, t: str) -> bool:
+    def isAnagram_count(self, s, t):
         if len(s) != len(t):
             return False
         if set(s) != set(t):
@@ -34,7 +34,18 @@ class Solution:
             if s.count(x) != t.count(x):
                 return False
         return True
-
+    
+    def isAnagram(self, s, t):
+        if len(s) != len(t):
+            return False    
+        array = [ 0 for i in range(26)]
+        for p,q in zip(s,t):
+            array[ord(p)-97] += 1
+            array[ord(q)-97] -= 1 
+        
+        return all( x==0 for x in array)
+    
+    
 sol =Solution()
 
 s = "anagram"

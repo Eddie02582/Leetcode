@@ -32,7 +32,7 @@ class Solution(object):
         count=0
 
         for i in range (len(prices)-1):
-            Profit=max( max(prices[i:])-prices[i] ,Profit)
+            Profit = max( max(prices[i:])-prices[i] ,Profit)
         return Profit
     #timeout
     def maxProfit_force_simple(self, prices):
@@ -51,7 +51,7 @@ class Solution(object):
     def maxProfit(self, prices):
         if len(prices) < 2:
             return 0        
-        minprice=2**31
+        minprice = 2**31
         Profit=0
         for i in range (0,len(prices)):
             if prices[i] < minprice:

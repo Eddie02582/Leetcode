@@ -30,6 +30,13 @@ class Solution(object):
                 if abs(n - p) <= t :
                     return True            
         return False
+        
+        
+        
+        
+        
+        
+        
 
 sol =Solution()  
 assert sol.containsNearbyAlmostDuplicate([1,2,3,1],3,0) == True

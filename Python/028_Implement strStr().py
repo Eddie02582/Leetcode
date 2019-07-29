@@ -21,11 +21,14 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 class Solution(object):
     def strStr(self, haystack, needle):
-        length=len(needle)
-        for i in range(0,len(haystack)-length+1):
-            if haystack[i:i+length]==needle:                
+        length = len(needle)
+        for i in range(0,len(haystack) -l ength+1):
+            if haystack[i:i+length] == needle:                
                 return i            
         return -1      
+    
+ 
+    
     
     
 sol =Solution()

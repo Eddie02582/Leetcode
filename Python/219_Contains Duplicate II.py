@@ -19,7 +19,7 @@ class Solution(object):
     def containsNearbyDuplicate_dict(self, nums, k):   
         location = {}
         for index,n in enumerate(nums):
-            if n in location and index - location[n]<=k:
+            if n in location and index - location[n] <= k:
                 return True            
             location[n] = index 
         return False
@@ -31,3 +31,4 @@ class Solution(object):
             if nums[i] in nums[i+1:k+i+1]:
                 return True
         return False       
+
