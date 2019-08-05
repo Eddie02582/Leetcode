@@ -53,21 +53,7 @@ class Solution(object):
                     heapq.heappush(heap, val*factor)
                     visited.add(val*factor) 
         return val
-        
-    def nthUglyNumber_heapq(self, n):
-        ugly = [1]
-        i2 = i3 = i5 = 0
-        while len(ugly) < n:
-            m2 = ugly[i2] * 2, m3 = ugly[i3] * 3, m5 = ugly[i5] * 5
-            mn = min(m2, m3, m5);
-            if (mn == m2): 
-                i2 +=1 
-            elif (mn == m3): 
-                i3 += 1
-            else:
-                i5 += 1
-            ugly.append(mn);            
-        return ugly[-1]
+
         
     def nthUglyNumber(self, n):
         ugly = [1]
