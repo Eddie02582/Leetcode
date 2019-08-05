@@ -27,21 +27,17 @@ Example 3:
 class Solution(object):
     def repeatedSubstringPattern(self, s):
         head = s[0]
-        for i in range(1,len(s)//2+1):
-            if s[i] == head and s[0:i] == s[i:2*i]:
+        for i in range(1,len(s)//2):
+            if s[i] == s[0] and s[0:i] == s[i:2*i]:
                 same = True
-                for j in range(2 * i,len(s),i): 
-                    if head != s[j] or s[0:i] != s[j:j + i]:
+                for j in range(2*i,len(s),i):
+                    if s[0:i] !=  s[i:j]:
                         same = False
                         break
             
                 if same:
                     return True
         return False
-
-
-
-
 sol =Solution()
 assert sol.repeatedSubstringPattern ('abab')== True
 
@@ -52,5 +48,3 @@ assert sol.repeatedSubstringPattern ('abcabcabcabc')== True
 assert sol.repeatedSubstringPattern ('1234112341')== True
 
 assert sol.repeatedSubstringPattern ('12341123411234112341')== True
-
-assert sol.repeatedSubstringPattern ('ababba')== False
