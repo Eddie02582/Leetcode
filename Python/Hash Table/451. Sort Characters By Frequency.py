@@ -53,8 +53,13 @@ class Solution(object):
             result += v*c
         return result
 
-
-
+    #has problem
+    def frequencySort_sort(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        return "".join(sorted(list(s), key=lambda x: -list(s).count(x)))
 
 
 
