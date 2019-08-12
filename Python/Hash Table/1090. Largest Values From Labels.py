@@ -32,36 +32,30 @@ class Solution(object):
         :type num_wanted: int
         :type use_limit: int
         :rtype: int
-        """
-        score = {}
-        for v,l in zip(values,labels):
-            if l not in score:
-                score[l] = [v,]
-            else:
-                score[l].append(v)
-            
-        limit,count,total = 0,0,0,        
-        for key in score.keys():
-            limit = 0            
-            for value in score[key]:                             
-                if limit < use_limit and count < num_wanted:
-                    total += value
-                    print (value)
-                    count += 1
-                    limit += 1
+        """     
+        count,total = 0,0,  
+        record = {}
+        match = sorted(zip(values,labels), reverse = True)
+
+        for v,l in match:
+            if record.setdefault(l,0) < use_limit:
+                total += v
+                record[l] += 1
+                count += 1
             if count == num_wanted:
-                break
+                return total
+
         return total
  
 sol = Solution()
  
-#assert sol.largestValsFromLabels([5,4,3,2,1],[1,1,2,2,3],3,1) ==9
+assert sol.largestValsFromLabels([5,4,3,2,1],[1,1,2,2,3],3,1) ==9
  
 assert sol.largestValsFromLabels([5,4,3,2,1],[1,3,3,3,2],3,2) == 12 
  
-#assert sol.largestValsFromLabels([9,8,8,7,6],[0,0,0,1,1],3,1) ==16
+assert sol.largestValsFromLabels([9,8,8,7,6],[0,0,0,1,1],3,1) ==16
  
-#assert sol.largestValsFromLabels([9,8,8,7,6],[0,0,0,1,1],3,2) == 24
+assert sol.largestValsFromLabels([9,8,8,7,6],[0,0,0,1,1],3,2) == 24
  
  
  
