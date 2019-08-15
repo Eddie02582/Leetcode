@@ -53,7 +53,7 @@ sol = Solution()
 
 assert sol.firstUniqChar("leetcode") == 0
 
-assert sol.getSum("loveleetcode") == 2      
+assert sol.firstUniqChar("loveleetcode") == 2      
         
         
         
