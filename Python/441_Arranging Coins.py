@@ -30,28 +30,12 @@ class Solution(object):
     def arrangeCoins(self, n):
         total,count,i = 0 ,0,1     
         
-        while True:
+        while total <= n:
             total += i
             i += 1
-            if total > n:
-                break
-            count += 1
+            if total <= n:
+                count += 1
         return count
-
-    def arrangeCoins_row(self, n: int) -> int:
-        row = 1
-        while n >= row:
-            n -= row
-            row += 1
-        
-        return row - 1
-    
-def arrangeCoins(self, n: int) -> int:
-
-    if(n<0):
-        return -1
-    return int((-1+ (1+8*n)**0.5)//2)
-       
 
 
 sol = Solution()
