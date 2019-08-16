@@ -53,7 +53,9 @@ class Solution(object):
 
 
 
+sol = Solution()
 
+assert sol.pancakeSort([3,2,4,1]) == [4,2,4,3]
 
 
 
