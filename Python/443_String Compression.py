@@ -44,7 +44,7 @@ class Solution(object):
             for s in str(count):
                 index += 1
                 chars[index] = s
-
+        
         return  index + 1
         
  
@@ -55,3 +55,14 @@ assert sol.compress(["a","a","b","b","c","c","c"]) == 6
 assert sol.compress(["a"]) == 1
 
 assert sol.compress(["a","b","b","b","b","b","b","b","b","b","b","b","b"]) == 4
+
+
+
+
+
+
+
+
+
+
+

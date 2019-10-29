@@ -42,7 +42,7 @@ class Solution:
         
  
 
-    def lengthOfLongestSubstring(self, s):
+    def lengthOfLongestSubstring_array(self, s):
         locations = [0]*256    
         l,r=0,-1      
         res = 0        
@@ -87,9 +87,12 @@ sol =Solution()
 
 assert sol.lengthOfLongestSubstring('abcabcbb')==3
 
+assert sol.lengthOfLongestSubstring('abcbcbb')==3
+
+
 assert sol.lengthOfLongestSubstring('bbbbb')==1
 
-assert sol.lengthOfLongestSubstring('pwwkew')==3
+assert sol.lengthOfLongestSubstring_map('pwwkew')==3
 
 assert sol.lengthOfLongestSubstring(' ')==1
 
