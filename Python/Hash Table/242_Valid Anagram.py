@@ -20,7 +20,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 class Solution:     
     def isAnagram_counter(self, s, t): 
         from collections import Counter          
-        return Counter(s)==Counter(t)            
+        return Counter(s) == Counter(t)            
                 
     def isAnagram_sorted(self, s, t):       
         return sorted(list(s)) == sorted(list(t))     
