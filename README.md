@@ -36,7 +36,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>204</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Count Primes</td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/204_Count%20Primes.py">Python</a>
