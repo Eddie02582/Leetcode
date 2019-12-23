@@ -27,11 +27,27 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>7</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/007_Reverse%20Integer.md">Reverse Integer.md</td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/007_Reverse%20Integer.md">Reverse Integer</td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/007_Reverse%20Integer.py">Python</a>,
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/007_Reverse%20Integer.js">Javascript</a>
+    </td>         
+</tr>
+<tr>
+    <td>204</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Count Primes</td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/204_Count%20Primes.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>442</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Find All Duplicates in an Array</td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/442_Find%20All%20Duplicates%20in%20an%20Array.py">Python</a>
     </td>         
 </tr>
 </table>
