@@ -17,7 +17,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>2</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">TwoSum</a></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
     <td></td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</a>,
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/addTwoNumbers.java">Java</a>,
@@ -27,7 +27,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>7</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/007_Reverse%20Integer.md"></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/007_Reverse%20Integer.md">Reverse Integer.md</td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/007_Reverse%20Integer.py">Python</a>,
