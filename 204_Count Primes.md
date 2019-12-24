@@ -1,4 +1,4 @@
-# Two Sum
+# Count Primes
 
 
 ## 原題目:

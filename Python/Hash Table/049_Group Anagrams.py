@@ -18,26 +18,33 @@ The order of your output does not matter.
 '''
 
 class Solution(object):
+    import collections
+    #N*klogk
     def groupAnagrams(self, strs):
         """
         :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        
-        result = {}
+        :rtype: List[List[str]]        
+        """      
+        ans = collections.defaultdict(list)        
         for s in strs:
-            t = "".join(sorted(s))
-            if t not in result:
-                result[t] = [s]
-            else:
-                result[t] = result[t]+[s]
-        print (result.values())
-        result = list(sorted(result.values()))
-        for i in range(len(result)):
-            result[i] = sorted(result[i])
- 
-        return result
+            ans["".join(sorted(s))].append(s)
+        return ans.values() 
         
+    def groupAnagrams_turple(self, strs):       
+        ans = collections.defaultdict(list)
+        for s in strs:
+            ans[tuple(sorted(s))].append(s)
+        return ans.values()  
+        
+    #N*k
+    def groupAnagrams_array(self, strs): 
+        ans = collections.defaultdict(list)
+        for s in strs:
+            s_key = [0] * 26
+            for c in s:
+                s_key[ord(c)-ord('a')] += 1
+            ans[tuple(s_key)].append(s)
+        return ans.values()
         
 sol = Solution()
 a = ["eat", "tea", "tan", "ate", "nat", "bat"]

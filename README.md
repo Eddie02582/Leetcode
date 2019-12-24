@@ -37,7 +37,7 @@ Leetcode Python & C#
 <tr>
     <td>204</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</td> 
-    <td>Medium</td>  
+    <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/204_Count%20Primes.py">Python</a>
     </td>         
