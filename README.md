@@ -45,10 +45,10 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>204</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</a></td> 
     <td>Easy</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/204_Count%20Primes.py">Python</a>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/049_Group%20Anagrams.py">Python</a>
     </td>         
 </tr>
 <tr>
