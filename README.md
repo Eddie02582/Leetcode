@@ -35,6 +35,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>49</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_%20Group%20Anagrams.md">Group Anagrams</td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/049_%20Group%20Anagrams.py">Python</a>,
+   
+    </td>         
+</tr>
+<tr>
     <td>204</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</td> 
     <td>Easy</td>  
