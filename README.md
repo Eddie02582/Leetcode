@@ -22,8 +22,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</a>,
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/addTwoNumbers.java">Java</a>,
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/002_Add%20Two%20Numbers.js">Javascript</a>
-    </td> 
-   
+    </td>    
+</tr>
+<tr>
+    <td>3</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.md">Longest Substring Without Repeating Characters</a></td>
+    <td></td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
+    </td>    
 </tr>
 <tr>
     <td>7</td>    
@@ -35,8 +41,16 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>36</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Group Anagrams</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/036_Valid%20Sudoku.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>49</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_%20Group%20Anagrams.md">Group Anagrams</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_Group%20Anagrams.md">Group Anagrams</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/049_Group%20Anagrams.py">Python</a>  
