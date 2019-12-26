@@ -40,18 +40,17 @@ class Solution:
                 return False
         
         return result==[]
-  
-    def isValid(self, s):
-        result=[]
-        dict={')':'(','}':'{',']':'['}
-        for x in s:
-            if not result or x not in dict:
-                result.append(x)
-            elif dict[x] != result.pop():
-                return False
-        
-        return result==[]
 
+    def isValid(self, s): 
+        match = {")":"(","}":"{","]":"["}
+        stack = []
+        for p in s:
+            if p not in match:
+                stack.append(p)
+            elif not stack or stack.pop() != match[p]:
+                return False
+
+        return not stack
   
         
 sol =Solution()

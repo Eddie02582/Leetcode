@@ -58,6 +58,23 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>19</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List.md</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/019_Remove%20Nth%20Node%20From%20End%20of%20List.py">Python</a>     
+    </td>         
+</tr>
+<tr>
+    <td>20</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020Valid%20Parentheses.md">Valid Parentheses.md</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/020Valid%20Parentheses.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/020Valid%20Parentheses.js">Javascript</a>    
+    </td>         
+</tr>
+<tr>
     <td>36</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Group Anagrams</a></td> 
     <td>Medium</td>  
