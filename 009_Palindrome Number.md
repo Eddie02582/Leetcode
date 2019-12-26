@@ -62,12 +62,14 @@ var isPalindrome = function(x) {
 ```python
 class Solution(object):
     def isPalindrome(self, x):
-        """
-        :type x: int
-        :rtype: bool
-        """ 
+        if x < 0:
+            return False   
+        res,n=0,x
         
-        return str(x) == str(x)[::-1]
+        while n:
+            res = res * 10 +n % 10
+            n = n //10
+        return res == x   
 ```
 
 
