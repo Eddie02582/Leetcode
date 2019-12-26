@@ -42,7 +42,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>9</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/009_Palindrome%20Number.md">Palindrome Number.md</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/009_Palindrome%20Number.md">Palindrome Number</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/009_Palindrome%20Number.py">Python</a>   
@@ -50,7 +50,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>14</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/014_Longest%20Common%20Prefix.md">Palindrome Number.md</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/014_Longest%20Common%20Prefix.md">Longest Common Prefix</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/014_Longest%20Common%20Prefix.py">Python</a>, 
@@ -67,11 +67,11 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>20</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020Valid%20Parentheses.md">Valid Parentheses.md</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020_Valid%20Parentheses.md">Valid Parentheses</a></td> 
     <td>Easy</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/020Valid%20Parentheses.py">Python</a>, 
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/020Valid%20Parentheses.js">Javascript</a>    
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/020_Valid%20Parentheses.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/020_Valid%20Parentheses.js">Javascript</a>    
     </td>         
 </tr>
 <tr>
