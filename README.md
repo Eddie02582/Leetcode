@@ -41,6 +41,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>9</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/009_Palindrome%20Number.md">Palindrome Number.md</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/009_Palindrome%20Number.py">Python</a>   
+    </td>         
+</tr>
+<tr>
     <td>36</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Group Anagrams</a></td> 
     <td>Medium</td>  

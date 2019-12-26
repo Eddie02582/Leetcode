@@ -23,7 +23,7 @@ Coud you solve it without converting the integer to a string?
 class Solution:      
     def isPalindrome_simple(self, x):
         x = str(x)
-        return True if x==x[::-1] else False     
+        return x==x[::-1]
     
     
     def isPalindrome(self, x):       
@@ -43,10 +43,10 @@ class Solution:
         res,n=0,x
         
         while n:
-            res = res*10 +n % 10
+            res = res * 10 +n % 10
             n = n //10
-        return res == x 
-    
+        return res == x   
+           
     def sPalindrome_div(self, x):      
         if x < 0:
             return False
