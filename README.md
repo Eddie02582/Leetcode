@@ -49,6 +49,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>14</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/014_Longest%20Common%20Prefix.md">Palindrome Number.md</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/014_Longest%20Common%20Prefix.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/014_Longest%20Common%20Prefix.js">Javascript</a>    
+    </td>         
+</tr>
+<tr>
     <td>36</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Group Anagrams</a></td> 
     <td>Medium</td>  

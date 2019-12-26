@@ -20,32 +20,28 @@ All given inputs are in lowercase letters a-z.
 
 class Solution:        
     def longestCommonPrefix(self, strs):
-        if strs==[]:
-            return "" 
-        
-        #排序 比較頭尾即可,頭尾差異最大         
+        if not strs:
+            return ""
         strs.sort()
-        min_length=min(len(strs[0]),len(strs[-1]))   
-        p = 0 
-        while p< min_length:
-            if strs[0][p] != strs[-1][p]:
-                break 
-            p+=1
-        return strs[-1][:p]         
+        s , p  = "",0
+        while p < len(strs[-1]) and p < len(strs[0]):
+            if strs[-1][p] != strs[0][p]:
+                break
+            s += strs[0][p]
+            p += 1
+        return s       
         
         
     def longestCommonPrefix(self, strs):
-        if strs==[]:
-            return ""  
-            
-        strs.sort()        
-        msg = ''
-        for x,y in zip(strs[0],strs[-1]):
-            if x==y:
-                msg += x
-            else:
+        if not strs:
+            return ""
+        strs.sort()
+        s  = ""
+        for k,v in zip(strs[-1],strs[0]):
+            if k != v:
                 break
-        return msg
+            s += k 
+        return s
                 
 
     def longestCommonPrefix(self, strs):
