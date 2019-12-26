@@ -18,7 +18,7 @@ Leetcode Python & C#
 <tr>
     <td>2</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
-    <td></td>  
+    <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</a>,
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/addTwoNumbers.java">Java</a>,
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/002_Add%20Two%20Numbers.js">Javascript</a>
@@ -27,7 +27,7 @@ Leetcode Python & C#
 <tr>
     <td>3</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.md">Longest Substring Without Repeating Characters</a></td>
-    <td></td>  
+    <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
     </td>    
 </tr>
