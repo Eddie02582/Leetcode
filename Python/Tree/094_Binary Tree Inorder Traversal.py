@@ -61,8 +61,8 @@ class Solution(object):
     def inorderTraversal_iterate(self, root):
         result = []
         s = []
-        while root is not None or s:                     
-            if root is not None:
+        while root or s:                     
+            if root :
                 s.append(root)
                 root = root.left
             else:
