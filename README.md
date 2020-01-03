@@ -76,7 +76,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>36</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Group Anagrams</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Valid Sudoku</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/036_Valid%20Sudoku.py">Python</a>  
@@ -92,7 +92,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>102</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Group Anagrams</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102_Binary%20Tree%20Level%20Order%20Traversal.py">Python</a>  
