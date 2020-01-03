@@ -54,6 +54,27 @@ class Solution(object):
         if node.right:
             self.level_scan(node.right, level+1)
 
+    def levelOrder(self, root):
+        import collections
+        self.dp = collections.defaultdict(list)
+        def next_level(node,level):
+            if node is None:
+                return 
+            self.dp[level].append(node.val)
+            next_level(node.left, level+1)  
+            next_level(node.right, level+1)  
+         
+        next_level(root, 0) 
+        return self.dp.values()
+
+
+
+
+
+
+
+
+
 
 root = TreeNode(3)
 root.left = TreeNode(9)  
@@ -64,4 +85,5 @@ root.right.left = TreeNode(15)
 root.right.right = TreeNode(7)
 
 sol = Solution()
+#sol.levelOrder(root)
 sol.levelOrder(root)

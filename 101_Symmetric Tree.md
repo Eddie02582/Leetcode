@@ -36,7 +36,6 @@ Bonus points if you could solve it both recursively and iteratively.
 ## Code
 
 #### Python
-nums2 放入nums1 排序即可,底下用汽泡排序法排
 
 ``` python
     def isSymmetric(self, root: TreeNode) -> bool:
