@@ -63,7 +63,6 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/016_3Sum%20Closest.py">Python</a> 
-    
     </td>         
 </tr>
 <tr>
