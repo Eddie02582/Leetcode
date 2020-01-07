@@ -58,6 +58,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>16</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/016_3Sum%20Closest.md">3Sum Closest</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/016_3Sum%20Closest.py">Python</a> 
+    
+    </td>         
+</tr>
+<tr>
     <td>19</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List.md</a></td> 
     <td>Medium</td>  
