@@ -4,7 +4,7 @@ class Solution(object):
             nums1[m + i] = nums2[i] 
         
         for i in range(len(nums1)):
-            bsweep=False
+            bsweep = False
             for j in range(0,len(nums1) - i - 1):
                 if nums1[j] >nums1[j+1]:
                     nums1[j],nums1[j+1]=nums1[j+1],nums1[j]
@@ -13,72 +13,38 @@ class Solution(object):
                 break
 
                 
-    def merge_simple(self, nums1, m, nums2, n): 
-        i = m - 1
-        j = n - 1
-        
-        current = m + n - 1
-        while current >= 0 :
-            if i >=0 and j >=0:            
-                if  nums2[j] >= nums1[i] :
-                    nums1[i + j + 1] = nums2[j]
-                    j -= 1
-                else:  
-                    nums1[current] ,nums1[i]=  nums1[i],nums1[i + j + 1]       
-                    i -= 1 
-            elif i >= 0 :              
-                nums1[current] ,nums1[i]=  nums1[i], nums1[i + j + 1] 
-                i -= 1             
-            elif j >=0:
-                nums1[current] = nums2[j]
-                j -= 1
-            current -= 1
-        return nums1
-
-
-
-    def merge_simple(self, nums1, m, nums2, n): 
-        i = m - 1
-        j = n - 1
-        
-        current = m + n - 1
-        while current >= 0 :
-            if i >=0 and j >=0:            
-                if  nums2[j] >= nums1[i] :
-                    nums1[current] = nums2[j]
-                    j -= 1
-                else:  
-                    nums1[current] ,nums1[i]=  nums1[i],nums1[i + j + 1]       
-                    i -= 1 
-            elif j >=0 :   
-                nums1[current] = nums2[j]
-                j -= 1       
-            else :
-                break
-            current -= 1
-        return nums1
-
-
-
-
-
-
     def merge(self, nums1, m, nums2, n): 
-        i = m - 1
-        j = n - 1           
-        current = m + n - 1
-        while j >= 0 :                  
-            if  i < 0 or nums2[j] >= nums1[i] :
-                nums1[current] = nums2[j]
-                j -= 1
-            else:  
-                nums1[current] ,nums1[i]=  nums1[i], 0 
-                #nums1[current] ,nums1[i]=  nums1[i],nums2[j]
-                i -= 1   
-            current -= 1
+        while n or m :
+            if  not m or  (n  and nums2[n - 1] > nums1[m - 1]):
+                nums1[n + m - 1] = nums2[n - 1]
+                n -= 1            
+            else:
+                nums1[n + m - 1] = nums1[m - 1]
+                m -= 1
+   
+        return  nums1   
+
+
+
+    def merge_simple(self, nums1, m, nums2, n): 
+        while n:
+            if  not m  or  nums2[n - 1] > nums1[m - 1]:
+                nums1[n + m - 1] = nums2[n - 1]
+                n -= 1            
+            else:
+                nums1[n + m - 1] = nums1[m - 1]
+                m -= 1
+   
+        return  nums1 
+
+
+
+
+
+
 
 
 sol = Solution()
-assert sol.merge_simple( [1,2,3,0,0,0],3,[2,5,6],3) == [1,2,2,3,5,6] 
-#assert sol.merge3( [1,2,2,4,5,0,0,0],5,[2,5,6],3) == [1,2,2,2,4,5,5,6] 
-#assert sol.merge3( [2,0],1,[1],1) == [1,2] 
+assert sol.merge( [1,2,3,0,0,0],3,[2,5,6],3) == [1,2,2,3,5,6] 
+assert sol.merge( [1,2,2,4,5,0,0,0],5,[2,5,6],3) == [1,2,2,2,4,5,5,6] 
+assert sol.merge( [2,0],1,[1],1) == [1,2] 
