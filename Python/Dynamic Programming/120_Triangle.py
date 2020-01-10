@@ -41,35 +41,36 @@ class Solution(object):
         hashmap = [[ -2**31 + 1 for j in range(len(triangle[i]))]    for i in range(len(triangle))]
 
         result = dfs (0,0,triangle,hashmap)
-        return result    
-    
-    def minimumTotal_dynamic_top(self, triangle): 
-        if not triangle:
-            return 0
-            
-        last = [0] * len(triangle)  
-        current = [0] * len(triangle) 
-        last[0] = triangle[0][0]  
-        current[0]  = last [0]
-      
-        for i in range(1,len(triangle)):
-            for j in range(0,i + 1):
-                sum = 2**31 - 1
-                if j != 0:
-                    sum = triangle[i][j] + last[j - 1]
-                if j != i:
-                    sum = min(sum,triangle[i][j] + last[j])
-                
-                current[j] =sum
-            for k in range(i + 1):
-                last[k] = current[k]
-            
-        min_value = 2**31 - 1
-            
-        for n in current:
-            min_value = min(n,min_value)   
-
-        return min_value      
+        return result   
+ 
+        
+    def minimumTotal_dynamic_top(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
+       
+        n = len(triangle)
+        
+        for row in range(1,n):
+            m = len(triangle[row])
+            for col in range(m):
+                if col == 0:
+                    triangle[row][col] += triangle[row-1][col]
+                elif col == m-1:
+                    triangle[row][col] += triangle[row-1][col-1]
+                else:
+                    triangle[row][col] += min(triangle[row-1][col-1],triangle[row-1][col])
+        
+        return min(triangle[n-1])           
+        
+        
+        
+        
+        
+        
+        
+        
     
     
 sol = Solution() 
@@ -80,7 +81,7 @@ array = [
   [4,1,8,3]
 ]
 
-assert sol.minimumTotal_divide_without_hashmap(array) == 11
+assert sol.minimumTotal_dynamic_top(array) == 11
 
 
 assert sol.minimumTotal_dynamic_top([[-10]]) == -10
