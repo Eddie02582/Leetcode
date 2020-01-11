@@ -32,20 +32,19 @@ class Solution(object):
                 return i  
         return len(nums)
         
-    def searchInsert(self, nums,target):
-        l,r = 0,len(nums)
-        mid = 0           
+    def searchInsert(self, nums, target): 
+        l,r = -1,len(nums)              
        
-        while l < r:
+        while l + 1 < r:
             mid = l + (r - l)//2
-            if target < nums[mid] :
+            if nums[mid] > target:
                 r = mid
-            elif target > nums[mid]: 
-                l = mid +1 
+            elif target == nums[mid]: 
+                return mid    
             else:
-                return mid           
+                l = mid       
         
-        return r
+        return l + 1
     
 sol =Solution()
 
