@@ -28,12 +28,12 @@ It doesn't matter what values are set beyond the returned length.
 
 class Solution:
     def removeElement(self, nums, val) :
-        count = 0
+        p = 0
         for x in nums:            
             if x != val:
-                nums[count]=x
-                count += 1 
-        return count
+                nums[p]=x
+                p += 1 
+        return p
     
     
     

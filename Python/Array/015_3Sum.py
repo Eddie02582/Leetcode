@@ -35,49 +35,63 @@ class Solution_TimeOut:
                     if array not in result:
                         result.append(array)
         return result
-        
+ 
 
-
-#Time Out 跟上面差在直接用not in result判斷
-
-class Solution_Modify:    
-    def threeSum(self, nums):
+class Solution:    
+    def threeSum_two_pointer_timeout(self, nums):
         nums.sort() 
         result=[]
         if len(nums)<3:
             return []
             
-        for i in range(len(nums)-2):  
-        
-            if i>0 and nums[i] == nums[i-1]:
-                continue  
-                
+        for i in range(len(nums)-2):   
             low = i + 1
             high = len(nums) - 1      
             
             while low < high : 
             
                 total= nums[high]+nums[low]+nums[i]
-                if total == 0:
-                    array=[nums[low],nums[i],nums[high]]  
-                    if array not in result:
+                
+                if total>0:
+                    high-=1
+                elif total<0:
+                    low+=1
+                else:
+                    array=[nums[low],nums[i],nums[high]]
+                    if array not in result:                   
                         result.append(array) 
                     low+=1
-                    high-=1               
-                
-                elif total>0:
                     high-=1
-                else :
+        return result   
+
+    def threeSum_two_pointer_timeout(self, nums):
+        nums.sort() 
+        result = set()
+        if len(nums)<3:
+            return []
+            
+        for i in range(len(nums)-2):   
+            low = i + 1
+            high = len(nums) - 1      
+            
+            while low < high : 
+            
+                total= nums[high]+nums[low]+nums[i]
+                
+                if total>0:
+                    high-=1
+                elif total<0:
                     low+=1
-                    
-        return result
+                else:
+                    array= (nums[low],nums[i],nums[high])                               
+                    result.add(array) 
+                    low+=1
+                    high-=1                   
+            
+        return  list(result)
+
         
-        
-
-
-
-class Solution:    
-    def threeSum(self, nums):
+    def threeSum_two_pointer(self, nums):
         nums.sort() 
         result=[]
         if len(nums)<3:
@@ -109,4 +123,4 @@ class Solution:
                     result.append(array) 
                     low+=1
                     high-=1
-        return result        
+        return result  
