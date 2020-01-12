@@ -11,7 +11,7 @@ class Solution(object):
             oneCols = [str(i) for i, val in enumerate(row) if val == 1]
             colChoicesToEqRows[''.join(zeroCols)] += 1
             colChoicesToEqRows[''.join(oneCols)] += 1
-        
+           
         return max(rows for rows in colChoicesToEqRows.values())
         
         
