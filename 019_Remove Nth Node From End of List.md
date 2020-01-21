@@ -57,7 +57,7 @@ class Solution(object):
 ## Code
 
 #### Python
-```
+```python
 class Solution(object):
     def removeNthFromEnd(self, head, n):
 

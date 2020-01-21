@@ -13,7 +13,9 @@ Leetcode Python & C#
     <td>1</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
     <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
+    </td>
 </tr>
 <tr>
     <td>2</td>    
@@ -80,6 +82,17 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/020_Valid%20Parentheses.py">Python</a>, 
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/020_Valid%20Parentheses.js">Javascript</a>    
+    </td>         
+</tr>
+<tr>
+    <td>21</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020_Valid%20Parentheses.md">Merge Two Sorted Lists</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,       
     </td>         
 </tr>
 <tr>
