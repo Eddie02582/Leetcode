@@ -91,8 +91,8 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a>, 
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>,       
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/mergeTwoLists.java">Java</a>,   
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>      
     </td>         
 </tr>
 <tr>
