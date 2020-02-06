@@ -31,7 +31,7 @@ class Solution_TimeOut:
         for i in range(len(nums)):
             for j in range(i+1,len(nums)-1):
                 if -(nums[i]+nums[j]) in nums[j+1:]:
-                    array=sorted([nums[i],nums[j],-(nums[i]+nums[j])])
+                    array = sorted([nums[i],nums[j],-(nums[i]+nums[j])])
                     if array not in result:
                         result.append(array)
         return result
@@ -48,8 +48,10 @@ class Solution_Modify:
             return []
             
         for i in range(len(nums)-2):  
-        
-            if i>0 and nums[i] == nums[i-1]:
+            if nums[i] > 0:
+                break
+            
+            if i > 0 and nums[i] == nums[i-1]:
                 continue  
                 
             low = i + 1
@@ -109,4 +111,15 @@ class Solution:
                     result.append(array) 
                     low+=1
                     high-=1
-        return result        
+        return result     
+
+
+
+
+
+
+
+
+
+
+        
