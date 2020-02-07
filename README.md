@@ -86,7 +86,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>21</td>    
-    <td><a href="">Merge Two Sorted Lists</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a>, 
