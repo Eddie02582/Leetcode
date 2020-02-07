@@ -86,13 +86,21 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>21</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020_Valid%20Parentheses.md">Merge Two Sorted Lists</a></td> 
+    <td><a href="">Merge Two Sorted Lists</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a>, 
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/mergeTwoLists.java">Java</a>,   
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>      
+    </td>         
+</tr>
+<tr>
+    <td>27</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/027_Remove%20Element.md">Remove Element</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/027_Remove%20Element.py">Python</a>,   
     </td>         
 </tr>
 <tr>
