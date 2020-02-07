@@ -114,7 +114,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>28</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/028_Implement%20strStr.md">Remove Element</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/028_Implement%20strStr.md">Implement strStr()</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/028_Implement%20strStr().py">Python</a>,   
