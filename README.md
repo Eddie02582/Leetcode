@@ -129,6 +129,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>41</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/041_First%20Missing%20Positive.md">First Missing Positive</a></td> 
+    <td>Hard</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/041_First%20Missing%20Positive.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>49</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_Group%20Anagrams.md">Group Anagrams</a></td> 
     <td>Medium</td>  
