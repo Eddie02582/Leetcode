@@ -1,4 +1,4 @@
-# Remove Element
+# Implement strStr()
 
 ## 原題目:
 ```

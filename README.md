@@ -137,6 +137,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>43</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/043_Multiply%20Strings.md">Multiply Strings</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/043_Multiply%20Strings.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>49</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_Group%20Anagrams.md">Group Anagrams</a></td> 
     <td>Medium</td>  
