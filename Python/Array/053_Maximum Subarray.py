@@ -10,18 +10,33 @@ Example:
 '''
 
 class Solution(object):
+
+    def maxSubArray_normal(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        result = nums[0]
+        for i in range(len(nums)):
+            temp = 0
+            j = i 
+            while (temp >= 0 and j < len(nums)):
+                temp += nums[j] 
+                result = max(result,temp)
+                j += 1
+
+        return result
+        
     def maxSubArray(self, nums):
    
         temp = nums[0]
-        Max =temp
-        
-        for i in range(1,len(nums)):
-            if temp <0:
-                temp=0
-            temp +=nums[i]
-            if temp > Max:
-                Max=temp  
-        return Max
+        result = nums[0]
+        for i in range(1,len(nums)):            
+            if temp < 0:
+                temp = 0  
+            temp += nums[i]             
+            result = max(result,temp)  
+        return result
         
         
 sol =Solution()
