@@ -162,10 +162,18 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>58</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/058_Length%20of%20Last%20Word.md">Maximum Subarray</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/058_Length%20of%20Last%20Word.md">Length of Last Word</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/058_Length%20of%20Last%20Word.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>61</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/061_Plus%20One.md">Plus One</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/061_Plus%20One.py">Python</a>  
     </td>         
 </tr>
 
