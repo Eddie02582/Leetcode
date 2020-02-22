@@ -10,10 +10,15 @@ Note: A word is defined as a character sequence consists of non-space characters
 class Solution(object):
     def lengthOfLastWord(self, s):
         if s.rstrip() == '':
-            return 0
-        
+            return 0        
         return len(s.split()[-1])
         
+    def lengthOfLastWord(self, s):      
+        array = s.split()
+        if not array:
+            return 0
+        else:
+            return len(array[-1])      
         
         
         
