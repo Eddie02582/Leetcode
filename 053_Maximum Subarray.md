@@ -12,17 +12,10 @@ Example:
 ```
 
 ## 思路1
-利用字典把結果存成下面這種型式,
-```
-{
-   'aet':["ate","eat","tea"],
-   'ant':["nat","tan"],
-   'abt':["bat"]
-}
-```
+利用雙指針i,j,i記錄擷取陣列開始位置,j為結束位置,每移動一次j,判斷總合是否最大値,當總合為負,即可離開,i往下走
 
 #### Python
-利用雙指針i,j,i記錄擷取陣列開始位置,j為結束位置,每移動一次j,判斷總合是否最大値,當總合為負,即可離開,i往下走
+
 ``` python
 class Solution(object):
     def maxSubArray_normal(self, nums):
@@ -41,10 +34,13 @@ class Solution(object):
 
         return result 
 ``` 
+
+## 思路1
  
 用i歷遍整個陣列,當總合為負値表示需要重新計算,
 
-```
+#### Python
+```python
 class Solution(object):
     def maxSubArray(self, nums):
         """
