@@ -170,10 +170,10 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>61</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/061_Plus%20One.md">Plus One</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/066_Plus%20One.md">Plus One</a></td> 
     <td>Easy</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/061_Plus%20One.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/066_Plus%20One.py">Python</a>  
     </td>         
 </tr>
 
