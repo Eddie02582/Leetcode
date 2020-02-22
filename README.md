@@ -161,6 +161,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>58</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/058_Length%20of%20Last%20Word.md">Maximum Subarray</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/058_Length%20of%20Last%20Word.py">Python</a>  
+    </td>         
+</tr>
+
+<tr>
     <td>102</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
     <td>Medium</td>  
