@@ -186,7 +186,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>70</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/070_Climbing%20Stairs.md">Add Binary</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/070_Climbing%20Stairs.md">Climbing Stairs</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/070_Climbing%20Stairs.py">Python</a>  
