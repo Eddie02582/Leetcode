@@ -56,8 +56,6 @@ class Solution(object):
 
 
 ## 思路2
-111222
-1122
 
 #### Python
 
