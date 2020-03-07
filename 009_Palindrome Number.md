@@ -1,4 +1,4 @@
-# Reverse Integer
+# Palindrome Number
 
 
 ## 原題目:
