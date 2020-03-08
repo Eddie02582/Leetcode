@@ -137,6 +137,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>31</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/031_Next_Permutation.md</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/031_Next%20Permutation.py">Python</a>,   
+    </td>         
+</tr>
+<tr>
     <td>36</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Valid Sudoku</a></td> 
     <td>Medium</td>  
