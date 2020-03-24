@@ -11,14 +11,13 @@ class Solution:
                     visited[i] = 1
                     helper(nums,visited,arr,ret)
                     visited[i] = 0
-                    arr.pop()
-                    
+                    arr.pop()                    
         visited = [0] * len(nums)
         ret = []               
         helper(nums,visited,[],ret)
         return ret
     
-    def permute(self, nums: List[int]) -> List[List[int]]:             
+    def permute(self, nums):             
         if len(nums) == 0: 
             return []
             
@@ -44,7 +43,7 @@ class Solution:
 
 
 sol =Solution()
-print (sol.permute([1,2,3]))
+print (sol.permute([1,2,3,4]))
 
 
 
