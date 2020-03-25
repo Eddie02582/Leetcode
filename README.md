@@ -225,6 +225,17 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>136</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Binary Tree Level Order Traversal</a></td> 
+    <td>Easy</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a>, 
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/136_Single%20Number.js">Javascript</a>, 
+    </td>         
+</tr>
+
+
+<tr>
     <td>204</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</a></td> 
     <td>Easy</td>  
