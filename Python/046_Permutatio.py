@@ -34,7 +34,7 @@ class Solution:
            # Extract lst[i] or m from the list.  remLst is 
            # remaining list 
             remLst = nums[:i] + nums[i+1:] 
-      
+            
            # Generating all permutations where m is first 
            # element 
             for p in self.permute(remLst): 
