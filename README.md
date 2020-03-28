@@ -138,7 +138,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>31</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/031_Next_Permutation.md</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/031_Next_Permutation.md</a>Next Permutation   </td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/031_Next%20Permutation.py">Python</a>,   
@@ -224,6 +224,17 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102_Binary%20Tree%20Level%20Order%20Traversal.py">Python</a>  
     </td>         
 </tr>
+<tr>
+    <td>136</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
+    <td>Easy</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a>, 
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/136_Single%20Number.js">Javascript</a>, 
+    </td>         
+</tr>
+
+
 <tr>
     <td>204</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/204_Count%20Primes.md">Count Primes</a></td> 
