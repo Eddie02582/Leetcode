@@ -138,7 +138,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>31</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/031_Next_Permutation.md</a>Next Permutation   </td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/031_Next_Permutation.md">Next Permutation</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/031_Next%20Permutation.py">Python</a>,   
