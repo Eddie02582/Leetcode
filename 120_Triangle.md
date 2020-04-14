@@ -1,4 +1,4 @@
-# longestCommonPrefix
+# Triangle
 
 
 ## 原題目:
