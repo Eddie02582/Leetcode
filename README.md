@@ -193,7 +193,7 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
-    <td>61</td>    
+    <td>66</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/066_Plus%20One.md">Plus One</a></td> 
     <td>Easy</td>  
     <td>
@@ -217,11 +217,51 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>80</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/080_Remove%20Duplicates%20from%20Sorted%20Array%20II.md">Remove Duplicates from Sorted Array II</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/080_Remove%20Duplicates%20from%20Sorted%20Array%20II.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>88</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/088_Merge%20Sorted%20Array.md">Merge Sorted Array</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/088_Merge%20Sorted%20Array.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>101</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="#">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>102</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102_Binary%20Tree%20Level%20Order%20Traversal.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102.%20Binary%20Tree%20Level%20Order%20Traversal.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>120</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="#">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>121</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.md">Best Time to Buy and Sell Stock</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.py">Python</a>  
     </td>         
 </tr>
 <tr>
