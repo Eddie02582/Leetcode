@@ -250,7 +250,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>118</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Pascal's Triangle</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Pascal's Triangle</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Python</a>  
