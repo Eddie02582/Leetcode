@@ -13,8 +13,6 @@ class Solution:
             res.append(row)
         return res
 
-
-
       
 sol = Solution()
 
