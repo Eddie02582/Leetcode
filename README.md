@@ -68,6 +68,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>15</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/015_3Sum.md">3Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/015_3Sum.py">Python</a>, 
+    
+    </td>         
+</tr>
+<tr>
     <td>16</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/016_3Sum%20Closest.md">3Sum Closest</a></td> 
     <td>Medium</td>  
