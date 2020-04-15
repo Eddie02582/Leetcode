@@ -257,6 +257,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>119</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20TriangleII.py">Pascal's TriangleII</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20TriangleII.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>120</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
     <td>Medium</td>  
