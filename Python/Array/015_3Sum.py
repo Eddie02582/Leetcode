@@ -20,107 +20,72 @@ A solution set is:
 
 '''
 
-
-##Time Out
-class Solution_TimeOut:    
+class Solution:
     def threeSum(self, nums):
-        result=[]
-        if len(nums)<=3 and sum(nums)==0:
-            return nums
-       
-        for i in range(len(nums)):
-            for j in range(i+1,len(nums)-1):
-                if -(nums[i]+nums[j]) in nums[j+1:]:
-                    array=sorted([nums[i],nums[j],-(nums[i]+nums[j])])
-                    if array not in result:
-                        result.append(array)
-        return result
- 
+    
+        if len(nums)<3:
+            return []
+            
+        nums.sort() 
+        if nums[0] > 0:
+            return []
+            
+        res = []        
+        for i in range(len(nums) - 2):             
+            if i == 0 or nums[i] != nums[i - 1]:                 
+                l,r = i + 1, len(nums) - 1  
+                while l < r:
+                    total = nums[i] + nums[l] +  nums[r]   
+                    if total > 0:
+                        r -= 1
+                    elif total < 0:
+                        l += 1                   
+                    else:
+                        array = [nums[low],nums[i],nums[high]]                          
+                        if array not in res:
+                            res.append(array) 
+                        r -= 1
+                        l += 1    
+
+                    
+        return res   
 
 class Solution:    
-    def threeSum_two_pointer_timeout(self, nums):
-        nums.sort() 
-        result=[]
-        if len(nums)<3:
-            return []
-            
-        for i in range(len(nums)-2):   
-            low = i + 1
-            high = len(nums) - 1      
-            
-            while low < high : 
-            
-                total= nums[high]+nums[low]+nums[i]
-                
-                if total>0:
-                    high-=1
-                elif total<0:
-                    low+=1
-                else:
-                    array=[nums[low],nums[i],nums[high]]
-                    if array not in result:                   
-                        result.append(array) 
-                    low+=1
-                    high-=1
-        return result   
+    def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        if len(nums)< 3:
+            return []        
+        nums.sort()        
+        res = []
+        
+        for i in range(len(nums) - 2):   
+            if i == 0 or nums[i] != nums[i - 1]:  
+                l,r = i + 1, len(nums) - 1
+                while l < r:
+                    total = nums[i] + nums[l] +  nums[r]                    
+                    if total > 0:
+                        r -= 1
+                    elif total < 0:
+                        l += 1
+                    else:
+                        res.append([nums[i],nums[l],nums[r]])
+                        r -= 1
+                        l += 1
+                        while l < r and  nums[l] == nums[l - 1]:                            
+                            l += 1                     
+                        while l < r and  nums[r] == nums[r + 1]:                            
+                            r -= 1          
+        return res
 
-    def threeSum_two_pointer_timeout(self, nums):
-        nums.sort() 
-        result = set()
-        if len(nums)<3:
-            return []
-            
-        for i in range(len(nums)-2):   
-            low = i + 1
-            high = len(nums) - 1      
-            
-            while low < high : 
-            
-                total= nums[high]+nums[low]+nums[i]
-                
-                if total>0:
-                    high-=1
-                elif total<0:
-                    low+=1
-                else:
-                    array= (nums[low],nums[i],nums[high])                               
-                    result.add(array) 
-                    low+=1
-                    high-=1                   
-            
-        return  list(result)
+
+
+
+
+
+
+
 
         
-    def threeSum_two_pointer(self, nums):
-        nums.sort() 
-        result=[]
-        if len(nums)<3:
-            return []
-            
-        for i in range(len(nums)-2):  
-        
-            if i>0 and nums[i] == nums[i-1]:
-                continue  
-                
-            low = i + 1
-            high = len(nums) - 1      
-            
-            while low < high : 
-            
-                total= nums[high]+nums[low]+nums[i]
-                
-                if total>0:
-                    high-=1
-                elif total<0:
-                    low+=1
-                else:
-                    array=[nums[low],nums[i],nums[high]]
-                    
-                    while high - 1 > low and nums[high] == nums[high - 1]:
-                        high -= 1
-                    while low + 1 < high and nums[low] == nums[low + 1]:
-                        low += 1                   
-                    result.append(array) 
-                    low+=1
-                    high-=1
-        return result  
