@@ -250,7 +250,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>118</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Pascal's Triangle</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/118_Pascal's%20Triangle.md">Pascal's Triangle</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Python</a>  
@@ -258,7 +258,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>119</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/119_Pascal's%20Triangle%20II.py">Pascal's Triangle II</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/119_Pascal's%20Triangle%20II.md">Pascal's Triangle II</a></td> 
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/119_Pascal's%20Triangle%20II.py">Python</a>  
