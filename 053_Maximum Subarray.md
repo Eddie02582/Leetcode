@@ -47,14 +47,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        temp = nums[0]
-        result = nums[0]
-        for i in range(1,len(nums)):            
+        res = nums[0]
+        temp = 0
+        for n in nums:            
+            temp += n
+            res = max(res,temp)
             if temp < 0:
-                temp = 0  
-            temp += nums[i]             
-            result = max(result,temp)  
-        return result
+                temp = 0
+        return res
 ```
 
 

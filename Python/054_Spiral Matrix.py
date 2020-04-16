@@ -29,13 +29,13 @@ class Solution:
     def spiralOrder_simple(self, matrix):   
         if matrix == []:
             return []
+            
         row,col,count=0,0,0
         len_row ,len_col =len(matrix) ,len(matrix[0])    
-        output=[]
-        col_step=[1,0,-1,0]
-        row_step=[0,1,0,-1]      
+        col_step ,row_step =[1,0,-1,0],[0,1,0,-1]      
+        output=[]         
         
-        while len(output) < len_row*len_col:
+        while len(output) < len_row * len_col:
 
             if  0 <= row < len_row and  0 <= col < len_col and matrix[row][col] not in output:            
                 output.append( matrix[row][col])
@@ -48,6 +48,32 @@ class Solution:
             col += col_step[count]  
                 
         return output
+        
+    def spiralOrder_simple_advance(self, matrix):   
+        if matrix == []:
+            return []
+            
+        row,col,count=0,0,0
+        len_row ,len_col =len(matrix) ,len(matrix[0])    
+        col_step ,row_step =[1,0,-1,0],[0,1,0,-1] 
+        visted = [[ False for i in range(len_col)] for j in range(len_row)]
+        output=[]         
+        
+        while len(output) < len_row * len_col:
+
+            if  0 <= row < len_row and  0 <= col < len_col and not visted[row][col]:            
+                output.append( matrix[row][col])
+                visted[row][col] = True
+            else:
+                row -= row_step[count]
+                col -= col_step[count] 
+                count = ( count + 1 )  % 4
+
+            row += row_step[count]
+            col += col_step[count]  
+                
+        return output        
+        
 
     # 使用遞迴 ,寫個一函數 ,取出分別上右下左,最後將剩下的陣列在一次傳入,注意一為陣列的情況   
     def spiralOrder(self, matrix):   
