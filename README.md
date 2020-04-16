@@ -152,6 +152,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>35</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/035_Search%20Insert%20Position.md">Search Insert Position</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/035_Search%20Insert%20Position.py">Python</a>,   
+    </td>         
+</tr>
+<tr>
     <td>36</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Valid Sudoku</a></td> 
     <td>Medium</td>  
