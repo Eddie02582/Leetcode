@@ -200,6 +200,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>54</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/054_Spiral%20Matrix.md">Spiral Matrix</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/054_Spiral%20Matrix.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>58</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/058_Length%20of%20Last%20Word.md">Length of Last Word</a></td> 
     <td>Easy</td>  
