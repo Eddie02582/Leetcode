@@ -33,7 +33,7 @@ It doesn't matter what values are set beyond the returned length.
 class Solution(object):
     def removeDuplicates(self, nums):
         
-        if nums == []:
+        if not nums:
             return 0
         
         p = 0
@@ -43,7 +43,25 @@ class Solution(object):
                 nums[p] = n
         return p + 1
 ```
+## 思路2
+與思路1類似,判斷條件改成當値不等於前一個值
 
+## Code
+
+#### Python
+
+```python
+class Solution(object):
+    def removeDuplicates(self, nums):
+        if not nums:
+            return 0        
+        p = 0
+        for i in range(1,len(nums)):
+            if nums[i] != nums[i - 1]:
+                p += 1
+                nums[p] = nums[i]
+        return p + 1
+```
 
 
 
