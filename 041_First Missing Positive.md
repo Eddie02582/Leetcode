@@ -51,12 +51,47 @@ class Solution(object):
 ``` python
 class Solution(object):
     def firstMissingPositive(self, nums):
-        length = len(nums)
-        for i in range(1,length + 1):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        for i in range(1,len(nums) + 1):
             if i not in nums:
                 return i
         
-        return length
-           
+        return len(nums) + 1   
 ``` 
+## 思路2
+解這題就是要掃描這個矩陣，然後把值為i+1的元素放到第i個位置，
+有一些越界的狀況(例如nums[i]=-1)，那我們就直接跳過。
+完成後再一次掃過該矩陣，若第i個元素不等於i+1，i+1就是我們要找的解，
+
+
+``` python
+class Solution(object):
+    def firstMissingPositive(self, nums):
+        n = len(nums)
+
+        for i in range(n):
+            while nums[i] > 0 and  nums[i] <= n and nums[i] != nums[nums[i] - 1]:
+                index = nums[i] - 1
+                nums[i], nums[index] = nums[index],nums[i]            
+                
+        for i in range(len(nums)):
+            if nums[i] != i + 1:
+                return i + 1;
+        
+        return len(nums) + 1
+
+
+```
+
+
+
+
+
+
+
+
+
 

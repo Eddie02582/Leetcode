@@ -1,42 +1,32 @@
 class Solution(object):
-    def firstMissingPositive__(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """        
-        
-        if not nums:
-            return 1
-        
-        set_nums = set()
-        max_number = nums[0]
-        for n in nums:
-            if n > max_number:
-                max_number = n
-            
-            set_nums.add(n)   
-        
-        if max_number <0:
-            return 1        
-        p = 1
-        while p < max_number:
-            if p not in set_nums:
-                return p
-            p += 1      
-        return max_number + 1
-        
     def firstMissingPositive(self, nums):
         """
         :type nums: List[int]
         :rtype: int
-        """        
-        i = 1
-        while True:
-            if(i not in nums):
-                return i
-            i += 1
+        """
+        n = len(nums)
+
+        for i in range(n):
+            while nums[i] > 0 and  nums[i] <= n and nums[i] != nums[nums[i] - 1]:
+                index = nums[i] - 1
+                nums[i], nums[index] = nums[index],nums[i]            
+                
+        for i in range(len(nums)):
+            if nums[i] != i + 1:
+                return i + 1;
         
-   
+        return len(nums) + 1
+
+    def firstMissingPositive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        for i in range(1,len(nums) + 1):
+            if i not in nums:
+                return i
+        
+        return len(nums) + 1   
         
         
         
