@@ -32,26 +32,16 @@ Example 2:
 
 ``` python
 class Solution(object):
-    def removeDuplicates(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """        
-        p ,count = -1,0
-        for n in nums:  
-            if p == -1:
-                p += 1
-                count += 1 
-            elif nums[p] != n:
-                count = 1
-                p += 1
-                nums[p] = n                       
-            elif count < 2:                 
-                p += 1
-                count += 1                    
-                nums[p] = n         
-        
-        return p + 1
+    def removeDuplicates(self, nums):  
+        p ,count = 0,0
+        for n in nums:   
+            count += 1
+            if p and nums[p - 1] != n:               
+                count = 1               
+            if count <= 2:
+                nums[p] = n  
+                p += 1            
+        return p
 ``` 
 
 
