@@ -51,74 +51,56 @@ class Solution(object):
         return result
 ```
 
-可使用zip 就不需判斷陣列索引値是否會超過
+
+## 思路2 
+由底部往前
 
 ```python
 class Solution(object):
-    def longestCommonPrefix(self, strs):
-        if not strs:
-            return ""
-        strs.sort()
-        s  = ""
-        for k,v in zip(strs[-1],strs[0]):
-            if k != v:
-                break
-            s += k 
-        return s
-```
-
-#### js
-```javascript
-var longestCommonPrefix = function(strs) {
-    if (strs.length == 0)
-        return "";
-    else if (strs.length == 1 )
-        return strs[0];    
-    
-    strs.sort();
-    var p = 0 , lastindex = strs.length - 1
-    var s = ""  
-    while (p < strs[0].length && p < strs[lastindex].length){
-        if (strs[0][p] != strs[lastindex][p]){
-            break
-        }
-        s += strs[0][p++]     
-    }   
-    
-  
-    return s;
-};
-
-```
-
-## 思路2
-直覺得做法,一一比對每個陣列的字串値
-
-
-## Code
-
-#### Python
-
-```python
-class Solution(object):
-    def longestCommonPrefix(self, strs):
-        if strs==[]:
-            return ""   
-        msg,s="",strs[0]	
+    def minimumTotal_bottom_to_top(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
+        if not triangle:
+            return None
+        elif len(triangle) == 1:
+            return triangle[0][0]
+               
+        p = len(triangle) - 2
+       
+        while p >= 0:
+            for i in range(len(triangle[p])):
+                triangle[p][i] += min(triangle[p + 1][i],triangle[p + 1][i + 1])
+            p -= 1
         
-        for i in range(1,len(s)+1):
-            if  all ( s[:i]== p[:i] for p in  strs):
-                msg=s[:i]
-            else:
-                break
-        return msg    
-  
+        return triangle[0][0]
 ```
 
-
-
-
-
-
+## 思路ˇ 
+由上往下
+```python
+    def minimumTotal(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
+        if not triangle:
+            return None 
+               
+        p = 1
+       
+        while p <  len(triangle):
+            for i in range(p + 1):
+                if i == 0 :
+                    triangle[p][i] += triangle[p-1][0]
+                elif i == p:
+                    triangle[p][i] += triangle[p-1][-1]
+                else:
+                    triangle[p][i] += min(triangle[p - 1][i - 1],triangle[p - 1][i])
+            p += 1
+        
+        return min(triangle[-1])   
+```
 
 
