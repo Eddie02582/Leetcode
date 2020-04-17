@@ -59,10 +59,7 @@ class Solution(object):
    
         
 ```  
-
-
-解化上面,當m = 0,表示陣列以排完
-
+解化上面,當n = 0,表示陣列以排完
 
 ``` python
 class Solution(object):
@@ -77,15 +74,23 @@ class Solution(object):
    
         
 ```  
+使用for
 
-
-
-
-
-
-
-
-
+``` python
+class Solution(object):
+    def merge(self, nums1, m, nums2, n):
+        for i in range(len(nums1) - 1,-1,-1): 
+            if n > 0 :
+                if m > 0 and nums1[m - 1] >= nums2[n - 1]: 
+                    nums1[i] = nums1[m - 1]
+                    m -= 1
+                else:
+                    nums1[i] = nums2[n - 1]
+                    n -= 1
+            else:
+                break 
+        return nums1
+```                    
 
 
 
