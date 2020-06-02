@@ -18,7 +18,7 @@ Example 2:
 
 ## 思路1
 先排序,排序完只剩2種情況interval起始値在不在前一個區間<br> 
-1.當res = [] 或是當interval起始値不在res[-1]的區間,這種時候直接添加
+1.當res = [] 或是當interval起始値不在res[-1]的區間,這種時候直接添加<br>
 2.當interval起始為置在res[-1]區間時,需要取得最大的結束位置
 
 #### Python
