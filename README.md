@@ -240,6 +240,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>78</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Climbing Stairs</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/078_Subsets.py">Python</a>  
+    </td>         
+</tr>
+
+<tr>
     <td>80</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/080_Remove%20Duplicates%20from%20Sorted%20Array%20II.md">Remove Duplicates from Sorted Array II</a></td> 
     <td>Medium</td>  
