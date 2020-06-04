@@ -168,6 +168,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>39</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>41</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/041_First%20Missing%20Positive.md">First Missing Positive</a></td> 
     <td>Hard</td>  
