@@ -201,7 +201,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>47</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/047_Permutations%20II.md">Permutations</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/047_Permutations%20II.md">Permutations II</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/047_Permutations%20II.py">Python</a>  
