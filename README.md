@@ -356,6 +356,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>216</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Count Primes</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>442</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Find All Duplicates in an Array</a></td> 
     <td>Medium</td>  
