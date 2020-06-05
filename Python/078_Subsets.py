@@ -46,4 +46,17 @@ class Solution(object):
             # append subset corresponding to that bitmask
             output.append([nums[j] for j in range(n) if bitmask[j] == '1'])
         
-        return output  
+        return output          
+
+    def subsets_itertools(self, nums: List[int]) -> List[List[int]]:
+        import itertools
+        res = []
+        for i in range(0,len(nums) + 1):
+            res += list(itertools.combinations(nums, i))
+        return res        
+        
+        
+        
+        
+        
+        

@@ -32,4 +32,9 @@ class Solution(object):
         
         res = []
         backtrack([], 1)
-        return res        
+        return res   
+        
+    def combine_itertools(self, n: int, k: int) -> List[List[int]]:
+        import itertools
+        x = itertools.combinations(range(1,n + 1), k)
+        return x
