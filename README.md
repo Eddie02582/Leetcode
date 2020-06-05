@@ -357,7 +357,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>216</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Count Primes</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Combination Sum III</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
