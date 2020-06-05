@@ -200,6 +200,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>47</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/047_Permutations%20II.md">Permutations</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/047_Permutations%20II.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>49</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_Group%20Anagrams.md">Group Anagrams</a></td> 
     <td>Medium</td>  

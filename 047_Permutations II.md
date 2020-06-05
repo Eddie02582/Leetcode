@@ -1,4 +1,4 @@
-# Multiply Strings
+# Permutations II
 
 ## 原題目:
 ```
