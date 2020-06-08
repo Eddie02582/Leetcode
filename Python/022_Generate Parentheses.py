@@ -36,6 +36,21 @@ class Solution:
         return res    
 
 
+    def generateParenthesis_BFS(self, n):
+        import collections
+        ans = []
+        # For element in queue, it means (pre-string, left, right)
+        queue = collections.deque([('', n, n)])
+        while queue:
+            pre, left, right = queue.popleft()
+            if right == 0:
+                ans.append(pre)
+            if left:
+                queue.append((pre + '(', left - 1, right))
+            if right > left:
+                queue.append((pre + ')', left, right - 1))
+        return ans
+
 
 result = [
   "((()))",
