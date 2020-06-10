@@ -75,6 +75,28 @@ class Solution(object):
 ```
 
 
+類似bitmask的想法,依序枚舉每個位置。針對每個位置，試著填入取或不取。
+
+``` python
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:        
+        def backtrack(first = 0, curr = []):
+            # if the combination is done
+            if first == n:  
+                output.append(curr[:])
+                return
+            backtrack(first + 1, curr)
+            backtrack(first + 1, curr + [nums[first]])             
+        output = []
+        visited  = [False] *len(nums)
+        n = len(nums)
+        backtrack()
+        return output
+
+```
+
+
+
 ## 思路bitmask
 
 
