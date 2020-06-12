@@ -53,10 +53,20 @@ class Solution(object):
         res = []
         for i in range(0,len(nums) + 1):
             res += list(itertools.combinations(nums, i))
+        return res   
+
+    def subsets_mask(self, nums):        
+        def backtrack(count = 0,curr =[]):            
+            if len(nums) == count:                 
+                res.append(curr[:])
+                return  
+            backtrack(count + 1,curr)           
+            backtrack(count + 1,curr + [nums[count]]) 
+
+        res = [] 
+        n = len(nums)
+        backtrack(0,[])  
         return res        
-        
-        
-        
         
         
         

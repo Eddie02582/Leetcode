@@ -47,6 +47,7 @@ class Solution:
 
 #### Python
 ``` python
+class Solution:
     def permuteUnique_check(self, nums):        
         
         def backtracking(array):
