@@ -49,6 +49,38 @@ Explanation: Same as Example 1, except with the 5 in the top left corner being
 題目的意思判斷數獨是否可以解
 
 
+## 思路
+主要分三部分,row,col,3x3,每個情況內數字不可重複
+
+``` python
+class Solution:
+    def isValidSudoku(self, board):
+        def isSafe(x,y):            
+            for col in range(9):
+                if y != col and board[x][y] == board[x][col]:                    
+                    return False
+            for row in range(9):
+                if x != row and board[x][y] == board[row][y]:            
+                    return False           
+            start_row = 3*(x//3)
+            start_col = 3*(y//3)
+     
+            for row in range(start_row,start_row + 3):
+                for col in range(start_col,start_col + 3):
+                    if col != y and row != x and board[x][y] == board[row][col]:                    
+                        return False
+            return True
+                    
+        for row in range(9):
+            for col in range(9):
+                if board[row][col] != ".":
+                    if not isSafe(row,col):
+                        return False        
+    
+        return True
+
+``` 
+
 ## 思路1
 主要分三部分,row,col,3x3,每個情況內數字不可重複,利用set來判斷,是否値重複
 
