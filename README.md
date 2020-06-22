@@ -240,6 +240,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>62</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique%20Paths</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/062_Unique%20Paths.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>66</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/066_Plus%20One.md">Plus One</a></td> 
     <td>Easy</td>  
