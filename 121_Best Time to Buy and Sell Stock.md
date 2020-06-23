@@ -27,8 +27,8 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 
 ## 思路
-1.一般想法由指針i由後往前,指針j由i-1 到零,取出prices[i]-prices[j]最小值,這方法會timeout
-2.利用min_prev 計錄當天之前最小值,迴圈從1開始賣,當天賣出最大值即為prices[i]-min_prev ,
+一般想法由指針i由後往前,指針j由i-1 到零,取出prices[i]-prices[j]最小值,這方法會timeout
+
 
 
 
@@ -48,19 +48,24 @@ class Solution(object):
         return max_profit
 ``` 
 
+
+## 思路
+利用min_prev 計錄當天之前最小值,迴圈從1開始賣,當天賣出最大值即為price-min_buy
+
  
 ``` python       
-class Solution:
+class Solution:   
     def maxProfit(self, prices):
-        if len (prices) < 2:
+        if len(prices) < 2:
             return 0
-        profit,min_buy = 0 ,prices[0]
-        for i in range (1,len(prices)):       
-            if prices[i] < min_buy :
-                min_buy = prices[i]
-            else:
-                profit = max (profit,prices[i]-min_buy)    
-        return  profit  
+    
+        buy = float('inf') 
+        profit = 0
+        for n in prices:
+            if n < buy:
+                buy = n 
+            profit = max(sell - buy,profit)        
+        return profit
         
 ```  
 
