@@ -6,6 +6,7 @@ class Solution(object):
         :rtype: int
         """
         # (m + n - 2)! /((m - 1) ! * (n - 1))
+        table = 
         def factorial(n):
             if n == 1:
                 return n

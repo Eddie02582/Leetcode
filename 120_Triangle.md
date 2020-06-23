@@ -52,7 +52,7 @@ class Solution(object):
 ```
 
 
-## 思路2 
+## 思路 動態規劃
 由底部往前
 
 ```python
@@ -63,44 +63,47 @@ class Solution(object):
         :rtype: int
         """
         if not triangle:
-            return None
-        elif len(triangle) == 1:
-            return triangle[0][0]
-               
-        p = len(triangle) - 2
-       
-        while p >= 0:
-            for i in range(len(triangle[p])):
-                triangle[p][i] += min(triangle[p + 1][i],triangle[p + 1][i + 1])
-            p -= 1
+            return 0
+        n = len(triangle)
         
-        return triangle[0][0]
+        for i in range(n - 2,-1,-1):
+            for j in range(0,i + 1): 
+                triangle [i][j] += min(triangle [i + 1][j],triangle [i + 1][j + 1])                
+ 
+        return triangle[0][0]        
+        
 ```
 
-## 思路ˇ 
+## 思路 動態規劃由上往下 
 由上往下
-```python
-    def minimumTotal(self, triangle):
-        """
-        :type triangle: List[List[int]]
-        :rtype: int
-        """
-        if not triangle:
-            return None 
-               
-        p = 1
-       
-        while p <  len(triangle):
-            for i in range(p + 1):
-                if i == 0 :
-                    triangle[p][i] += triangle[p-1][0]
-                elif i == p:
-                    triangle[p][i] += triangle[p-1][-1]
-                else:
-                    triangle[p][i] += min(triangle[p - 1][i - 1],triangle[p - 1][i])
-            p += 1
-        
-        return min(triangle[-1])   
 ```
+class Solution:
+    def minimumTotal(self, triangle: List[List[int]]) -> int:
+        if not triangle:
+            return 0
+        n = len(triangle)        
+        for i in range(1,n):
+            m = len(triangle[i])
+            for j in range(0,m):
+                if j == 0:
+                    triangle [i][j] += triangle [i - 1][0]
+                elif j == m - 1:
+                    triangle [i][j] += triangle [i - 1][-1]
+                else:
+                    triangle [i][j] += min(triangle [i - 1][j - 1],triangle [i - 1][j])                   
+        
+        return min(triangle[-1])
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
