@@ -15,3 +15,16 @@ class Solution:
             total = total + (n%10)**2
             n = n//10
         return total
+        
+    def isHappy_res(self, n: int) -> bool:
+        isExist = set()         
+        def helper(num):       
+            if num == 1:
+                return True  
+            elif num in isExist:
+                return False
+            isExist.add(num)
+            num = sum(map(lambda x:int(x)**2,str(num)))
+            return helper(num)
+        
+        return helper(n)
