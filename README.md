@@ -273,7 +273,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>78</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Climbing Stairs</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Subsets</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/078_Subsets.py">Python</a>  
