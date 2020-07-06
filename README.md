@@ -34,6 +34,13 @@ Leetcode Python & C#
     </td>    
 </tr>
 <tr>
+    <td>6</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/006_ZigZag%20Conversion.md">ZigZag Conversion</a></td>
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/006%20ZigZag%20Conversion.py">Python</a>,
+    </td>    
+</tr>
+<tr>
     <td>7</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/007_Reverse%20Integer.md">Reverse Integer</a></td> 
     <td>Easy</td>  
