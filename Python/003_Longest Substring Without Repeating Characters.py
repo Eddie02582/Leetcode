@@ -28,7 +28,7 @@ class Solution:
     '''
     def lengthOfLongestSubstring(self, s):    
         left,right,max_length=0,0,0       
-        maps=set()
+        maps = set()
         
         while right < len(s):                
             if s[right] not in maps:
@@ -37,7 +37,7 @@ class Solution:
             else:
                 maps.remove(s[left])
                 left += 1 
-            max_length=max(right-left,max_length)        
+            max_length = max(right-left,max_length)        
         return max_length
         
  
@@ -57,8 +57,23 @@ class Solution:
             res =max(res,r - l + 1)
         return res 
 
- 
- 
+
+    def lengthOfLongestSubstring(self, s):
+        if not s:
+            return 0
+        position  = [-1] * 256
+        res = 0
+        l ,r = 0 ,0
+
+        while r < len(s) :  
+            index = ord(s[r])   
+            if position[index]  >= l:
+                l = position[index] + 1 
+
+            res = max(res ,r - l + 1)   
+            position[index] = r        
+            r += 1   
+        return res
 
     def lengthOfLongestSubstring_map(self, s):
         if not s:
@@ -69,7 +84,7 @@ class Solution:
         index = -1
         m = 0
         for i, v in enumerate(s):
-            if (locations[ord(v)] > index):
+            if locations[ord(v)] > index:
                 index = locations[ord(v)]
             m = max(m, i - index)
             locations[ord(v)] = i

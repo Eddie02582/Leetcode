@@ -25,18 +25,27 @@ Explanation: The answer is "wke", with the length of 3.
 
 ```
 
-## 思路1
-利用set 判斷是否出現過,使用雙指針left,right,如果重複將新的left 指針移到第一次出現的位置,並且清空maps <br>
+## 思路
+雙指針l,r,l記錄字串第一個字的所在位置,r指針移動當s[r]重複,將l指針移到與s[r]値一樣的下一個
+
+1. r 指針移動,記錄長度<br>
+2. 判對s[r]是否重複,有更新l位置<br>
+3. 記錄長度<br>
+4. r = r + 1 <br>
 
 ex: "pwwkew" <br>
-1. pww  ->   l = 0 , r = 1 ,s = pw <br>
-2. 移動 ->   l = 2 , r = 3 <br>
-3. wkew ->   l = 2 , r = 5 , s = wke <br>
+1. p ->    l = 0,r = 0 ,string = 'p'
+2. w ->    l = 0,r = 1 ,string = 'pw'
+3. w 此時重複 -> l需移動到第一次w的下個位置  -> l = 2,r = 2 ,string = 'w'
+4. k ->    l = 2,r = 3 ,string = 'wk'
+5. e ->    l = 2,r = 4 ,string = 'wke'
+6. w ->   此時重複,但r = 5 離開
+
 
 ## Code
 
 #### Python
-
+使用map記錄是否出現
 ```
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
@@ -54,17 +63,7 @@ class Solution(object):
             ans = max(len(maps),ans)
         return ans
 ```
-
-## 思路2
-簡化思路1,另用map 紀錄出現字母,right指針向右,如果沒出現就紀錄長度,當出現過的字母,left 指針就跑到重複出現字母的位置 <br> 
-
-ex: "pwwkew" <br>
-1. pww  ->   l = 0 , r = 2 ,len = 2 ,maps = (p,w)<br>
-2. 移動 ->   l = 1 , r = 2 ,maps = (w)<br>
-3. 移動 ->   l = 2 , r = 2 ,maps = ()<br>
-4. wkew ->   l = 2 , r = 5 ,maps = (wke)<br>
-
-python
+類似作法
 ```
 class Solution: 
 
@@ -83,28 +82,26 @@ class Solution:
         return max_length
 ```        
 
-## 思路3
-利用array 陣列記錄出現字的位置,index 為起始位置,當重複出現字,更新index位置
+利用陣列position記錄字元上次出線的位置
+```
+class Solution: 
 
-
-```python
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
+    def lengthOfLongestSubstring(self, s):    
         if not s:
             return 0
-        if len(s) <= 1:
-            return len(s)
-        locations = [-1 for i in range(256)]
-        index = -1
-        m = 0
-        for i, v in enumerate(s):
-            if (locations[ord(v)] > index):
-                index = locations[ord(v)]
-            m = max(m, i - index)
-            locations[ord(v)] = i
-        return m
-```
+        position  = [-1] * 256
+        res = 0
+        l ,r = 0 ,0
+        while r < len(s) :  
+            index = ord(s[r])   
+            if position[index]  >= l:
+                l = position[index] + 1 
 
+            res = max(res ,r - l + 1)   
+            position[index] = r        
+            r += 1   
+        return res
+```  
 
 
 
