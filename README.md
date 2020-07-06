@@ -125,7 +125,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>      
     </td>         
 </tr>
-
+<tr>
+    <td>22</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/022_Generate%20Parentheses.md">Generate Parentheses</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a>, 
+    </td>         
+</tr>
 <tr>
     <td>26</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/026_%20Remove%20Duplicates%20from%20Sorted%20Array.md">Remove Duplicates from Sorted Array.py</a></td> 
@@ -248,7 +255,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>62</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique%20Paths</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique Paths</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/062_Unique%20Paths.py">Python</a>  
