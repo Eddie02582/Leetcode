@@ -23,8 +23,7 @@ Input:
 因此我們得到一個遞迴式：dp[i, j] = min(dp[i-1, j], dp[i, j-1], dp[i-1, j-1]) + 1<br>
 
 
-```
-#### Python
+
 
 ``` python
 class Solution:
