@@ -28,7 +28,7 @@ Example:
 ```
 
 ## 思路1
-使用遞迴每次拆一個digit並與前次結果做雙重迴圈得到下次結果,注意第一次須先產生
+使用遞迴每次拆一個digit,並把剩下的digit傳入
 
 
 ## Code
@@ -36,72 +36,64 @@ Example:
 #### Python
 
 ```python
-class Solution(object):
-    def letterCombinations(self, digits):       
-        dict ={
-            '2':['a','b','c'],
-            '3':['d','e','f'],
-            '4':['g','h','i'],
-            '5':['j','k','l'],
-            '6':['m','n','o'],
-            '7':['p','q','r','s'],
-            '8':['t','u','v'], 
-            '9':['w','x','y','z'],  
-        }  
-        
-        def helper(array,digits):
-            if digits:
-                number,digits = digits[0:1],digits[1:]                
-                result = []                
-                for s in array:
-                    for letter in dict[number]:
-                        result.append(s + letter)                
-                return helper(result,digits)    
-            return array
-            
         if not digits:
             return []
-        number,digits = digits[0:1],digits[1:]   
-        return helper(dict[number],digits)
+        
+        phone = {'2': ['a', 'b', 'c'],
+           '3': ['d', 'e', 'f'],
+           '4': ['g', 'h', 'i'],
+           '5': ['j', 'k', 'l'],
+           '6': ['m', 'n', 'o'],
+           '7': ['p', 'q', 'r', 's'],
+           '8': ['t', 'u', 'v'],
+           '9': ['w', 'x', 'y', 'z']}  
+        
+        res = []
+        
+        def backtracking(res_digital,s):
+            if not res_digital:
+                res.append(s)
+                return   
+            for letter in phone[res_digital[0]]:
+                backtracking(res_digital[1:],s + letter )
+        
+        
+        backtracking(digits,'')
+        return res
 ```
 
+## 思路2
 
-簡化上面將產生第一個結果寫在helper 裡面
 ```python
-class Solution(object):
-    def letterCombinations(self, digits):
-        """
-        :type digits: str
-        :rtype: List[str]
-        """
-        dict ={
-            '2':['a','b','c'],
-            '3':['d','e','f'],
-            '4':['g','h','i'],
-            '5':['j','k','l'],
-            '6':['m','n','o'],
-            '7':['p','q','r','s'],
-            '8':['t','u','v'], 
-            '9':['w','x','y','z'],  
-        }       
-                
-        def helper(array,digits):        
-            if digits:
-                number,digits = digits[0],digits[1:]                
-                result = []  
-                if not array:#for first
-                    return helper(dict[number],digits)                
-                for s in array:
-                    for letter in dict[number]:
-                        result.append(s + letter)                
-                return helper(result,digits)    
-            return array            
-     
-        return helper([],digits)
-```
-
-
-
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        if not digits:
+            return []
+        
+        phone = {'2': ['a', 'b', 'c'],
+           '3': ['d', 'e', 'f'],
+           '4': ['g', 'h', 'i'],
+           '5': ['j', 'k', 'l'],
+           '6': ['m', 'n', 'o'],
+           '7': ['p', 'q', 'r', 's'],
+           '8': ['t', 'u', 'v'],
+           '9': ['w', 'x', 'y', 'z']}  
+        
+        res = []
+        def backtracking(start,s):
+            if len(s) == len(digits):
+                res.append(s)
+                return
+            
+            for i in range(start,len(digits)):
+                digit = digits[i]
+                for letter in phone[digit]:
+                    backtracking(i + 1,s + letter )
+        
+        
+        backtracking(0,'')
+        return res
+```        
 
 
 
