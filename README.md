@@ -311,6 +311,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>96</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees.md">Unique Binary Search Trees</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>101</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
     <td>Easy</td>  
