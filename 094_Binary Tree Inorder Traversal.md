@@ -1,25 +1,34 @@
-# Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+# Binary Tree Inorder Traversal
 
+
+## 原題目:
+```
+Given a binary tree, return the inorder traversal of its nodes' values.
+
+Example:
+
+Input: [1,null,2,3]
+   1
+    \
+     2
+    /
+   3
+
+Output: [1,3,2]
+Follow up: Recursive solution is trivial, could you do it iteratively?
+```
+
+## 思路遞回
+
+
+## Code
+
+#### Python
+
+``` python
 class Solution(object):
     
     def inorderTraversal(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[int]
-        """   
-        if root is None:            
-            return []
-        else:
-            #print (root.val)
-            return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right)
-
-     
-    def inorderTraversal_helper(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -32,8 +41,36 @@ class Solution(object):
                 hepler(root.right,result)        
             return result
         
-        return hepler(root,[])
-        
+        return hepler(root,[])    
+```  
+
+## 思路分治法
+
+
+## Code
+
+#### Python
+
+``` python
+class Solution(object):
+    
+    def inorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """   
+        if root is None:            
+            return []
+        else:            
+            return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right)        
+```  
+
+## 思路stack
+
+
+``` python
+class Solution(object):
+    
     def inorderTraversal_iterative(self, root):
         """
         :type root: TreeNode
@@ -68,28 +105,8 @@ class Solution(object):
                 root = s.pop()
                 result.append(root.val)
                 root = root.right
-        return result       
-        
-        
-root = TreeNode(1)
-root.left = TreeNode(2)  
-root.right = TreeNode(3)  
-root.left.left = TreeNode(4)  
-root.left.right = TreeNode(5)  
-root.right.left = TreeNode(6)
-root.right.right = TreeNode(7)
-
-#root = TreeNode(1) 
-#root.right = TreeNode(2) 
-#root.right.left = TreeNode(3)
-
-
-
-sol = Solution()
-
-print (sol.inorderTraversal(root))
-sol.inorderTraversal_iterative(root)
-sol.inorderTraversal_iterate(root)
+        return result         
+```  
 
 
 
@@ -100,14 +117,7 @@ sol.inorderTraversal_iterate(root)
 
 
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
