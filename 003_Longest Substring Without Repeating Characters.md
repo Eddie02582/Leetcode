@@ -103,6 +103,48 @@ class Solution:
         return res
 ```  
 
+```
+class Solution(object):
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        position = [-1] * 256
+        l,r = 0,0
+        result = 0
+        
+        while r < len(s):
+            c = s[r]
+            if position[ord(c)] < l:
+                result = max(result,r - l + 1)            
+            else:
+                l = position[ord(c)] + 1
+               
+            position[ord(c)] = r
+            r += 1
+                
+        
+        return result
+
+```  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
