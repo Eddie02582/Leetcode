@@ -23,7 +23,7 @@ class Solution(object):
             return res
         return helper(root)
         
-    def preorderTraversal(self, root: TreeNode) -> List[int]:
+    def preorderTraversal_stack(self, root):
         if not root:
             return None
         result = []
@@ -37,3 +37,31 @@ class Solution(object):
             if root.left:
                 s.append(root.left)   
         return result
+
+    def preorderTraversal_stack2(self, root):
+        if not root:
+            return None
+        result ,stack = [],[]
+        treeNode = root
+        
+        while stack or treeNode:
+            while treeNode:
+                result.append(treeNode.val)
+                stack.append(treeNode)
+                treeNode = treeNode.left     
+            if stack:
+                treeNode = stack.pop()
+                treeNode = treeNode.right   
+        return result
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
