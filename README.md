@@ -166,6 +166,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>33</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/033_Search%20in%20Rotated%20Sorted%20Array.md">Search in Rotated Sorted Array</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/033_Search%20in%20Rotated%20Sorted%20Array.py">Python</a>,   
+    </td>         
+</tr>
+<tr>
     <td>35</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/035_Search%20Insert%20Position.md">Search Insert Position</a></td> 
     <td>Easy</td>  
