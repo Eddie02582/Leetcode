@@ -31,7 +31,30 @@ Input: head = [1], pos = -1
 Output: no cycle
 Explanation: There is no cycle in the linked list.
 
+
 ```
+
+## 思路
+
+
+
+## Code
+
+
+
+``` python
+class Solution(object):
+    def detectCycle(self, head):
+        exist = set()    
+        while head:
+            if head in exist:
+                return head
+            exist.add(head)
+            head = head.next
+        return None
+```  
+
+
 
 ## 思路
 
@@ -78,7 +101,7 @@ class Solution(object):
         while fast and fast.next :            
             slow = slow.next            
             fast = fast.next.next            
-            if slow==fast:
+            if slow == fast:
                 break              
               
         if not fast or not  fast.next:
@@ -90,9 +113,6 @@ class Solution(object):
         
         return slow
 ```  
-
-
-
 
 
 
