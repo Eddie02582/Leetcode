@@ -17,8 +17,13 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 ## 思路
 <img src="31_Next_Permutation.gif">
+三個步驟<br>
+1. 由後往前查看逆序區域，找到逆序區域的前一位，也就是數字置換的邊界。
+2. 讓逆序區域的前一位和逆序區域中大於它的最小的數字交換位置。
+3. 把原來的逆序區域轉為順序狀態 。
 
 ## Code
+
 
 #### Python
 
