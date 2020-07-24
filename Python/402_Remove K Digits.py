@@ -44,5 +44,23 @@ class Solution:
     
         return "".join(stack) if stack else "0"
 
+    def removeKdigits(self, num: str, k: int) -> str:  
+        newLength = len(num) - k
+        stack = [0] * len(num)
+        top = 0
+        for i in range(len(num)):
+            c = int (num[i])
+            while top > 0 and int (stack[top - 1]) > int (num[i]) and k >0:
+                top -= 1
+                k -= 1
 
+            stack[top] = num[i]
+            top += 1
+
+        offset = 0
+
+        while offset < newLength and stack[offset] == '0':
+            offset += 1
+    
+        return "0" if offset == newLength else "".join(stack[offset: newLength])
 
