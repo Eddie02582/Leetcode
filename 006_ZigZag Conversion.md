@@ -63,5 +63,26 @@ class Solution:
 ```
 
 
-
+```
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows <= 1 :
+            return s        
+        row = [''] * numRows
+        
+        direDown = True
+        currentRow = 0
+        
+        for i in range(len(s)):            
+            row[currentRow] += s[i]
+            
+            if direDown:
+                currentRow += 1
+            else:
+                currentRow -= 1    
+                
+            if currentRow == 0 or  currentRow == numRows - 1:
+                direDown = not direDown
+        return ''.join(row)                    
+```
 

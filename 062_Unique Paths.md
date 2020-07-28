@@ -23,6 +23,39 @@ Example 2:
     Output: 28
 ```
 
+
+## 思路 backtracking 
+會timeout,如果沒有求出所有組合的方法不建議使用,建議使用dp
+
+
+``` python
+class Solution:
+    def __init__(self):
+        self.count = 0
+    def uniquePaths(self, m: int, n: int) -> int:
+        self.count = 0
+        def backtracking(right,down):
+            if right == 0 and down == 0:
+                self.count += 1
+                return
+            if right > 0:
+                backtracking(right - 1,down)
+            if down > 0:
+                backtracking(right,down - 1)        
+        
+        
+        
+        
+        backtracking(m-1,n-1)
+        
+        return self.count
+``` 
+
+
+
+
+
+
 ## 思路
 除了第一列或是第一行只有一種走法,其餘每一個一定是從上方或左下方來,所以path(i,j) = path(i - 1,j) + path(i,j - 1)
 ```    
@@ -30,6 +63,7 @@ Example 2:
     path(i,j) = path(i - 1,j) + path(i,j - 1)    
 
 ```
+
 
 
 
@@ -86,6 +120,7 @@ class Solution:
         return check_path(m,n)
 
 ``` 
+
 
 ## 思路
 (m -1)右與(n-1)左排列即是((m-1)+(n-1))!/((m-1)!*(n-1))!
