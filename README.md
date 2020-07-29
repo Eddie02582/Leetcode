@@ -441,5 +441,13 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/713_Subarray%20Product%20Less%20Than%20K.py">Python</a>
     </td>         
 </tr>
+<tr>
+    <td>931</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/931_Minimum%20Falling%20Path%20Sum.md">Minimum Falling Path Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/931_Minimum%20Falling%20Path%20Sum.py">Python</a>
+    </td>         
+</tr>
 </table>
 
