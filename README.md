@@ -449,5 +449,13 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/931_Minimum%20Falling%20Path%20Sum.py">Python</a>
     </td>         
 </tr>
+<tr>
+    <td>983</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/983_Minimum%20Cost%20For%20Tickets.md">Minimum Cost For Tickets</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/983_Minimum%20Cost%20For%20Tickets.py">Python</a>
+    </td>         
+</tr>
 </table>
 
