@@ -270,6 +270,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>64</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/064_Minimum%20Path%20Sum.md">Minimum Path Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>66</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/066_Plus%20One.md">Plus One</a></td> 
     <td>Easy</td>  
