@@ -442,6 +442,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>743</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/743_Network%20Delay%20Time.md">743 Network Delay Time</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/743_Network%20Delay%20Time.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>931</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/931_Minimum%20Falling%20Path%20Sum.md">Minimum Falling Path Sum</a></td> 
     <td>Medium</td>  
