@@ -443,7 +443,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>743</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/743_Network%20Delay%20Time.md">743 Network Delay Time</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/743_Network%20Delay%20Time.md">Network Delay Time</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/743_Network%20Delay%20Time.py">Python</a>
