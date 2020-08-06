@@ -46,30 +46,76 @@ class Solution(object):
         """
         from collections import defaultdict
         graph = defaultdict(dict)
-        visited = defaultdict(dict)
+        processed = []
+
+        costs = {}
+        for i in range(1,N + 1):
+            if i != K:
+                costs[i] = float("inf")
+
         for parent,node,cost in times:
             graph[parent][node] = cost
-            visited[parent][node] = False
-     
-        costs = [float('inf')] * (N + 1)
-        costs[K] = 0
-        costs[0] = 0
-    
-        queue = [K]
-        
-        while queue:
-            n = queue.pop(0)            
-            for neighborhood in graph[n].keys():
-                costs[neighborhood] = min(costs[neighborhood],costs[n] + graph[n][neighborhood]) 
-                if not visited[n][neighborhood]:
-                    queue.append(neighborhood)
-                    visited[n][neighborhood] = True
+            if parent == K:
+                costs[node] = min(costs[node],cost)
 
-            
-        return max(costs) if all (cost !=float('inf')  for cost in costs) else -1
+     
+        def find_lowest_cost_node():
+            lowest_cost = float("inf")
+            lowest_cost_node = None
+            for node in costs:
+                cost = costs[node]
+                if cost < lowest_cost and node not in processed:
+                    lowest_cost = cost
+                    lowest_cost_node = node
+            return lowest_cost_node       
+
+    
+        node = find_lowest_cost_node()
+        while node is not None:
+            cost = costs[node]
+            neighbors = graph[node]
+            for n in neighbors.keys():
+                if n != K:
+                    new_cost = cost + neighbors[n]
+                    if costs[n] > new_cost:
+                        costs[n] = new_cost                    
+            processed.append(node)
+            node = find_lowest_cost_node()    
+
+        ans = max(costs.values())
+
+        return -1  if ans ==  float('inf') or ans == -1 else ans
 ``` 
 
 
+``` python
+class Solution(object):
+    def networkDelayTime_(self, times, N, K):
+        from collections import defaultdict
+        graph = defaultdict(list)
+        for u, v, w in times:
+            graph[u].append((v, w))
+
+        dist = {node: float('inf') for node in range(1, N+1)}
+        seen = [False] * (N + 1)
+        dist[K] = 0
+
+        while True:
+            cand_node = -1
+            cand_dist = float('inf')
+            for i in range(1, N + 1):
+                if not seen[i] and dist[i] < cand_dist:
+                    cand_dist = dist[i]
+                    cand_node = i
+
+            if cand_node < 0: break
+            seen[cand_node] = True
+            for nei, d in graph[cand_node]:
+                dist[nei] = min(dist[nei], dist[cand_node] + d)
+
+        ans = max(dist.values())
+        return ans if ans < float('inf') else -1  
+``` 
 
 
 
