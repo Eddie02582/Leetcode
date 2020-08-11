@@ -1,4 +1,4 @@
-#  Pascal's Triangle
+#  Path Sum
 
 
 ## 原題目:
