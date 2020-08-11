@@ -399,6 +399,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>129</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/129_Sum%20Root%20to%20Leaf%20Numbers.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>136</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
     <td>Easy</td>  
