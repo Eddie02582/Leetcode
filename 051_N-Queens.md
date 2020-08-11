@@ -26,73 +26,73 @@ Explanation: There exist two distinct solutions to the 4-queens puzzle as shown 
 ```
 
 ## 思路1
-backtracking 問題,每一格都有「放」和「不放」兩種選擇，放的時候要注意是否在攻擊範圍
+backtracking 問題,每行只會擺放一個皇后,所以以raw 為單位放,不可能每次都整個迴圈判斷是否在攻擊範圍,這邊考慮以欄和對角線的判別<br>
+
+以下介紹對角線如何判斷
+```
+對角/ ,將x +y 的值合起來判斷是否有重複
+
+0  1  2  3
+1  2  3  4
+2  3  4  5
+3  4  5  6
+[False] * (2n - 1)
+
+
+對角＼ ,可慮將x -y 的值合起來判斷
+
+0  -1  -2  -3
+1  0   -1  -2
+2  1    0  -1
+3  2    1   0
+4  3    2   1
+
+這邊因為値是負的,我們讓起始位置為0,加上n - 1
+
+3  2  1  0
+4  3  2  1
+5  4  3  2
+6  5  4  3
+```
+
 
 
 #### Python
 
-``` python
-class Solution:
-    def solveNQueens(self, n) : 
-        m = 2*n - 1
-        mx,my,md1,md2 = [False] * n,[False] * n,[False] * m,[False] * m
-        sol = [[""]*n for i in range(n)]
-        res = []
-        def backtracking(x,y,c):
-            if y == n:
-                x += 1
-                y = 0        
-            if x == n:
-                if c == n:                    
-                    res.append( [ ".".join(row) for row in sol])
-                return
-            
-            d1 = (x + y) % m
-            d2 = (x - y + m) %m
-            
-            if not mx[x] and not my[y] and not md1[d1] and not md2[d2]:
-                mx[x],my[y],md1[d1],md2[d2] = True,True,True,True
-                sol[x][y] = "Q"
-                backtracking(x,y + 1,c + 1)
-                mx[x],my[y],md1[d1],md2[d2] = False,False,False,False
-            
-            sol[x][y] = ""
-            backtracking(x,y + 1,c)
-
-        backtracking(0,0,0)
-        return res 
-``` 
 
 ## 思路2
  
-簡化上面,可以確定每行只會擺放一個皇后,線為單位來遞迴窮舉
+
 
 #### Python
 ```python
-class Solution(object):
-    def solveNQueens(self, n: int) -> List[List[str]]:        
-        m = 2*n - 1
+class Solution:
+ 
+    def solveNQueens(self, n):
+        ans = []
+        sol = [['.'] * n for _ in range(n)] 
+        m = 2 * n - 1
         my,md1,md2 =[False] * n,[False] * m,[False] * m
-        sol = [[""]*n for i in range(n)]
-        res = []
-        def backtracking(x):     
-            if x == n: 
-                res.append( [ ".".join(row) for row in sol])
-                return
-            
-            for y in range(n):   
-                d1 = (x + y) % m
-                d2 = (x - y + m) %m            
-                if not my[y] and not md1[d1] and not md2[d2]:
-                    my[y],md1[d1],md2[d2] = True,True,True
-                    sol[x][y] = "Q"
-                    backtracking(x + 1)
-                    my[y],md1[d1],md2[d2] = False,False,False            
-                    sol[x][y] = ""
-                
+        
 
-        backtracking(0)
-        return res
+        count = 0
+        def backtracking(count,x):           
+            if count == 0:                       
+                ans.append([ ''.join(raw) for raw in sol ])         
+                return                             
+            for y in range(n):
+                d1 = x + y
+                d2 = x - y + (n - 1)
+                if  not my[y] and not md1[d1] and not md2[d2]:                       
+                    my[y],md1[d1],md2[d2] = True,True,True
+                    sol[x][y] = "Q"                          
+                    backtracking(count - 1,x + 1)
+                    sol[x][y] = "."     
+                    my[y],md1[d1],md2[d2] = False,False,False                   
+                       
+
+        backtracking(graph,n,0)
+        return ans
 ```
 
 
