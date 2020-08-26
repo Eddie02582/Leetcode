@@ -57,28 +57,6 @@ class Solution(object):
         return output   
 ``` 
 
-## 思路1
- 
-用i歷遍整個陣列,當總合為負値表示需要重新計算,
-
-#### Python
-```python
-class Solution(object):
-    def maxSubArray(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        res = nums[0]
-        temp = 0
-        for n in nums:            
-            temp += n
-            res = max(res,temp)
-            if temp < 0:
-                temp = 0
-        return res
-```
-
 
 
 

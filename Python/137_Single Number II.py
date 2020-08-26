@@ -20,7 +20,7 @@ Example 2:
 class Solution(object):
     def singleNumber_counter(self, nums):
         from collections import Counter
-        counter=Counter(nums)
+        counter = Counter(nums)
         return [ key for key in counter.keys() if counter[key]==3][-1]
         
         

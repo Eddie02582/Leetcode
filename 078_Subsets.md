@@ -47,24 +47,23 @@ class Solution(object):
         return output
 ```
 
+->[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 
 ## 思路backtrack
 
 
 #### Python
+
+這個思路是選0個到選n個
 ``` python
 class Solution(object):
-    def subsets(self, nums):
-        def backtrack(first = 0, curr = []):
-            # if the combination is done
+    def subsets(self, nums):      
+        def backtrack(first = 0, curr = []):           
             if len(curr) == k:  
                 output.append(curr[:])
-            for i in range(first, n):
-                # add nums[i] into the current combination
-                curr.append(nums[i])
-                # use next integers to complete the combination
-                backtrack(i + 1, curr)
-                # backtrack
+            for i in range(first, n):               
+                curr.append(nums[i])               
+                backtrack(i + 1, curr)               
                 curr.pop()
         
         output = []
@@ -72,30 +71,72 @@ class Solution(object):
         for k in range(n + 1):
             backtrack()  
         return output
+
 ```
+0:[]
+1:[1],[2],[3]
+2:[1,2],[1,3],[2,3]
+3:[1,2,3]
 
 
-類似bitmask的想法,依序枚舉每個位置。針對每個位置，試著填入取或不取。
+->[[],[1],[2],[3],[1,2],[1,3],[2,3],[1,2,3]]
+
+backtrack 的思路,每次都有選與不選的選擇
+
+                
+            
+            []                 [1]
+          /   \             /       \    
+         []   [2]        [1]       [1,2]
+        / \   / \        / \       /    \
+      [] [3][2] [2,3]  [1] [1,3] [1,2] [1,2,3]
+
+->[],[3],[2],[2,3],[1],[1,3],[1,2],[1,2,3]
 
 ``` python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:        
-        def backtrack(first = 0, curr = []):
-            # if the combination is done
-            if first == n:  
-                output.append(curr[:])
-                return
-            backtrack(first + 1, curr)
-            backtrack(first + 1, curr + [nums[first]])             
-        output = []
-        visited  = [False] *len(nums)
-        n = len(nums)
-        backtrack()
-        return output
+        if not nums:
+            return []
+        
+        ans = []
+        def backtracking(s,sol):
+            if s == len(nums):
+                ans.append(sol[:])
+                return 
+            backtracking(s + 1,sol)
+            backtracking(s + 1,sol + [nums[s]]) 
+        backtracking(0,[])        
+        return ans
 
 ```
 
+## 思路dfs
 
+思路每個n當頭
+            []
+1 - 2 - 3 ,[1],[1,2],[1,2,3]
+  
+2 - 3     ,[2],[2,3]
+
+3         ,[3]
+
+->[],[1],[1,2],[1,2,3],[2],[2,3],[3]
+
+``` python
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:        
+        if not nums:
+            return []
+        
+        ans = []
+        def dfs(s,sol):            
+            ans.append(sol[:])            
+            for i in range(s,len(nums)):                
+                dfs(i + 1,sol + [nums[i]])  
+        dfs(0,[])        
+        return ans
+```
 
 ## 思路bitmask
 

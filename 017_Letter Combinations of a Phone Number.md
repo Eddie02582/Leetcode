@@ -62,37 +62,46 @@ Example:
         return res
 ```
 
-## 思路2
-
+類似作法,改成記錄每次digits位置
 ```python
 class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
+    def letterCombinations(self, digits):
         if not digits:
             return []
-        
-        phone = {'2': ['a', 'b', 'c'],
-           '3': ['d', 'e', 'f'],
-           '4': ['g', 'h', 'i'],
-           '5': ['j', 'k', 'l'],
-           '6': ['m', 'n', 'o'],
-           '7': ['p', 'q', 'r', 's'],
-           '8': ['t', 'u', 'v'],
-           '9': ['w', 'x', 'y', 'z']}  
-        
-        res = []
-        def backtracking(start,s):
-            if len(s) == len(digits):
-                res.append(s)
+        mapping = {'2':"abc",'3':"def",'4':'ghi','5':'jkl','6':"mno",'7':"pqrs",'8':"tuv",'9':"wxyz"}
+        ans = []
+        def backtracking(word,index):
+            if len(word) == len(digits):
+                ans.append(word)
+                return            
+            for letter in mapping[digits[index]]:
+                backtracking(word + letter,index + 1)        
+        backtracking("",0)   
+        return ans
+```
+
+
+
+## 思路2
+使用雙層迴圈第一層歷遍所在digital,第2層對應的文字,意外的比思路1快,是因為減少遞迴次數?
+
+<a href = "https://leetcode.com/submissions/detail/383624541/">Accepted Solutions</a>
+```python
+class Solution:
+    def letterCombinations(self, digits):
+        if not digits:
+            return []
+        mapping = {'2':"abc",'3':"def",'4':'ghi','5':'jkl','6':"mno",'7':"pqrs",'8':"tuv",'9':"wxyz"}
+        ans = []
+        def backtracking(word,start):
+            if len(word) == len(digits):
+                ans.append(word)
                 return
-            
             for i in range(start,len(digits)):
-                digit = digits[i]
-                for letter in phone[digit]:
-                    backtracking(i + 1,s + letter )
-        
-        
-        backtracking(0,'')
-        return res
+                for letter in mapping[digits[i]]:
+                    backtracking(word + letter,i + 1)        
+        backtracking("",0)   
+        return ans
 ```        
 
 
