@@ -70,3 +70,33 @@ class Solution:
         backtracking([])
         return res
 ```
+
+## 思路backtracking with dict
+解題思路參考1079 Letter Tile Possibilities
+
+``` python
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        from collections import Counter
+        count = Counter(nums)
+        
+        ans = []
+        def backtracking(sol):
+            if len(sol) == len(nums):
+                ans.append(sol[::])
+                return ans
+        
+            for key in count.keys():
+                if count[key] > 0:
+                    count[key] -= 1 
+                    backtracking(sol + [key])
+                    count[key] += 1
+        
+        backtracking([])
+        return ans
+```
+
+
+
+
+

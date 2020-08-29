@@ -39,7 +39,24 @@ class Solution:
         return res
 
 
-
+    def permuteUnique_check(self, nums):    
+        from collections import Counter
+        count = Counter(nums)
+        
+        ans = []
+        def backtracking(sol):
+            if len(sol) == len(nums):
+                ans.append(sol[::])
+                return ans
+        
+            for key in count.keys():
+                if count[key] > 0:
+                    count[key] -= 1 
+                    backtracking(sol + [key])
+                    count[key] += 1
+        
+        backtracking([])
+        return ans
 
 
 
