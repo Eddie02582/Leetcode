@@ -27,8 +27,8 @@ The length of both nums1 and nums2 would not exceed 1000.
 class Solution:
     def nextGreaterElement(self, nums1 , nums2):
         for i,n in enumerate(nums1):
-            index=nums2.index(n)
-            if index==len(nums2)-1 or  nums2[index+1] <= n :
+            index = nums2.index(n)
+            if index == len(nums2)-1 or  nums2[index+1] <= n :
                 nums1[i]= -1
             else:
                 nums1[i]= nums2[index+1]
@@ -36,7 +36,17 @@ class Solution:
         return nums1 
     
     
-    
+    def nextGreaterElement(self, nums1, nums2):
+        sol,stack = {},[]        
+        for n in nums2:            
+            while stack and stack[-1] < n:
+                sol[stack.pop()] = n            
+            stack.append(n)  
+            
+        ans = []        
+        for n in nums1:
+            ans.append(sol.get(n,-1)) 
+        return ans     
     
     
     
