@@ -26,13 +26,13 @@ Example:
 <a href = "https://leetcode.com/problems/subsets/solution/">Solution</a>
 
 ## 思路Cascading
-在每一層output 再加上這層的選擇
-```
-1. []
-2. output = [],choice = [1] => new_output = [],[1]
-3. output = [],[1],choice = [2] => new_output = [],[1],[2],[1,2]
-4. output = [],[1],[2],[1,2],choice = [3] => new_output = [],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]
-```
+在每一層output 再加上這層的選擇<br>
+
+1. []<br>
+2. output = [],choice = [1] => new_output = [],[1]<br>
+3. output = [],[1],choice = [2] => new_output = [],[1],[2],[1,2]<br>
+4. output = [],[1],[2],[1,2],choice = [3] => new_output = [],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]<br>
+
 #### Python
 ``` python
 class Solution(object):
@@ -93,7 +93,7 @@ class Solution(object):
 backtrack 的思路,每次都有選與不選的選擇
 
                 
-            
+```            
 1          []                  [1]
           /   \             /       \    
 2        []   [2]        [1]       [1,2]
@@ -101,6 +101,7 @@ backtrack 的思路,每次都有選與不選的選擇
 3     [] [3][2] [2,3]  [1] [1,3] [1,2] [1,2,3]
 
 ->[],[3],[2],[2,3],[1],[1,3],[1,2],[1,2,3]
+```   
 
 ``` python
 class Solution:
@@ -121,7 +122,7 @@ class Solution:
 ```
 
 ## 思路dfs
-
+```
 
                 []
           /      |      \
@@ -133,7 +134,7 @@ class Solution:
    [1,2,3]
 
 ->[],[1],[1,2],[1,2,3],[2],[2,3],[3]
-                    
+```                  
 
 
 ``` python
