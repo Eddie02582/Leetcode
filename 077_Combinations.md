@@ -18,8 +18,7 @@ Output:
 ]
 ```
 
-參考
-<a href = "https://leetcode.com/problems/subsets/solution/">Solution</a>
+
 
 ## 思路backtrack
 
