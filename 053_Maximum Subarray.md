@@ -12,49 +12,48 @@ Example:
 ```
 
 ## 思路1
-利用雙指針i,j,i記錄擷取陣列開始位置,j為結束位置,每移動一次j,判斷總合是否最大値,當總合為負,即可離開,i往下走
+dp[i] = max(dp[i - 1] + nums[i],nums[i])
 
 #### Python
 
 ``` python
 class Solution(object):
-    def maxSubArray_normal(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        result = nums[0]
-        for i in range(len(nums)):
-            temp = 0
-            j = i 
-            while (temp >= 0 and j < len(nums)):
-                temp += nums[j] 
-                result = max(result,temp)
-                j += 1
 
-        return result 
-``` 
-
-## 思路2 動態規劃
- 
-用i歷遍整個陣列,當總合為負値表示需要重新計算,
-
-#### Python
-```python
-class Solution(object):
     def maxSubArray(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        res = nums[0]
-        temp = 0
-        for n in nums:            
-            temp += n
-            res = max(res,temp)
-            if temp < 0:
-                temp = 0
-        return res
+        n = len(nums)
+        dp = [0] * n
+        ans = nums[0]
+        dp[0] = nums[0]
+        for i in range(1,n):
+            dp[i] = max(dp[i - 1] + nums[i],nums[i])
+            
+            ans = max(ans,dp[i])
+        
+        return ans
+``` 
+
+簡化
+
+#### Python
+```python
+class Solution(object):        
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        n = len(nums)
+        prev = nums[0]     
+        ans = nums[0]
+        
+        for i in range(1,n):
+            prev = max(prev+ nums[i],nums[i])            
+            ans = max(ans,prev)        
+        return ans
 ```
 
 
