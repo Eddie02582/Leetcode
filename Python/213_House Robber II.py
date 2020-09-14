@@ -21,6 +21,6 @@ class Solution(object):
 
 
 sol = Solution()
-print(sol.rob([1,2,3,1]))
-print(sol.rob([2,7,9,3,1]))         
-print(sol.rob([2,1,1,2]))   
+sol.rob([1,2,3,1]))
+sol.rob([2,7,9,3,1]))         
+sol.rob([2,1,1,2]))   
