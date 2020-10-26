@@ -431,6 +431,15 @@ Leetcode Python & C#
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/136_Single%20Number.js">Javascript</a>, 
     </td>         
 </tr>
+<tr>
+    <td>199</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
+    <td>Easy</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/199_Binary%20Tree%20Right%20Side%20View.py">Python</a>, 
+        <a href="">#</a>, 
+    </td>         
+</tr>
 
 
 <tr>
@@ -538,12 +547,13 @@ Leetcode Python & C#
     <td>Code</td>    
 </tr>  
 <tr>
-    <td>1</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
-    </td>
+    <td>199</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
+    <td>Easy</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/199_Binary%20Tree%20Right%20Side%20View.py">Python</a>, 
+        <a href="">#</a>, 
+    </td>         
 </tr>
 </table>
 
@@ -556,12 +566,13 @@ Leetcode Python & C#
     <td>Code</td>    
 </tr>  
 <tr>
-    <td>1</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
-    </td>
+    <td>199</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
+    <td>Easy</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/199_Binary%20Tree%20Right%20Side%20View.py">Python</a>, 
+        <a href="">#</a>, 
+    </td>         
 </tr>
 </table>
 
