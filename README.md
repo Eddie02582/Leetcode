@@ -573,7 +573,7 @@ Leetcode Python & C#
 </tr>
 </table>
 
-#Depth First Search
+# Depth First Search
 <table>
 <tr>
     <td>#</td>
