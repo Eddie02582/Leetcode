@@ -524,3 +524,54 @@ Leetcode Python & C#
 </tr>
 </table>
 
+
+
+
+
+
+# Breadth First Search
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>  
+<tr>
+    <td>1</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
+    </td>
+</tr>
+</table>
+
+#Depth First Search
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>  
+<tr>
+    <td>1</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
+    </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
