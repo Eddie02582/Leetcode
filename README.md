@@ -600,6 +600,87 @@ Leetcode Python & C#
 </tr>
 </table>
 
+# Dynamic Programming
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>  
+<tr>
+    <td>53</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/053_Maximum%20Subarray.md">Maximum Subarray</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/053_Maximum%20Subarray.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>62</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique Paths</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/062_Unique%20Paths.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>64</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/064_Minimum%20Path%20Sum.md">Minimum Path Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>70</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/070_Climbing%20Stairs.md">Climbing Stairs</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/070_Climbing%20Stairs.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>96</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees.md">Unique Binary Search Trees</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>120</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="#">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>221</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/221_Maximal%20Square.md">Maximal Square</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>931</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/931_Minimum%20Falling%20Path%20Sum.md">Minimum Falling Path Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/931_Minimum%20Falling%20Path%20Sum.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>983</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/983_Minimum%20Cost%20For%20Tickets.md">Minimum Cost For Tickets</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/983_Minimum%20Cost%20For%20Tickets.py">Python</a>
+    </td>         
+</tr>
+</table>
 
 
 
