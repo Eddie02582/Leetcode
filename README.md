@@ -539,8 +539,15 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1302_Deepest%20Leaves%20Sum.py">Python</a>
     </td>         
 </tr>
+<tr>
+    <td>1306</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1306_Jump%20Game%20III.md">Jump Game III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1306_Jump%20Game%20III.py">Python</a>
+    </td>         
+</tr>
 </table>
-
 
 
 
@@ -571,6 +578,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1302_Deepest%20Leaves%20Sum.py">Python</a>
     </td>         
 </tr>
+<tr>
+    <td>1306</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1306_Jump%20Game%20III.md">Jump Game III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1306_Jump%20Game%20III.py">Python</a>
+    </td>         
+</tr>
 </table>
 
 # Depth First Search
@@ -596,6 +611,14 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1302_Deepest%20Leaves%20Sum.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>1306</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1306_Jump%20Game%20III.md">Jump Game III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1306_Jump%20Game%20III.py">Python</a>
     </td>         
 </tr>
 </table>
