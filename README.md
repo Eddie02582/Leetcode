@@ -509,6 +509,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>486</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/486_Predict%20the%20Winner.md">Predict the Winner</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/486_Predict%20the%20Winner.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>713</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/713_Subarray%20Product%20Less%20Than%20K.md">Subarray Product Less Than K</a></td> 
     <td>Medium</td>  
@@ -718,6 +726,22 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>486</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/486_Predict%20the%20Winner.md">Predict the Winner</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/486_Predict%20the%20Winner.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>877</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/877_Stone%20Game.md">Stone Game</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/877_Stone%20Game.py">Python</a>
     </td>         
 </tr>
 <tr>
