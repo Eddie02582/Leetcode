@@ -664,10 +664,18 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>515</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Find Largest Value in Each Tree Row.</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.md">Find Largest Value in Each Tree Row.</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>695</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md>Max Area of Island</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
     </td>         
 </tr>
 <tr>
