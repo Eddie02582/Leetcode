@@ -525,6 +525,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>695</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>713</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/713_Subarray%20Product%20Less%20Than%20K.md">Subarray Product Less Than K</a></td> 
     <td>Medium</td>  
@@ -620,6 +628,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>695</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>1302</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1302_Deepest%20Leaves%20Sum.md">Deepest Leaves Sum</a></td> 
     <td>Medium</td>  
@@ -672,7 +688,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>695</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md>Max Area of Island</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
