@@ -517,6 +517,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>515</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Find Largest Value in Each Tree Row.</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>713</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/713_Subarray%20Product%20Less%20Than%20K.md">Subarray Product Less Than K</a></td> 
     <td>Medium</td>  
@@ -604,6 +612,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>515</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Find Largest Value in Each Tree Row.</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>1302</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1302_Deepest%20Leaves%20Sum.md">Deepest Leaves Sum</a></td> 
     <td>Medium</td>  
@@ -644,6 +660,14 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/397_Integer%20Replacement.py">Python</a>
+    </td>         
+</tr>
+<tr>
+    <td>515</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Find Largest Value in Each Tree Row.</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
     </td>         
 </tr>
 <tr>
