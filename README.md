@@ -132,7 +132,6 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a>, 
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a>,  
-
     </td>         
 </tr>
 <tr>
@@ -405,7 +404,8 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="#">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">Python</a>      
     </td>         
 </tr>
 <tr>
@@ -784,7 +784,8 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="#">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">Python</a>      
     </td>         
 </tr>
 <tr>

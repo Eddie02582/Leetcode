@@ -20,11 +20,7 @@ Note:
 Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.
 ```
 
-## 思路1 分治法
-
-
-
-## Code
+## 思路 分治法
 
 
 
@@ -55,6 +51,7 @@ class Solution(object):
 ## 思路 動態規劃
 由底部往前
 
+#### Python
 ```python
 class Solution(object):
     def minimumTotal_bottom_to_top(self, triangle):
@@ -74,9 +71,27 @@ class Solution(object):
         
 ```
 
-## 思路 動態規劃由上往下 
-由上往下
+#### C#
+```csharp
+public class Solution {
+
+    public int MinimumTotal(IList<IList<int>> triangle) { 
+        //down-top
+        int m = triangle.Count();
+        for (int row = m - 2;row >= 0;row--){
+            for(int col = 0;col <triangle[row].Count();col ++){
+                triangle[row][col] += Math.Min(triangle[row + 1][col],triangle[row + 1][col + 1]);
+            }
+        }
+        return triangle[0][0];
+    }
+
+}
 ```
+
+## 思路 動態規劃由上往下 
+#### Python
+```python
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         if not triangle:
@@ -95,7 +110,38 @@ class Solution:
         return min(triangle[-1])
 ```
 
+#### C#
+```csharp
+public class Solution {
 
+    public int MinimumTotal(IList<IList<int>> triangle) {        
+        //top-down
+        int m = triangle.Count();
+        for (int i = 1; i < m; i++)
+        {
+            for (int j = 0; j < triangle[i].Count(); j++)
+            {
+                if (j == 0)
+                {
+                    triangle[i][j] += triangle[i - 1][0];
+                }
+                else if (j == triangle[i - 1].Count())
+                {
+                    triangle[i][j] += triangle[i - 1][j - 1];
+                }
+                else
+                {
+                    triangle[i][j] = triangle[i][j] + Math.Min(triangle[i - 1][j - 1], triangle[i - 1][j]);
+                }
+            }
+
+        }
+
+        return triangle[m - 1].Min();
+    }
+
+}
+```
 
 
 
