@@ -789,6 +789,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>198</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">Python</a>      
+    </td>         
+</tr>
+<tr>
     <td>221</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/221_Maximal%20Square.md">Maximal Square</a></td> 
     <td>Medium</td>  
