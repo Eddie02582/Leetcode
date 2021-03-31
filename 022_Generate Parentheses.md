@@ -42,10 +42,65 @@ class Solution:
         return res
         
 ```
+#### C-sharp
 
+```csharp
+public class Solution {
+    public IList<string> GenerateParenthesis(int n) {
+        IList<string> ans = new List<string>();
+        generateParenthesis(n,n,"",ans);
+        return ans;
+    }
 
+    public void generateParenthesis(int l,int r,string s,IList<string> ans) {
+        if ( l > r ){
+            return ;
+        }
+        if (l == 0 && r == 0)
+            ans.Add(s);   
+        if (l > 0)     
+            generateParenthesis(l - 1,r ,s + "(",ans);
+        if (r > 0)
+            generateParenthesis(l ,r - 1 ,s + ")",ans);            
 
+    }
 
+}
+```
 
+## 思路 BFS 
+類似BFS 思路,只是加了判斷
+```csharp
 
+class Queue{
+        public string s = "";
+        public int l  = 0;
+        public int r = 0;
+}
 
+public class Solution {
+    public IList<string> GenerateParenthesis(int n)
+    {
+        IList<string> ans = new List<string>();
+        List<Queue> queues = new List<Queue>();
+        queues.Add(new Queue { l = n, r = n, s = "" });
+        while (queues.Count()> 0)
+        {
+            Queue queue = queues[0];
+            queues.RemoveAt(0);
+            if (queue.l == 0 && queue.r == 0)
+                ans.Add(queue.s);
+            if (queue.l <= queue.r)
+            {
+                if (queue.l > 0)              
+                    queues.Add(new Queue { l = queue.l - 1, r = queue.r, s = queue.s + "(" });                
+                if (queue.r > 0)               
+                    queues.Add(new Queue { l = queue.l, r = queue.r - 1, s = queue.s + ")" });
+                
+            }
+        }
+        return ans;
+    }   
+
+}
+```
