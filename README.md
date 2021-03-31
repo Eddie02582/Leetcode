@@ -434,6 +434,15 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>198</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">Python</a>      
+    </td>         
+</tr>
+<tr>
     <td>199</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
     <td>Easy</td>  
@@ -790,11 +799,11 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>198</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">Python</a>      
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">Python</a>      
     </td>         
 </tr>
 <tr>
