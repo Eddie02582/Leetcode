@@ -131,6 +131,8 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a>,  
+
     </td>         
 </tr>
 <tr>
@@ -600,11 +602,11 @@ Leetcode Python & C#
 </tr>  
 <tr>
     <td>22</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
-    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/022_Generate%20Parentheses.md">Generate Parentheses</a></td> 
+    <td>Medium</td>  
     <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/199_Binary%20Tree%20Right%20Side%20View.py">Python</a>, 
-        <a href="">#</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a>,  
     </td>         
 </tr>
 </table>
