@@ -377,7 +377,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>113</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum II</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/113_Path%20Sum%20II.py">Python</a>  
@@ -439,7 +439,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">Python</a>      
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a>      
     </td>         
 </tr>
 <tr>
@@ -803,7 +803,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">Python</a>      
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a>      
     </td>         
 </tr>
 <tr>

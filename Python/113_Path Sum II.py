@@ -5,22 +5,23 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:         
-    def pathSum(self, root, sum):        
-        def dfs(node,total,sol):
-            total = total + node.val   
-            sol = sol + [node.val]                        
-            if node.left:
-                dfs(node.left,total,sol) 
-            if node.right:
-                dfs(node.right,total,sol)      
-            if not node.left and not node.right :
-                if sum == total:
-                    res.append(sol[:])
-                return          
-        res = []
-        if not root:
-            return []
-        dfs(root,0,[])     
-        return res            
+    def pathSum(self, root: TreeNode, targetSum):
+        ans = []  
+        def backtracking(node,path,path_res):
+            if not node:
+                return             
+            path +=[node.val]  
+            path_res -= node.val         
+            if not node.left and not node.right and path_res == 0:
+                ans.append(path[:])
+            else:
+                backtracking(node.left,path,path_res)
+                backtracking(node.right,path,path_res)                 
+            path.pop(-1)
+
+
+
+        backtracking(root,[],targetSum)
+        return ans        
             
 
