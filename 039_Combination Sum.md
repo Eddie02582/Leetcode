@@ -39,8 +39,6 @@ Example 2:
 #### Python
 
 
-簡化,使用sum稍微花點時間,這邊將每次的和也傳入
-
 ``` python
 class Solution(object):
     def combinationSum(self, candidates, target):
@@ -64,8 +62,43 @@ class Solution(object):
         return res     
            
 ``` 
-## 思路DP
 
+#### C#
+
+```csharp
+public class Solution {
+    public IList<IList<int>> CombinationSum(int[] candidates, int target) {
+        IList<IList<int>> ans = new List<IList<int>>();
+        backtracking(candidates,0,new List<int>(),target,ans);
+        return ans;
+    }
+    public void backtracking(int[] candidates,int index,IList<int>path,int path_res,IList<IList<int>> ans){
+        if (path_res < 0)
+            return;        
+        else if (path_res == 0){
+            ans.Add(path);
+            return;
+        }        
+        for (int i = index; i < candidates.Length; i ++ )
+        {
+            path.Add(candidates[i]);
+            backtracking(candidates,i,new List<int>(path),path_res - candidates[i],ans);
+            path.RemoveAt(path.Count() - 1);
+        }   
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+## 思路DP
+#### python
 ``` python
 class Solution(object):
     def combinationSum(self, candidates, target):
@@ -85,6 +118,52 @@ class Solution(object):
            
 ``` 
 
+
+
+#### C#
+
+```csharp
+public class Solution {
+    public IList<IList<int>> CombinationSum(int[] candidates, int target)
+    {
+
+        //   0	 1	 2	 3	  4	      5	       6	              7
+        //2	 []		[2]		[2,2]		    [2,2,2]	
+        //3	 []		[2]	[3]	[2,2]	[2,3]	[3,3],[2,2,2]	    [2,2,3]
+        //6	 []		[2]	[3]	[2,2]	[2,3]	[3,3],[2,2,2],[6]	[2,2,3]
+        //7								                        [2,2,3],[7] 
+
+        IList<IList<int>> ans = new List<IList<int>>(); 
+        List<IList<IList<int>>> dp = new List<IList<IList<int>>>();
+           //initial
+        for (int j = 0; j <= target ; j++)
+        {
+            dp.Add(new List<IList<int>>());
+        }
+
+        foreach (int candidate in candidates)
+        {
+            for (int j = candidate; j <= target; j++)
+            {
+                if (candidate == j)
+                {
+                    List<int> d = new List<int>();
+                    d.Add(candidate);
+                    dp[j].Add(d);
+                }
+                foreach (List<int> q in dp[j - candidate])
+                {                        
+                    var add = new List<int>(q);
+                    add.Add(candidate);
+                   dp[j].Add(add);
+                }
+            }
+        }
+        return dp[target];
+
+    }
+}
+```
 
 
 
