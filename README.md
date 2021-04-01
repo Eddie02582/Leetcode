@@ -380,7 +380,8 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum II</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/113_Path%20Sum%20II.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/113_Path%20Sum%20II.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/113.path-sum-ii.cs ">C#</a>,  
     </td>         
 </tr>
 <tr>
@@ -616,6 +617,15 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a>, 
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a>,  
+    </td>         
+</tr>
+<tr>
+    <td>113</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum II</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/113_Path%20Sum%20II.py">Python</a>,
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/113.path-sum-ii.cs ">C#</a>,  
     </td>         
 </tr>
 </table>
