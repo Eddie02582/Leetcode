@@ -204,6 +204,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a>,    
     </td>         
 </tr>
 <tr>
@@ -619,6 +620,16 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a>,  
     </td>         
 </tr>
+<tr>
+    <td>39</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a>,    
+    </td>         
+</tr>
+
 <tr>
     <td>113</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum II</a></td> 
