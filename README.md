@@ -406,7 +406,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">Python</a>      
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">C#</a>      
     </td>         
 </tr>
 <tr>
@@ -804,7 +804,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">Python</a>      
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">C#</a>      
     </td>         
 </tr>
 <tr>
