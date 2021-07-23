@@ -42,50 +42,60 @@ A solution set is:
 
 
 ``` python
-class Solution(object):
-    def combinationSum(self, candidates, target):
-        """
-        :type candidates: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
-        def backtracking(array,start,total):
-            if total == target :
-                res.add(tuple(array[:]))
-                return
-            elif total > target :
-                return
-            for i in range (start,len(candidates)): 
-                n = candidates[i]              
-                backtracking(array + [n],i + 1,total + n)
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
 
-        res = set()
-        candidates.sort()
-        backtracking([],0,0)    
-        return res
+
+        def backtracking(arr,target,index = 0):
+            if target == 0:
+                ans.append(arr[:])
+                return 
+            elif target < 0:
+                return 
+            
+            for i in range(index,len(candidates)):
+                if i > index and candidates[i] ==  candidates[i - 1]:
+                    continue
+                n = candidates[i]                
+                backtracking(arr + [n],target - n , i + 1)
+
+        ans = []        
+        backtracking([],target)
+        candidates.sort()     
+        return ans
            
 ``` 
-## 思路DP
+
+優化
 
 ``` python
-class Solution(object):
-    def combinationSum(self, candidates, target):              
-        from collections import defaultdict
-        dp = defaultdict(set)
-        candidates.sort()
-        dp[0].add(())
-        for n in candidates:
-            for i in range(n, target + 1):                
-                for seq in dp[i - n]:
-                    dp[i].add(seq+(n,))
-        return dp[target]       
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+
+
+        def backtracking(arr,target,index = 0):
+            if target == 0:
+                ans.append(arr[:])
+                return 
+      
+            
+            for i in range(index,len(candidates)):
+                if i > index and candidates[i] ==  candidates[i - 1]:
+                    continue
+                n = candidates[i]  
+                
+                # optimization: skip the rest of elements starting index
+                if target - n <0:
+                    break 
+                
+                backtracking(arr + [n],target - n , i + 1)
+
+        ans = []        
+        backtracking([],target)
+        candidates.sort()     
+        return ans
            
 ``` 
-
-
-
-
-
 
 
 
