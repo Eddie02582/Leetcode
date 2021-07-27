@@ -29,12 +29,9 @@ class Solution:
             else:
                 current.next = ListNode(l2.val)
                 l2 = l2.next            
-            current = current.next
-                              
-        if l1:
-            current.next= l1
-        else:
-            current.next= l2
+            current = current.next                              
+
+        urrent.next= l1 or l2
         
         return head.next
         

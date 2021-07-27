@@ -44,4 +44,22 @@ class Solution:
         return res   
 ``` 
 
+## 思路2
 
+```
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+
+        ans = [[]]
+        for num in nums:
+            temp = []
+            for sub in ans:
+                for i in range(len(sub) + 1):
+                    temp.append(sub[0:i]+[num]+ sub[i:])
+            ans = temp[:]
+
+        return ans
+``` 
+    
+        
+        

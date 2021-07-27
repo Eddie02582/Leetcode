@@ -312,6 +312,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>77</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/077_Combinations.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>78</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Subsets</a></td> 
     <td>Medium</td>  
@@ -629,7 +637,30 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a>,    
     </td>         
 </tr>
-
+<tr>
+    <td>46</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>77</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/077_Combinations.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>78</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Subsets</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/078_Subsets.py">Python</a>  
+    </td>         
+</tr>
 <tr>
     <td>113</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum II</a></td> 
@@ -869,7 +900,26 @@ Leetcode Python & C#
 </tr>
 </table>
 
-
+# Linked List
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr> 
+<tr>
+    <td>21</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/mergeTwoLists.java">Java</a>,   
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>      
+    </td>         
+</tr> 
+</table>
 
 
 
