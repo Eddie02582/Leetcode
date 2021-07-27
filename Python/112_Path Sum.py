@@ -23,6 +23,23 @@ class Solution:
 
         return dfs(root,0)                 
             
+    def hasPathSum(self, root, targetSum):
+
+        def dfs(root,res):            
+            if not root:                
+                if res == 0:                  
+                    return True
+                return False
+            
+            res -= root.val            
+            if dfs(root.left,res):
+                return True
+            if dfs(root.right,res):
+                return True
+        
+        return dfs(root,targetSum)       
+            
+            
 sol = Solution()
 
 root = TreeNode(5)
