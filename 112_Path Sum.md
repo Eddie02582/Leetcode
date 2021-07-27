@@ -50,7 +50,9 @@ class Solution(object):
         return dfs(root,0)   
 ```
 
+
 ```python
+    #update 20210727
     def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
 
         def dfs(root,res):            
