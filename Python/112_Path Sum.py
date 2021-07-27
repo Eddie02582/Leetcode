@@ -5,23 +5,13 @@ class TreeNode:
         self.left = left
         self.right = right
         
-class Solution:                          
+class Solution:
     def hasPathSum(self, root: sum):        
-        def dfs(node,total):
-            total = total + node.val                           
-            if node.left and dfs(node.left,total):               
-                return True
-            if node.right and dfs(node.right,total ):                
-                return True
-            if not node.left and not node.right and sum == total:
-                return True
-
-            return False
-        
-        if not root:
-            return False
-
-        return dfs(root,0)                 
+       if not root: return False
+        if not root.left and not root.right:
+            return sum == root.val
+        return self.hasPathSum(root.left, sum - root.val) or \
+               self.hasPathSum(root.right, sum - root.val)                 
             
     def hasPathSum(self, root, targetSum):
 
