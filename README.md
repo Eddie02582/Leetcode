@@ -681,6 +681,14 @@ Leetcode Python & C#
     <td>Title</td>  
     <td>Difficulty</td>
     <td>Code</td>    
+</tr>
+<tr>
+    <td>112</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/112_Path%20Sum.md">Path Sum</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  
+    </td>         
 </tr>  
 <tr>
     <td>199</td>    
@@ -741,6 +749,14 @@ Leetcode Python & C#
     <td>Difficulty</td>
     <td>Code</td>    
 </tr>  
+<tr>
+    <td>112</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/112_Path%20Sum.md">Path Sum</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  
+    </td>         
+</tr>
 <tr>
     <td>199</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 

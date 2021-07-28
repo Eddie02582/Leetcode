@@ -20,13 +20,9 @@ Given the below binary tree and sum = 22,
 7    2      1
 ```
 
-## 思路1 
-
-
+## 思路DFS
 
 ## Code
-
-
 
 #### Python
 
@@ -60,8 +56,29 @@ class Solution(object):
         return dfs(root,targetSum)
 ```
 
+## 思路BFS
 
+## Code
 
+#### Python
+```python
+class Solution:
+    def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
+        from collections import deque  
+        if not root:
+            return False
 
-
+        queue = deque([root])    
+        while queue:            
+            node = queue.popleft()
+            if not node.left and not node.right and node.val == targetSum:
+                return True
+            if node.left:
+                node.left.val += node.val
+                queue.append(node.left)
+            if node.right:
+                node.right.val += node.val
+                queue.append(node.right)   
+        return False
+```
 
