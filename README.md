@@ -732,6 +732,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>690</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/690_Employee%20Importance.md">Employee Importance</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/690_Employee%20Importance.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>695</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
     <td>Medium</td>  
