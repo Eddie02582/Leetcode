@@ -471,11 +471,10 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>200</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20f%20Islands.md">Number of Islands</a></td> 
-    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
+    <td>Medium</td>  
     <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/200_Number%20f%20Islands.py">Python</a>, 
-        <a href="">#</a>, 
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
     </td>         
 </tr>
 
@@ -741,11 +740,10 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>200</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20f%20Islands.md">Number of Islands</a></td> 
-    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
+    <td>Medium</td>  
     <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/200_Number%20f%20Islands.py">Python</a>, 
-        <a href="">#</a>, 
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
     </td>         
 </tr>
 <tr>
@@ -841,11 +839,10 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>200</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20f%20Islands.md">Number of Islands</a></td> 
-    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
+    <td>Medium</td>  
     <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/200_Number%20f%20Islands.py">Python</a>, 
-        <a href="">#</a>, 
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,         
     </td>         
 </tr>
 <tr>

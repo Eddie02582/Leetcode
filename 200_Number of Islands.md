@@ -37,7 +37,7 @@ grid[i][j] is '0' or '1'.
 ```
 
 ## 思路DFS
-迴圈作&運算,會TLE
+
 
 
 #### Python
@@ -64,3 +64,23 @@ class Solution:
 
 ## 思路BFS
 
+``` python
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        from collections import deque
+        m,n = len(grid),len(grid[0])
+        num_island = 0 
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":                   
+                    queue = deque([(i,j)])
+                    grid[i][j] == "*"
+                    while queue:
+                        x,y = queue.popleft()                        
+                        for r,c in [(x + 1,y),(x - 1,y),(x,y - 1),(x, y+ 1)]:
+                            if 0 <= r < m and 0<= c <n and grid[r][c] == "1":  
+                                queue.append((r,c))
+                                grid[r][c] = "*"                                      
+                    num_island += 1        
+        return num_island
+```
