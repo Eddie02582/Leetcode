@@ -18,3 +18,14 @@ class Solution(object):
         res = []    
         backtracking([],0)    
         return res
+        
+    def combinationSum_dp(self, candidates: List[int], target: int) -> List[List[int]]:
+        from collections import defaultdict
+        dp = defaultdict(list)
+        dp[0] = [[]]
+        for candidate in candidates:
+            for n in range(candidate,target + 1):
+                for sub in dp[n - candidate]:                    
+                    dp[n].append(sub + [candidate])
+        
+        return dp[target]
