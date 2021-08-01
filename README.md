@@ -717,6 +717,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/113.path-sum-ii.cs ">C#</a>,  
     </td>         
 </tr>
+<tr>
+    <td>216</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Combination Sum III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
+    </td>         
+</tr>
 </table>
 
 
@@ -976,6 +984,14 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a>      
+    </td>         
+</tr>
+<tr>
+    <td>216</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Combination Sum III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
     </td>         
 </tr>
 <tr>
