@@ -46,7 +46,7 @@ class Solution:
 
 ## 思路2
 
-```
+``` python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 

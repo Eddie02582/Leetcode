@@ -27,13 +27,37 @@ Example:
     Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 ```
 
-## 思路1
+## 思路 backtracking
 使用遞迴每次拆一個digit,並把剩下的digit傳入
 
 
 ## Code
 
 #### Python
+
+
+使用雙層迴圈第一層歷遍所在digital,第2層對應的文字
+
+<a href = "https://leetcode.com/submissions/detail/383624541/">Accepted Solutions</a>
+```python
+class Solution:
+    def letterCombinations(self, digits):
+        if not digits:
+            return []
+        mapping = {'2':"abc",'3':"def",'4':'ghi','5':'jkl','6':"mno",'7':"pqrs",'8':"tuv",'9':"wxyz"}
+        ans = []
+        def backtracking(word,start):
+            if len(word) == len(digits):
+                ans.append(word)
+                return
+            for i in range(start,len(digits)):
+                for letter in mapping[digits[i]]:
+                    backtracking(word + letter,i + 1)        
+        backtracking("",0)   
+        return ans
+```   
+
+簡化
 
 ```python
         if not digits:
@@ -81,29 +105,23 @@ class Solution:
 ```
 
 
+     
 
-## 思路2
-使用雙層迴圈第一層歷遍所在digital,第2層對應的文字,意外的比思路1快,是因為減少遞迴次數?
 
-<a href = "https://leetcode.com/submissions/detail/383624541/">Accepted Solutions</a>
-```python
+## 思路 bfs
+```
 class Solution:
-    def letterCombinations(self, digits):
-        if not digits:
-            return []
-        mapping = {'2':"abc",'3':"def",'4':'ghi','5':'jkl','6':"mno",'7':"pqrs",'8':"tuv",'9':"wxyz"}
-        ans = []
-        def backtracking(word,start):
-            if len(word) == len(digits):
-                ans.append(word)
-                return
-            for i in range(start,len(digits)):
-                for letter in mapping[digits[i]]:
-                    backtracking(word + letter,i + 1)        
-        backtracking("",0)   
-        return ans
-```        
-
-
-
-
+    def letterCombinations(self, digits: str) -> List[str]:
+        lookup = {"2":"abc","3":"def","4":"ghi",                  
+                  "5":"jkl","6":"mno","7":"pqrs","8":"tuv","9":"wxyz"
+                 }        
+        from collections import deque    
+        
+        ans = deque([""])          
+        for digit in digits:           
+            for _ in range(len(ans)):  
+                s = ans.popleft()
+                for letter in lookup[digit]:
+                    ans.append(s + letter)                      
+        return ans if digits else []
+```
