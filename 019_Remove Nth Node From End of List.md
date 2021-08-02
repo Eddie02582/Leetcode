@@ -58,27 +58,20 @@ class Solution(object):
 
 #### Python
 ```python
-class Solution(object):
-    def removeNthFromEnd(self, head, n):
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        runner = head       
+        for _ in range(n):
+            runner = runner.next
 
-        dummy = ListNode(0)
-        dummy.next = head
-        length = 0
-        temp = head
-        length  = 0
-        while temp:
-            length += 1
-            temp = temp.nextt
+        dummy = walker = ListNode(next=head)
 
-        length -= n
-
-        first = dummy
-        while length:
-            length -= 1
-            first = first.next
-            
-        first.next = first.next.next
-        return dummy.next  
+        while runner:
+            walker = walker.next
+            runner = runner.next
+           
+        walker.next = walker.next.next
+        return dummy.next
  ```
 
 
