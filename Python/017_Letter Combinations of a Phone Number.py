@@ -51,3 +51,17 @@ class Solution(object):
         if digits:
             backtrack("", digits)
         return output
+        
+    def letterCombinations_bfs(self, digits: str) -> List[str]:
+        lookup = {"2":"abc","3":"def","4":"ghi",                  
+                  "5":"jkl","6":"mno","7":"pqrs","8":"tuv","9":"wxyz"
+                 }        
+        from collections import deque    
+        
+        ans = deque([""])          
+        for digit in digits:           
+            for _ in range(len(ans)):  
+                s = ans.popleft()
+                for letter in lookup[digit]:
+                    ans.append(s + letter)                      
+        return ans if digits else []

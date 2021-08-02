@@ -208,6 +208,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>40</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum%20II.md">Combination Sum II</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum%20II.py">Python</a>   
+    </td>         
+</tr>
+<tr>
     <td>41</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/041_First%20Missing%20Positive.md">First Missing Positive</a></td> 
     <td>Hard</td>  
@@ -469,7 +477,14 @@ Leetcode Python & C#
         <a href="">#</a>, 
     </td>         
 </tr>
-
+<tr>
+    <td>200</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
+    <td>Medium</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
+    </td>         
+</tr>
 
 <tr>
     <td>204</td>    
@@ -642,6 +657,14 @@ Leetcode Python & C#
     <td>Title</td>  
     <td>Difficulty</td>
     <td>Code</td>    
+</tr>
+<tr>
+    <td>17</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/017_Letter%20Combinations%20of%20a%20Phone%20Number.md">Letter Combinations of a Phone Number</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/017_Letter%20Combinations%20of%20a%20Phone%20Number.py">Python</a> 
+    </td>         
 </tr>  
 <tr>
     <td>22</td>    
@@ -694,6 +717,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/113.path-sum-ii.cs ">C#</a>,  
     </td>         
 </tr>
+<tr>
+    <td>216</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Combination Sum III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
+    </td>         
+</tr>
 </table>
 
 
@@ -729,6 +760,14 @@ Leetcode Python & C#
     <td>
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/199_Binary%20Tree%20Right%20Side%20View.py">Python</a>, 
         <a href="">#</a>, 
+    </td>         
+</tr>
+<tr>
+    <td>200</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
+    <td>Medium</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
     </td>         
 </tr>
 <tr>
@@ -823,6 +862,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>200</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
+    <td>Medium</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,         
+    </td>         
+</tr>
+<tr>
     <td>397</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/397_Integer%20Replacement.md">Integer Replacement</a></td> 
     <td>Medium</td>  
@@ -871,6 +918,15 @@ Leetcode Python & C#
     <td>Title</td>  
     <td>Difficulty</td>
     <td>Code</td>    
+</tr>
+<tr>
+    <td>39</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a>,    
+    </td>         
 </tr>  
 <tr>
     <td>53</td>    
@@ -928,6 +984,14 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a>      
+    </td>         
+</tr>
+<tr>
+    <td>216</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Combination Sum III</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
     </td>         
 </tr>
 <tr>

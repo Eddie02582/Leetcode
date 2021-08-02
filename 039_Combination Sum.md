@@ -101,24 +101,18 @@ public class Solution {
 #### python
 ``` python
 class Solution(object):
-    def combinationSum(self, candidates, target):
-        """
-        :type candidates: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
+    def combinationSum_dp(self, candidates: List[int], target: int) -> List[List[int]]:
         from collections import defaultdict
-        dp = defaultdict(set)        
-        dp[0].add(())
-        for n in candidates:
-            for i in range(n, target + 1):                
-                for seq in dp[i - n]:
-                    dp[i].add(seq+(n,))
-        return dp[target]            
+        dp = defaultdict(list)
+        dp[0] = [[]]
+        for candidate in candidates:
+            for n in range(candidate,target + 1):
+                for sub in dp[n - candidate]:                    
+                    dp[n].append(sub + [candidate])
+        
+        return dp[target]         
            
 ``` 
-
-
 
 #### C#
 

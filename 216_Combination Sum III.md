@@ -74,6 +74,22 @@ class Solution:
 
 
 
+## 思路Dp
+https://leetcode.com/submissions/detail/531477032/
 
-
-
+```
+class Solution:
+    def combinationSum3(self, k: int, n: int) -> List[List[int]]:
+        from collections import defaultdict
+        dp = defaultdict(list)
+        dp[0] = [[]]
+        
+        for i in range(1,10):
+            for j in range(i,n + 1):
+                for sub in dp[j - i]: 
+                    if not sub or (len(sub) <= k and sub[-1] != i):
+                        dp[j].append(sub +[i])        
+        
+        return [sub for sub in dp[n] if len(sub) == k]  
+    
+```
