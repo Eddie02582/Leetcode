@@ -34,27 +34,6 @@ Explanation: There is no cycle in the linked list.
 
 ```
 
-## 思路
-
-
-
-## Code
-
-
-
-``` python
-class Solution(object):
-    def detectCycle(self, head):
-        exist = set()    
-        while head:
-            if head in exist:
-                return head
-            exist.add(head)
-            head = head.next
-        return None
-```  
-
-
 
 ## 思路
 

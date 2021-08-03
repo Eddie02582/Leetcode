@@ -460,6 +460,20 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>141</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>142</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
+    </td>
+</tr>
+<tr>
     <td>198</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
     <td>Medium</td>  
@@ -1057,7 +1071,37 @@ Leetcode Python & C#
 </tr> 
 </table>
 
-
+# Hash Table
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr> 
+<tr>
+    <td>1</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
+    </td>
+</tr>
+<tr>
+    <td>141</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>219</td>    
+    <td><a href="">Contains Duplicate II</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/119_Contains%20Duplicate%20II.py">Python</a>     
+    </td>
+</tr>
+</table>
 
 
 
