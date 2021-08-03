@@ -1126,6 +1126,13 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
     </td>    
 </tr>
+<tr>
+    <td>567</td>    
+    <td><a href="">Permutation in String</a></td>
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a>,
+    </td>    
+</tr>
 </table>
 
 
