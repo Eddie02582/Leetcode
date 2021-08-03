@@ -1088,6 +1088,13 @@ Leetcode Python & C#
     </td>
 </tr>
 <tr>
+    <td>3</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.md">Longest Substring Without Repeating Characters</a></td>
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
+    </td>    
+</tr>
+<tr>
     <td>141</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
     <td>Easy</td>       
@@ -1103,6 +1110,23 @@ Leetcode Python & C#
 </tr>
 </table>
 
+
+# Sliding Window
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>
+<tr>
+    <td>3</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.md">Longest Substring Without Repeating Characters</a></td>
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
+    </td>    
+</tr>
+</table>
 
 
 

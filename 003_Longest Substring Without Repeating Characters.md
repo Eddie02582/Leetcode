@@ -46,25 +46,7 @@ ex: "pwwkew" <br>
 
 #### Python
 使用map記錄是否出現
-```
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
-        left,right,ans = 0,0,0       
-        maps = set()
-        while right < len(s):
-            if s[right] in maps:                
-                while s[left] != s[right]:
-                    left += 1
-                left += 1
-                maps.clear()                                          
-                right = left                         
-            maps.add(s[right])  
-            right += 1                     
-            ans = max(len(maps),ans)
-        return ans
-```
-類似作法
-```
+```python
 class Solution: 
 
     def lengthOfLongestSubstring(self, s):    
@@ -83,7 +65,7 @@ class Solution:
 ```        
 
 利用陣列position記錄字元上次出線的位置
-```
+```python
 class Solution: 
 
     def lengthOfLongestSubstring(self, s):    
@@ -103,34 +85,26 @@ class Solution:
         return res
 ```  
 
-```
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
-        position = [-1] * 256
+update 20210803
+
+利用字典記錄上次字元出現的位置,如果重複出現將l移動到上次出現的下一個位置
+
+```python
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        loc = {}
         l,r = 0,0
-        result = 0
-        
-        while r < len(s):
-            c = s[r]
-            if position[ord(c)] < l:
-                result = max(result,r - l + 1)            
-            else:
-                l = position[ord(c)] + 1
-               
-            position[ord(c)] = r
-            r += 1
+        ans = 0
+        while  r < len(s):            
+            if s[r] in loc and loc[s[r]] >= l:                
+                l = loc[s[r]] + 1                  
                 
-        
-        return result
+            ans = max(r - l + 1,ans)    
+            loc[s[r]] = r            
+            r += 1            
+        return ans
 
 ```  
-
-
-
 
 
 
