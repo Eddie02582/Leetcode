@@ -24,39 +24,24 @@ class Solution(object):
             r += 1              
         return False
 
-    def checkInclusion(self, s1, s2):
-        """
-        :type s1: str
-        :type s2: str
-        :rtype: bool
-        """
-        if len(s1) > len(s2):
-            return False
-        need,window = {},{}
-        
-        for s in s1:
-            need[s] = need.get(s,0) + 1
-          
-        l,r,match = 0,0,0        
-        while r < len(s2):
-        
-            if s2[r] in need:
-                window[s2[r]] = window.get(s2[r] ,0) + 1 
-                if window[s2[r]] == need[s2[r]]:
-                    match += 1
-            r += 1
-            if match == len(need):
-                return True
-               
-            if r >= len(s1):
-                if s2[l] in need:
-                    if window[s2[l]] == need[s2[l]]:
-                        match -= 1
-                    window[s2[l]] = window.get(s2[l] ,0) - 1                      
-                l += 1
-                         
-        return False
+    def checkInclusion(self, s1: str, s2: str) -> bool:
+        from collections import Counter
+        match = Counter(s1)
+        l,r = 0,0
 
+        while r < len(s2):
+
+            if s2[r] in match:
+                match[s2[r]] -= 1
+
+            if r - l + 1 == len(s1):     
+                if all( m == 0 for m in match.values()):
+                    return True
+                elif s2[l] in match:
+                    match[s2[l]] += 1
+                l += 1       
+            r += 1        
+        return False
         
 sol = Solution()
 assert sol.checkInclusion("ab","eidbaooo") == True
