@@ -52,7 +52,7 @@ Bonus points if you could solve it both recursively and iteratively.
 每次將每一層加入隊列,並判斷每層是否對稱
 
 
-```
+``` python
 class Solution(object):
     def isSymmetric(self, root):
         """
@@ -97,7 +97,7 @@ class Solution(object):
 
 另一種思路,隊列的順序請由對稱入列
 
-```
+``` python
 class Solution(object):
     def isSymmetric(self, root):  
         if not root:

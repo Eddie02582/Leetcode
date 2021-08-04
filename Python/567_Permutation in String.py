@@ -25,20 +25,21 @@ class Solution(object):
         return False
 
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        from collections import Counter
+        from collections import Counter, defaultdict
         match = Counter(s1)
+        window = defaultdict(int)
         l,r = 0,0
 
         while r < len(s2):
 
             if s2[r] in match:
-                match[s2[r]] -= 1
+                window[s2[r]] += 1
 
             if r - l + 1 == len(s1):     
-                if all( m == 0 for m in match.values()):
+                if window == match:
                     return True
-                elif s2[l] in match:
-                    match[s2[l]] += 1
+                elif s2[l] in window:
+                    window[s2[l]] -= 1
                 l += 1       
             r += 1        
         return False
