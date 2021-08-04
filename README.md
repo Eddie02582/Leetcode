@@ -1068,6 +1068,13 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/mergeTwoLists.java">Java</a>,   
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>      
     </td>         
+</tr>
+<tr>
+    <td>141</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
+    </td>
 </tr> 
 </table>
 
@@ -1094,18 +1101,12 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
     </td>    
 </tr>
-<tr>
-    <td>141</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
-    </td>
-</tr>
+
 <tr>
     <td>219</td>    
     <td><a href="">Contains Duplicate II</a></td> 
     <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/119_Contains%20Duplicate%20II.py">Python</a>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/219_Contains%20Duplicate%20II.py">Python</a>     
     </td>
 </tr>
 </table>
