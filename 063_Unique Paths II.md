@@ -34,34 +34,25 @@ There are two ways to reach the bottom-right corner:
 ``` python
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid):
-        if not obstacleGrid:
-            return 0        
+        m,n = len(obstacleGrid),len(obstacleGrid[0])
+        dp = [ [0] *n for _ in range(m)]
         
-        m = len(obstacleGrid)
-        n = len(obstacleGrid[0])
-        dp = [[0] *(n + 1)  for i in range(m + 1)]
-        
-        for col in range(1,n + 1):
-            if obstacleGrid[0][col - 1] == 0:
-                dp[1][col] = 1
-            else:
+        for i in range(m):
+            if obstacleGrid[i][0] == 1:
                 break
-            
+            dp[i][0] = 1
 
-
-        for row in range(1,m + 1):
-            if obstacleGrid[row - 1][0] == 0:
-                dp[row][1] = 1
-            else:
+        for i in range(n):
+            if obstacleGrid[0][i] == 1:
                 break
+            dp[0][i] = 1
             
-        
-        for i in range(2,m + 1):
-            for j in range(2,n + 1):
-                if obstacleGrid[i - 1][j - 1] == 0:
+        for i in range(1,m):
+            for j in range(1,n):
+                if obstacleGrid[i][j] != 1:
                     dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
         
-        return dp[m][n]
+        return dp[-1][-1]
 ``` 
 
 
@@ -85,13 +76,13 @@ class Solution:
         n = len(obstacleGrid[0])
        
         val = 1
-        for col in range(0,n):
+        for col in range(n):
             if obstacleGrid[0][col] == 1:
                 val = 0
             obstacleGrid[0][col] = val
 
         val =  obstacleGrid[0][0]  
-        for row in range(1,m):
+        for row in range(m):
             if obstacleGrid[row][0] == 1:
                 val = 0
             obstacleGrid[row][0] = val     

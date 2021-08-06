@@ -288,6 +288,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>63</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">063_Unique Paths II</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/063_Unique%20Paths%20II.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>64</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/064_Minimum%20Path%20Sum.md">Minimum Path Sum</a></td> 
     <td>Medium</td>  
@@ -956,6 +964,14 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/062_Unique%20Paths.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>63</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">063_Unique Paths II</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/063_Unique%20Paths%20II.py">Python</a>  
     </td>         
 </tr>
 <tr>
