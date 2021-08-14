@@ -1094,6 +1094,25 @@ Leetcode Python & C#
 </tr> 
 </table>
 
+# Greedy
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr> 
+<tr>
+    <td>954</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/954_Array%20of%20Doubled%20Pairs.md">Array of Doubled Pairs</a></td> 
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/954_Array%20of%20Doubled%20Pairs.py">Python</a>      
+    </td>
+</tr>
+</table>
+
+
+
 # Hash Table
 <table>
 <tr>
