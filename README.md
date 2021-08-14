@@ -1136,7 +1136,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
     </td>    
 </tr>
-
+<tr>
+    <td>73</td>    
+    <td>Set Matrix Zeroes</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/070_Climbing%20Stairs.py">Python</a>  
+    </td>         
+</tr>
 <tr>
     <td>219</td>    
     <td><a href="">Contains Duplicate II</a></td> 
