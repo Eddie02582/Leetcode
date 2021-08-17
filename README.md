@@ -328,6 +328,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>76</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
+    <td>Hard</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/076_Minimum%20Window%20Substring.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>77</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
     <td>Medium</td>  
@@ -1176,6 +1184,14 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a>,
     </td>    
+</tr>
+<tr>
+    <td>76</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
+    <td>Hard</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/076_Minimum%20Window%20Substring.py">Python</a>  
+    </td>         
 </tr>
 <tr>
     <td>567</td>    
