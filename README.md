@@ -766,7 +766,15 @@ Leetcode Python & C#
 </table>
 
 
-
+# Binary Tree
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>
+</table>
 # Breadth First Search
 <table>
 <tr>
