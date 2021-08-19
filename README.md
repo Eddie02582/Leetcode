@@ -369,6 +369,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>90</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/090_Decode%20Ways.md">Decode Ways</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/090_Decode%20Ways.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>93</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/093_Restore%20IP%20Addresses.md">Restore IP Addresses</a></td> 
     <td>Medium</td>  
@@ -996,6 +1004,14 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/070_Climbing%20Stairs.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>90</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/090_Decode%20Ways.md">Decode Ways</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/090_Decode%20Ways.py">Python</a>  
     </td>         
 </tr>
 <tr>
