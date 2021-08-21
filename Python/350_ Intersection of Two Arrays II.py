@@ -29,13 +29,27 @@ What if elements of nums2 are stored on disk, and the memory is limited such tha
 class Solution(object):
     def intersect(self, nums1, nums2):
         dict = {}
-        result = []
-        
+        result = []        
         for n in nums2:            
-            dict[n] = dict.get(n,0) + 1
-            
+            dict[n] = dict.get(n,0) + 1            
         for n in nums1:
             if dict.get(n,0) :
                 dict[n] -= 1
                 result.append(n)
         return result
+
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        from collections import Counter
+        n1_count = Counter(nums1)
+        n2_count = Counter(nums2)        
+        ans = []        
+        for key in n1_count.keys():
+            if key in n2_count:
+                ans += [key] * min(n1_count[key],n2_count[key])        
+        return ans
+
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        from collections import Counter
+        counter1 = Counter(nums1)
+        counter2 = Counter(nums2)
+        return sum([[k] * v for k, v in (counter1 & counter2).items()], [])

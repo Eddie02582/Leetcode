@@ -18,12 +18,8 @@ The result can be in any order.
 '''
 
 class Solution(object):
-    def intersection_list(self, nums1, nums2):
-        result = [] 
-        for n in nums2:
-            if n in nums1 and n not in result:
-                result.append(n)
-        return result
+    def intersection(self, nums1, nums2):
+        return set(nums1) & set(nums2)
         
     def intersection(self, nums1, nums2):
         result = set()
@@ -31,6 +27,3 @@ class Solution(object):
             if n in nums1:
                 result.add(n)
         return list(result)
-
-    def intersection(self, nums1, nums2):      
-        return list(set(nums1) & set(nums2))

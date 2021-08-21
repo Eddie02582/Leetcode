@@ -573,6 +573,13 @@ Leetcode Python & C#
     </td>
 </tr>
 <tr>
+    <td>349</td>    
+    <td>Intersection of Two Arrays/a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/349_Intersection%20of%20Two%20Arrays.py">Python</a>     
+    </td>
+</tr>
+<tr>
     <td>397</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/397_Integer%20Replacement.md">Integer Replacement</a></td> 
     <td>Medium</td>  
@@ -1252,6 +1259,13 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>349</td>    
+    <td>Intersection of Two Arrays/a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/349_Intersection%20of%20Two%20Arrays.py">Python</a>     
     </td>
 </tr>
 </table>
