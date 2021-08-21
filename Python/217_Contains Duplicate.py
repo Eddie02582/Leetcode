@@ -19,33 +19,16 @@ Output: true
 '''
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        dic_count = {}
-        for n in nums:
-            if n in dic_count:
-                return True
-            dic_count [n] = 1
-        return False
-    #timeout
-    def containsDuplicate_list(self, nums):   
-        array = []
-        for n in nums:
-            if n in array:
-                return True            
-            array.append(n)
-        return False
-    #99.58%
     def containsDuplicate(self, nums):         
-        return len(nums) != len(set(nums))  
-
-    def containsDuplicate_set(self, nums):         
         hashset = set()
         for n in nums:
             if n in hashset:
                 return True
             hashset.add(n)
         return False 
-
+    #99.58%
+    def containsDuplicate(self, nums):         
+        return len(nums) != len(set(nums))  
 
 
 

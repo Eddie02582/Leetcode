@@ -550,6 +550,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>217</td>    
+    <td>Contains Duplicate</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/217_Contains%20Duplicate.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>221</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/221_Maximal%20Square.md">Maximal Square</a></td> 
     <td>Medium</td>  
@@ -1216,6 +1224,14 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/073_Set%20Matrix%20Zeroes.py">Python</a>  
+    </td>         
+</tr>
+<tr>
+    <td>217</td>    
+    <td>Contains Duplicate</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/217_Contains%20Duplicate.py">Python</a>
     </td>         
 </tr>
 <tr>
