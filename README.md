@@ -1107,6 +1107,13 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>242</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a>     
+    </td>
+</tr>
+<tr>
     <td>486</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/486_Predict%20the%20Winner.md">Predict the Winner</a></td> 
     <td>Medium</td>  
@@ -1239,6 +1246,13 @@ Leetcode Python & C#
     <td><a href="">Contains Duplicate II</a></td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/219_Contains%20Duplicate%20II.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>242</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a>     
     </td>
 </tr>
 </table>
