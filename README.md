@@ -581,6 +581,13 @@ Leetcode Python & C#
     </td>
 </tr>
 <tr>
+    <td>318</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
+    </td>
+</tr>
+<tr>
     <td>349</td>    
     <td>Intersection of Two Arrays</td> 
     <td>Easy</td>       
@@ -836,6 +843,26 @@ Leetcode Python & C#
     </td>         
 </tr>
 </table>
+
+
+
+# Bit Manipulation
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>
+<tr>
+    <td>318</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
+    </td>
+</tr>
+</table>
+
 
 # Breadth First Search
 <table>
@@ -1290,6 +1317,13 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>318</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
     </td>
 </tr>
 <tr>
