@@ -1247,6 +1247,14 @@ Leetcode Python & C#
     </td>    
 </tr>
 <tr>
+    <td>36</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Valid Sudoku</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/036_Valid%20Sudoku.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>49</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_Group%20Anagrams.md">Group Anagrams</a></td> 
     <td>Medium</td>  
