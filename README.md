@@ -582,9 +582,16 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>349</td>    
-    <td>Intersection of Two Arrays/a></td> 
+    <td>Intersection of Two Arrays</td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/349_Intersection%20of%20Two%20Arrays.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>350</td>    
+    <td>Intersection of Two Arrays II</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/350_%20Intersection%20of%20Two%20Arrays%20II.py">Python</a>     
     </td>
 </tr>
 <tr>
@@ -1279,13 +1286,13 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>349</td>    
-    <td>Intersection of Two Arrays></td> 
+    <td>Intersection of Two Arrays</td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/349_Intersection%20of%20Two%20Arrays.py">Python</a>     
     </td>
 </tr>
 <tr>
-    <td>349</td>    
+    <td>350</td>    
     <td>Intersection of Two Arrays II</td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/350_%20Intersection%20of%20Two%20Arrays%20II.py">Python</a>     
