@@ -752,6 +752,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>37</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/037_Sudoku%20Solver.md">Sudoku Solver</a></td> 
+    <td>Hard</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/037_Sudoku%20Solver.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>39</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
     <td>Medium</td>  
