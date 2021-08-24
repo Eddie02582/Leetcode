@@ -25,46 +25,6 @@ Example 3:
     Explanation: Remove all the digits from the number and it is left with nothing which is 0.
 ```
 
-## 思路
-這題思路類似於Next Permutation,我們將高位數字降低,希望替補上來的元素値比較小,所以拿掉由高位非升序排序的前一個值
-```
-ex :"1432219" k= 3
-當 k = 1 => 1,4,3　拿掉4(3比4小) => 132219
-當 k = 2 => 1,3,2　拿掉2(2比3小) => 12219
-當 k = 3 => 1,2,2,1　拿掉1(1比2小) => 1219
-
-```
-利用count 記錄移除個數,迴圈歷遍num,當遇到int(num[i]) > int(num[i + 1]),count += 1,更新新的num<br>
-注意當迴圈結束時count < k,則把尾巴砍掉
-
-
-#### Python
-
-``` python
-class Solution:
-    def removeKdigits(self,num,k):
-        if k > len(num):
-            return "0"
-
-        count = 0        
-        while count < k and num:      
-            isFind = False
-            for i in range(len(num) - 1):
-                if int(num[i]) > int(num[i + 1]):
-                    isFind = True
-                    num = num[0 : i] + num[i + 1:]
-                    count += 1
-                    break
-            if not isFind:
-                break
-        while  count < k and num:         
-            num = num[0:-1]
-            count += 1   
-        if not num:
-            return "0"
-
-        return str(int(num))    
-``` 
 
 ## 思路
 利用stack的概念,歷遍整個num,迴圈判斷int(num[i]) > int(num[i + 1]) 和count = k 符合,將堆疊的值移出<br>
@@ -86,28 +46,45 @@ ex :"1432219"
 
 ``` python
     def removeKdigits(self,num,k):
-        if k > len(num) or not num:
-            return "0"
-
-        stack,count = [],0        
- 
-        for s in num:           
-            n = int(s)
-            while stack and int(stack[-1]) > n and count < k:
-                stack.pop()
-                count += 1                  
-            stack.append(s) 
-
-        while stack and stack[0] == "0":
-            stack.pop(0)
-
-        while stack and count < k:
-            count += 1
-            stack.pop()
-    
-        return "".join(stack) if stack else "0"
-
+        if len(num) <= k:
+            return '0'
+        stack = []
+        
+        for n in num:               
+            while stack and k and int(stack[-1]) > int(n):
+                stack.pop(-1)
+                k -= 1            
+            stack.append(n)          
+  
+        while k :
+            stack.pop(-1)
+            k -= 1
+            
+        while len(stack) >1 and stack[0] == '0':
+            stack.pop(0)        
+        
+        return "".join(stack) 
 ``` 
 
+簡化
 
+
+```
+class Solution:
+    def removeKdigits(self, num: str, k: int) -> str:
+        if len(num) <= k:
+            return '0'
+        stack = []
+        remain = len(num) - k
+        
+        for n in num:              
+            #stack[-1] > n euqla ord('stack[-1]') > ord(n)
+            while stack and k and stack[-1] > n:
+                stack.pop()
+                k -= 1            
+            stack.append(n)        
+  
+        return ''.join(stack[:remain]).lstrip('0') or '0'
+
+```
 

@@ -1399,6 +1399,25 @@ Leetcode Python & C#
 </tr>
 </table>
 
+# Stack
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>
+<tr>
+    <td>402</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Remove K Digits</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/402_Remove%20K%20Digits.py">Python</a>
+    </td>         
+</tr>
+</table>
+
+
 
 
 
