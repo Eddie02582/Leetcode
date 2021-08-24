@@ -581,6 +581,14 @@ Leetcode Python & C#
     </td>
 </tr>
 <tr>
+    <td>316</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/316_Remove%20Duplicate%20Letters.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>318</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
     <td>Medium</td>       
@@ -1406,6 +1414,14 @@ Leetcode Python & C#
     <td>Title</td>  
     <td>Difficulty</td>
     <td>Code</td>    
+</tr>
+<tr>
+    <td>316</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/316_Remove%20Duplicate%20Letters.py">Python</a>
+    </td>         
 </tr>
 <tr>
     <td>402</td>    
