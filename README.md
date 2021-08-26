@@ -1416,7 +1416,7 @@ Leetcode Python & C#
     <td>Code</td>    
 </tr>
 <tr>
-    <td>316</td>    
+    <td>*316</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
     <td>Medium</td>  
     <td>
