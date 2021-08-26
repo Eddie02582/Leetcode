@@ -938,6 +938,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>633</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.md">Sum of Square Numbers</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.py">Python</a>
+    </td>         
+</tr>
+<tr>
     <td>637</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/637_Average%20of%20Levels%20in%20Binary%20Tree.md">Average of Levels in Binary Tree</a></td> 
     <td>Easy</td>  
@@ -1432,6 +1440,30 @@ Leetcode Python & C#
     </td>         
 </tr>
 </table>
+
+
+
+
+# Two pointer
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Code</td>    
+</tr>
+
+<tr>
+    <td>633</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.md">Sum of Square Numbers</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.py">Python</a>
+    </td>         
+</tr>
+</table>
+
+
 
 
 

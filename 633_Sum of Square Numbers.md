@@ -1,4 +1,4 @@
-# Average of Levels in Binary Tree
+# Sum of Square Numbers
 
 ## 原題目:
 ```
