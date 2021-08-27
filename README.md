@@ -297,7 +297,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>63</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">063_Unique Paths II</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">Unique Paths II</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/063_Unique%20Paths%20II.py">Python</a>  
@@ -1137,7 +1137,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>63</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">063_Unique Paths II</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">Unique Paths II</a></td> 
     <td>Medium</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/063_Unique%20Paths%20II.py">Python</a>  
