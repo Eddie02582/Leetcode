@@ -879,12 +879,22 @@ Leetcode Python & C#
     <td>Code</td>    
 </tr>
 <tr>
+    <td>136</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
+    <td>Easy</td>  
+    <td>
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a>, 
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/136_Single%20Number.js">Javascript</a>, 
+    </td>         
+</tr>
+<tr>
     <td>318</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
     <td>Medium</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
     </td>
 </tr>
+
 </table>
 
 
@@ -1438,6 +1448,15 @@ Leetcode Python & C#
     <td>Title</td>  
     <td>Difficulty</td>
     <td>Code</td>    
+</tr>
+<tr>
+    <td>20</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020_Valid%20Parentheses.md">Valid Parentheses</a></td> 
+    <td>Easy</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/020_Valid%20Parentheses.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/020_Valid%20Parentheses.js">Javascript</a>    
+    </td>         
 </tr>
 <tr>
     <td>*316</td>    
