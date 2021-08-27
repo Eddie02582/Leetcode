@@ -280,6 +280,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>*55</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.md">Jump Game</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a>  
+    </td>         
+</tr>
+<tr>
     <td>58</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/058_Length%20of%20Last%20Word.md">Length of Last Word</a></td> 
     <td>Easy</td>  
@@ -1279,6 +1287,14 @@ Leetcode Python & C#
     <td>Difficulty</td>
     <td>Code</td>    
 </tr> 
+<tr>
+    <td>*55</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.md">Jump Game</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a>  
+    </td>         
+</tr>
 <tr>
     <td>954</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/954_Array%20of%20Doubled%20Pairs.md">Array of Doubled Pairs</a></td> 
