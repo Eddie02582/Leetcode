@@ -12,7 +12,12 @@ An input string is valid if:
 ```
 
 ## 思路1
-建立配對的字典,利用堆疊概念,迴圈每個字元,進來的是左括號的話,就把它存入stack陣列,為右括號把陣列最上層移出判斷是否配對成功,最後判斷陣列是否全配對完成
+建立配對的字典,利用堆疊概念,迴圈每個字元,進來的有兩種情況
+<ul>
+    <li>左括號:存入stack陣列</li>
+    <li>右括號:如果陣列為空,表示不可能配對,如果陣列不為空,把陣列最上層移出判斷是否配對成功</li>
+</ul>
+如果都都配對完,那個stack為空
 
 ## Code
 
@@ -20,18 +25,7 @@ An input string is valid if:
 
 ```python
 class Solution:
-    def isValid(self, s):
-        result=[]
-        dict={')':'(','}':'{',']':'['}
-        for x in s:
-            if not result or x not in dict:
-                result.append(x)
-            elif dict[x] != result.pop():
-                return False
-        
-        return result==[]
-
-    def isValid__(self, s): 
+    def isValid(self, s): 
         match = {")":"(","}":"{","]":"["}
         stack = []
         for p in s:
