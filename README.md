@@ -1406,6 +1406,13 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/350_%20Intersection%20of%20Two%20Arrays%20II.py">Python</a>     
     </td>
 </tr>
+<tr>
+    <td>575</td>    
+    <td>Distribute Candies</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/575_Distribute%20Candies.py">Python</a>     
+    </td>
+</tr>
 </table>
 
 
