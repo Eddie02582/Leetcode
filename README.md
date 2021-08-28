@@ -1434,6 +1434,13 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/594_Longest%20Harmonious%20Subsequence.py">Python</a>     
     </td>
 </tr>
+<tr>
+    <td>599</td>    
+    <td>Minimum Index Sum of Two Lists</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/599_Minimum%20Index%20Sum%20of%20Two%20Lists.py">Python</a>     
+    </td>
+</tr>
 </table>
 
 
