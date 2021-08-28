@@ -680,6 +680,13 @@ Leetcode Python & C#
     </td>
 </tr>
 <tr>
+    <td>599</td>    
+    <td>Minimum Index Sum of Two Lists</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/599_Minimum%20Index%20Sum%20of%20Two%20Lists.py">Python</a>     
+    </td>
+</tr>
+<tr>
     <td>637</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/637_Average%20of%20Levels%20in%20Binary%20Tree.md">Average of Levels in Binary Tree</a></td> 
     <td>Easy</td>  
@@ -1439,6 +1446,13 @@ Leetcode Python & C#
     <td>Minimum Index Sum of Two Lists</td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/599_Minimum%20Index%20Sum%20of%20Two%20Lists.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>771</td>    
+    <td>Jewels and Stones</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/771_Jewels%20and%20Stones.py">Python</a>     
     </td>
 </tr>
 </table>
