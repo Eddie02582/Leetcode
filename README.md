@@ -666,6 +666,20 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>575</td>    
+    <td>Distribute Candies</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/575_Distribute%20Candies.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>594</td>    
+    <td>Longest Harmonious Subsequence</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/594_Longest%20Harmonious%20Subsequence.py">Python</a>     
+    </td>
+</tr>
+<tr>
     <td>637</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/637_Average%20of%20Levels%20in%20Binary%20Tree.md">Average of Levels in Binary Tree</a></td> 
     <td>Easy</td>  
@@ -1411,6 +1425,13 @@ Leetcode Python & C#
     <td>Distribute Candies</td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/575_Distribute%20Candies.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>594</td>    
+    <td>Longest Harmonious Subsequence</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/594_Longest%20Harmonious%20Subsequence.py">Python</a>     
     </td>
 </tr>
 </table>
