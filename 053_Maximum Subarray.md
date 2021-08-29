@@ -56,6 +56,17 @@ class Solution(object):
         return ans
 ```
 
-
-
-
+<a href = "https://leetcode.com/problems/maximum-subarray/submissions/">97.38</a>
+```python
+class Solution(object):   
+    def maxSubArray(self, nums: List[int]) -> int:
+        ans = float('-inf')      
+        temp = 0
+        for n in nums:
+            if temp < 0:
+                temp = 0
+            temp += n
+            ans = max(temp,ans)
+        
+        return ans
+```
