@@ -385,11 +385,11 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
-    <td>90</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/090_Decode%20Ways.md">Decode Ways</a></td> 
+    <td>91</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/091_Decode%20Ways.md">Decode Ways</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/090_Decode%20Ways.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/091_Decode%20Ways.py">Python</a>  
     </td>         
 </tr>
 <tr>
@@ -664,6 +664,27 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
     </td>         
+</tr>
+<tr>
+    <td>575</td>    
+    <td>Distribute Candies</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/575_Distribute%20Candies.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>594</td>    
+    <td>Longest Harmonious Subsequence</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/594_Longest%20Harmonious%20Subsequence.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>599</td>    
+    <td>Minimum Index Sum of Two Lists</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/599_Minimum%20Index%20Sum%20of%20Two%20Lists.py">Python</a>     
+    </td>
 </tr>
 <tr>
     <td>637</td>    
@@ -1178,11 +1199,11 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
-    <td>90</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/090_Decode%20Ways.md">Decode Ways</a></td> 
+    <td>91</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/091_Decode%20Ways.md">Decode Ways</a></td> 
     <td>Medium</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/090_Decode%20Ways.py">Python</a>  
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/091_Decode%20Ways.py">Python</a>  
     </td>         
 </tr>
 <tr>
@@ -1404,6 +1425,34 @@ Leetcode Python & C#
     <td>Intersection of Two Arrays II</td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/350_%20Intersection%20of%20Two%20Arrays%20II.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>575</td>    
+    <td>Distribute Candies</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/575_Distribute%20Candies.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>594</td>    
+    <td>Longest Harmonious Subsequence</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/594_Longest%20Harmonious%20Subsequence.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>599</td>    
+    <td>Minimum Index Sum of Two Lists</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/599_Minimum%20Index%20Sum%20of%20Two%20Lists.py">Python</a>     
+    </td>
+</tr>
+<tr>
+    <td>771</td>    
+    <td>Jewels and Stones</td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/771_Jewels%20and%20Stones.py">Python</a>     
     </td>
 </tr>
 </table>

@@ -30,15 +30,5 @@ class Solution(object):
         :type candies: List[int]
         :rtype: int
         """
-        if len(set(candies)) > len(candies)//2:
-            return len(candies)//2
-        else:
-            return len(set(candies))
-
-    def distributeCandies_set(self, candies):
-        """
-        :type candies: List[int]
-        :rtype: int
-        """
         return min(len(candies)//2,len(set(candies)))
       

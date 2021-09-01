@@ -18,20 +18,7 @@ Note: The length of the input array will not exceed 20,000.
 
 class Solution(object):
 
-    def findLHS_counter(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int        """
-        from collections import Counter
-        count = Counter(nums)
-        keys = sorted(list(count.keys()))
-        longest = 0
-        for i in range(1,len(keys)):
-            if (keys[i] - keys[i - 1] )== 1:
-                longest = max( longest,count[keys[i]] + count[keys[i - 1]])
-        return longest
-
-    def findLHS_counter(self, nums):        
+    def findLHS(self, nums):        
         from collections import Counter
         count = Counter(nums)
         
