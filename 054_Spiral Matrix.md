@@ -32,29 +32,25 @@ Example 2:
 ``` python
 class Solution(object):
     def spiralOrder(self, matrix):   
-        if matrix == []:
-            return []
+        directions = [(0,1),(1,0),(0,-1),(-1,0)]
+        loc = 0
+        visited = set()
+        ans = []
+        m,n = len(matrix),len(matrix[0])
+        row,col = 0,0
+        while len(ans) < m * n:
+            ans.append(matrix[row][col]) 
+            visited.add((row,col))   
             
-        row,col,count=0,0,0
-        len_row ,len_col =len(matrix) ,len(matrix[0])    
-        col_step ,row_step =[1,0,-1,0],[0,1,0,-1] 
-        visted = [[ False for i in range(len_col)] for j in range(len_row)]
-        output=[]         
+            new_row,new_col = row + directions[loc][0],col + directions[loc][1]
+            
+            if new_row < 0 or new_row >= m or new_col < 0 or new_col >= n or (new_row,new_col) in visited:            
+                loc = (loc + 1)%4
+            
+            row += directions[loc][0]
+            col += directions[loc][1]
         
-        while len(output) < len_row * len_col:
-
-            if  0 <= row < len_row and  0 <= col < len_col and not visted[row][col]:            
-                output.append( matrix[row][col])
-                visted[row][col] = True
-            else:
-                row -= row_step[count]
-                col -= col_step[count] 
-                count = ( count + 1 )  % 4
-
-            row += row_step[count]
-            col += col_step[count]  
-                
-        return output   
+        return ans 
 ``` 
 
 

@@ -27,52 +27,25 @@ class Solution:
     ## 順序是[E,S,W,N],只要碰壁 或是 數字在Output 陣列裡面,回到上一步 改方向,直到所有值取出
 
     def spiralOrder_simple(self, matrix):   
-        if matrix == []:
-            return []
+        directions = [(0,1),(1,0),(0,-1),(-1,0)]
+        loc = 0
+        visited = set()
+        ans = []
+        m,n = len(matrix),len(matrix[0])
+        row,col = 0,0
+        while len(ans) < m * n:
+            ans.append(matrix[row][col]) 
+            visited.add((row,col))   
             
-        row,col,count=0,0,0
-        len_row ,len_col =len(matrix) ,len(matrix[0])    
-        col_step ,row_step =[1,0,-1,0],[0,1,0,-1]      
-        output=[]         
-        
-        while len(output) < len_row * len_col:
-
-            if  0 <= row < len_row and  0 <= col < len_col and matrix[row][col] not in output:            
-                output.append( matrix[row][col])
-            else:
-                row -= row_step[count]
-                col -= col_step[count] 
-                count = ( count + 1 )  % 4
-
-            row += row_step[count]
-            col += col_step[count]  
-                
-        return output
-        
-    def spiralOrder_simple_advance(self, matrix):   
-        if matrix == []:
-            return []
+            new_row,new_col = row + directions[loc][0],col + directions[loc][1]
             
-        row,col,count=0,0,0
-        len_row ,len_col =len(matrix) ,len(matrix[0])    
-        col_step ,row_step =[1,0,-1,0],[0,1,0,-1] 
-        visted = [[ False for i in range(len_col)] for j in range(len_row)]
-        output=[]         
+            if new_row < 0 or new_row >= m or new_col < 0 or new_col >= n or (new_row,new_col) in visited:            
+                loc = (loc + 1)%4
+            
+            row += directions[loc][0]
+            col += directions[loc][1]
         
-        while len(output) < len_row * len_col:
-
-            if  0 <= row < len_row and  0 <= col < len_col and not visted[row][col]:            
-                output.append( matrix[row][col])
-                visted[row][col] = True
-            else:
-                row -= row_step[count]
-                col -= col_step[count] 
-                count = ( count + 1 )  % 4
-
-            row += row_step[count]
-            col += col_step[count]  
-                
-        return output        
+        return ans 
         
 
     # 使用遞迴 ,寫個一函數 ,取出分別上右下左,最後將剩下的陣列在一次傳入,注意一為陣列的情況   
