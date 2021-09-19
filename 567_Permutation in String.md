@@ -19,11 +19,13 @@ Example 1:
 ```
 
 這題的進階題找出s2裡符合s1 permutation的字元<br>
+```
 s1 = abbc,<br>
-s2 = 'cbabadcbbabbcbabaabccbabc'<br>
-      ----  ---- ----      ---- <br>
-		       ----       ----  <br>
-                  ----			<br>   
+s2 = 'cbabadcbbabbcbabaabccbabc'
+      ----  ---- ----      ---- 
+		       ----       ----  
+                  ----			 
+```				  
 output:['cbab', 'cbba', 'abbc', 'bcba', 'cbab', 'cbab', 'babc']
 	     
 ## 思路1
