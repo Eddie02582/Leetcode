@@ -665,6 +665,15 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
     </td>         
 </tr>
+
+<tr>
+    <td>567</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/567_Permutation%20in%20String.md">Permutation in String</a></td> 
+    <td>Medium</td>  
+    <td>
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a>
+    </td>         
+</tr>
 <tr>
     <td>575</td>    
     <td>Distribute Candies</td> 
@@ -968,14 +977,7 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/397_Integer%20Replacement.py">Python</a>
     </td>         
 </tr>
-<tr>
-    <td>#567</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/567_Permutation%20in%20String.md">Permutation in String</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a>
-    </td>         
-</tr>
+
 
 
 <tr>
