@@ -18,16 +18,16 @@ Example 1:
 	Output: false
 ```
 
-這題的進階題找出s2裡符合s1 permutation的字元
-s1 = abbc,
-s2 = 'cbabadcbbabbcbabaabccbabc'
-      ----  ---- ----      ---- 
-		       ----       ---- 
-                  ----			   
+這題的進階題找出s2裡符合s1 permutation的字元<br>
+s1 = abbc,<br>
+s2 = 'cbabadcbbabbcbabaabccbabc'<br>
+      ----  ---- ----      ---- <br>
+		       ----       ----  <br>
+                  ----			<br>   
 output:['cbab', 'cbba', 'abbc', 'bcba', 'cbab', 'cbab', 'babc']
 	     
 ## 思路1
-建立一個need 和window,need為符合字元的個數,window紀錄當下窗口的字元個數,當window == need 紀錄下來,
+建立一個need 和window,need為符合字元的個數,window紀錄當下窗口的字元個數,當window == need 紀錄下來<br>
 當遇到字元不在need,表示這窗口不符合,可以直接將l移到r+1,或是當window字元個數超過need,移動左邊指針直到window字元個數小於need
 
 #### Python
