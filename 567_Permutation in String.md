@@ -23,7 +23,7 @@ Example 1:
 s1 = abbc,<br>
 s2 = 'cbabadcbbabbcbabaabccbabc'
       ----  ---- ----      ---- 
-		       ----       ----  
+              ----       ----  
                   ----			 
 ```				  
 output:['cbab', 'cbba', 'abbc', 'bcba', 'cbab', 'cbab', 'babc']
