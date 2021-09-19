@@ -68,6 +68,25 @@ class Solution:
 
         return ans
 ``` 
+
+遞迴版本
+``` python
+class Solution:
+    def permute(self, nums: List[int],res = [[]]) -> List[List[int]]:    
+        def permutation(nums,res):   
+            if not nums:
+                return res
+            length = len(res)
+            
+            while length > 0:            
+                sub = res.pop(0)            
+                for j in range(len(sub) + 1): 
+                    res.append(sub[0:j] + [nums[0]] + sub[j:])                 
+                length -= 1        
+            return permutation(nums[1:],res)
+        return permutation(nums,[[]])
+``` 
+
 ## 思路3
 
 
