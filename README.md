@@ -539,6 +539,13 @@ Leetcode Python & C#
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
     </td>         
 </tr>
+<tr>
+    <td>203</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/203_Remove%20Linked%20List%20Elements.md">Remove Linked List Elements</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/203_Remove%20Linked%20List%20Elements.py">Python</a>     
+    </td>
+</tr> 
 
 <tr>
     <td>204</td>    
@@ -1318,6 +1325,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
+    </td>
+</tr> 
+
+<tr>
+    <td>203</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/203_Remove%20Linked%20List%20Elements.md">Remove Linked List Elements</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/203_Remove%20Linked%20List%20Elements.py">Python</a>     
     </td>
 </tr> 
 </table>
