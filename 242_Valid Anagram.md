@@ -72,6 +72,30 @@ class Solution {
 }
 ``` 
 
+#### C++
+``` c++
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if (s.size() != t.size())
+            return false;
+
+        int arr[256] = {0};       
+        for(int i = 0;i<s.size();i++)   
+        { 
+            arr[s[i]] += 1;    
+            arr[t[i]] -= 1;  
+        }  
+        for(int i = 0; i<256 ; i++){
+            if(arr[i]!=0)
+                return false;           
+        }    
+        return true;
+
+    }
+};
+
+``` 
 
 
 

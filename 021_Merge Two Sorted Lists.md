@@ -37,6 +37,39 @@ class Solution:
         
 ```
 
+#### c++
+
+<a href = "https://leetcode.com/submissions/detail/567095477/">100%</a>
+```c++
+class Solution {
+public:   
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode head (0);       
+        ListNode *dummy = &head;        
+        while(l1 !=NULL && l2 !=NULL)
+        {
+            if(l1->val <= l2->val)
+            {
+                dummy->next = new ListNode(l1->val);
+                l1 = l1->next;
+            }
+            else{
+
+                 dummy->next = new ListNode(l2->val);
+                 l2 = l2->next;
+            }  
+            dummy = dummy->next;    
+        } 
+        dummy->next = l1 !=NULL? l1:l2;   
+        return head.next;
+    }
+};
+
+
+
+
+
+```
 
 
 
