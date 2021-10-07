@@ -63,7 +63,35 @@ class Solution(object):
         return p + 1
 ```
 
+<a href = "https://leetcode.com/submissions/detail/567077338/">91%</a>
 
+```c++
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+
+        if (nums.empty())
+            return 0;        
+
+        int index = 0;
+        for (int i = 1;i < nums.size();i++)
+        {
+            if (nums[i] != nums[i - 1])
+            {
+                index += 1;
+                nums[index] = nums[i]; 
+            }
+        }   
+        return index + 1;
+    }
+}
+
+
+
+
+
+```
 
 
 
