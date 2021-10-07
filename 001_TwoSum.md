@@ -48,3 +48,50 @@ class Solution:
             map[n]=index        
         return []
 ```  
+
+
+c++
+
+<a href = "https://leetcode.com/submissions/detail/567071106/">95%</a>
+
+```c++
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> lookup;   
+        for (int i = 0; i < nums.size(); i++)
+        {
+            int n = target - nums[i];
+            if (lookup.find(n) != lookup.end()) 
+                return { lookup[n], i};
+            lookup[nums[i]] = i;        
+        }
+        return {};          
+    }  
+
+};
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
