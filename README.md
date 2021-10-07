@@ -15,6 +15,7 @@ Leetcode Python & C#
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</a>
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/twoSum.java">Java</a>,
+        <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0001.%20Two%20Sum.cpp">C++</a>,
     </td>
 </tr>
 <tr>
@@ -147,7 +148,8 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/026_%20Remove%20Duplicates%20from%20Sorted%20Array.md">Remove Duplicates from Sorted Array.py</a></td> 
     <td>Easy</td>  
     <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/026_%20Remove%20Duplicates%20from%20Sorted%20Array.py">Python</a>,    
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/026_%20Remove%20Duplicates%20from%20Sorted%20Array.py">Python</a>, 
+    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0026.%20Remove%20Duplicates%20from%20Sorted%20Array.cpp">C++</a>,   
     </td>         
 </tr>
 <tr>
