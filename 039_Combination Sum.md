@@ -59,12 +59,41 @@ class Solution(object):
 
         res = []    
         backtracking([],0,target)    
-        return res     
-           
+        return res   
 ``` 
+
+backtracking 每次都有選與不選的抉擇,如果選了index不動下次還可以再選,如果不選的話就跳下一個選項
+``` python
+class Solution(object):
+    def combinationSum(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        def backtracking(index,path,res):
+            if res == 0 :
+                ans.append(path[:])
+                return
+            elif res < 0:
+                return         
+            elif len(candidates) == index:
+                return 
+            n = candidates[index]
+            backtracking(index,path + [n],res - n)
+            backtracking(index + 1,path,res)
+
+        ans = []    
+        backtracking(0,[],target)      
+        return ans
+```
+
+
+
 
 #### C#
 
+<a href = "https://leetcode.com/submissions/detail/567632539/">100%</a>
 ```csharp
 public class Solution {
     public IList<IList<int>> CombinationSum(int[] candidates, int target) {
@@ -72,19 +101,23 @@ public class Solution {
         backtracking(candidates,0,new List<int>(),target,ans);
         return ans;
     }
+
     public void backtracking(int[] candidates,int index,IList<int>path,int path_res,IList<IList<int>> ans){
         if (path_res < 0)
             return;        
         else if (path_res == 0){
-            ans.Add(path);
-            return;
-        }        
+                ans.Add(path);
+                return;
+        }
+        
         for (int i = index; i < candidates.Length; i ++ )
         {
             path.Add(candidates[i]);
             backtracking(candidates,i,new List<int>(path),path_res - candidates[i],ans);
             path.RemoveAt(path.Count() - 1);
-        }   
+        }
+        
+
     }
 }
 ```

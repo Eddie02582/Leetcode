@@ -37,24 +37,24 @@ class Solution(object):
 ```
 
 
-```python
-    #update 20210727
-    def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
+#### C++
+```c++
+class Solution {
+public:
 
-        def dfs(root,res):            
-            if not root:                
-                if res == 0:                  
-                    return True
-                return False
-            
-            res -= root.val            
-            if dfs(root.left,res):
-                return True
-            if dfs(root.right,res):
-                return True
-        
-        return dfs(root,targetSum)
+    bool hasPathSum(TreeNode* root, int targetSum) {   
+        if (root == NULL)
+            return false;
+        targetSum ==  targetSum - root->val;
+        if (root->left == NULL & root->right == NULL) 
+            return targetSum == 0;  
+        return hasPathSum(root->left,targetSum) || hasPathSum(root->right,targetSum);
+    }
+};
 ```
+
+
+
 
 ## 思路BFS
 

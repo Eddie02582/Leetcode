@@ -44,6 +44,32 @@ class Solution(object):
         return hepler(root,[])    
 ```  
 
+#### c++
+```c++
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        if (root == NULL)
+            return {};
+
+        vector<int> ans ;
+        traverse(root,ans);
+        return ans;
+        
+    }
+    
+    void traverse(TreeNode* root,vector<int> &ans ) {
+        if (root == NULL)
+            return ;   
+        traverse(root->left,ans);
+        ans.push_back(root->val);
+        traverse(root->right,ans);        
+    } 
+}
+```
+
+
+
 ## 思路分治法
 
 
@@ -108,7 +134,42 @@ class Solution(object):
         return result         
 ```  
 
+#### c++
+```c++
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) 
+    {
+        stack<TreeNode*> stk ; 
+        vector<int> inorder ;
+        TreeNode* node = root ;
+        
+        while(true)
+        {   
+            if(node != NULL)
+            {
+                stk.push(node); 
+                node = node->left ;
+            }
+            else{
+                if(stk.size() == 0)
+                    break ;
+                node = stk.top() ; 
+                stk.pop() ;
+                inorder.push_back(node->val);
+                node = node->right ;
+            }
+               
+        }
+        return inorder;
+    }
+    
+};
 
+
+
+
+```
 
 
 

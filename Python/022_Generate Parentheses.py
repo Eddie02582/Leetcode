@@ -14,6 +14,20 @@ class Solution:
         self.helper(left, right - 1, out + ")", res)  
 
 
+    def generateParenthesis_dfs(self,n):
+        res = []  
+        def dfs(s,left,right):
+            if not left and not right:
+                res.append(s)
+                return 
+            if left:
+                dfs(s + "(",left - 1,right) 
+            if right > 0 and left < right:            
+                dfs(s + ")",left,right - 1) 
+        dfs("",n,n)    
+        return res
+
+
     def generateParenthesis_backtrack(self, n):
         """
         :type n: int
