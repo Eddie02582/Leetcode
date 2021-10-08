@@ -1374,11 +1374,10 @@ Leetcode Python & C#
     <td>39</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a>  
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a>,    
-    </td>         
-</tr>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a></td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0039.%20Combination%20Sum.cpp">C++</a></td>     
+</tr> 
 <tr>
     <td>53</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/053_Maximum%20Subarray.md">Maximum Subarray</a></td> 
