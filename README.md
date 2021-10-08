@@ -74,7 +74,7 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/014_Longest%20Common%20Prefix.py">Python</a></td> 
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0014.%20Longest%20Common%20Prefix.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>15</td>    
@@ -775,7 +775,7 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>442</td>    
+    <td>*442</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Find All Duplicates in an Array</a></td> 
     <td>Medium</td>  
     <td>

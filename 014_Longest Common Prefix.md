@@ -64,6 +64,7 @@ class Solution(object):
 
 #### C++
 
+<a href ="https://leetcode.com/submissions/detail/567766698/">100%</a>
 ```c++
 
 #include <vector>
