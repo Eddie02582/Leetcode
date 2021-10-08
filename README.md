@@ -983,7 +983,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>  
 </tr>
 <tr>
     <td>17</td>    
@@ -1067,7 +1069,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>     
 </tr>
 <tr>
     <td>1448</td>    
@@ -1087,7 +1091,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>   
 </tr>
 <tr>
     <td>136</td>    
@@ -1115,7 +1121,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>     
 </tr>
 <tr>
     <td>22</td>    
@@ -1249,7 +1257,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>    
 </tr>  
 <tr>
     <td>112</td>    
@@ -1348,7 +1358,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>      
 </tr>
 <tr>
     <td>39</td>    
@@ -1489,7 +1501,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>  
 </tr> 
 <tr>
     <td>21</td>    
@@ -1525,7 +1539,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>    
 </tr> 
 <tr>
     <td>*55</td>    
@@ -1552,7 +1568,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>    
 </tr> 
 <tr>
     <td>1</td>    
@@ -1681,7 +1699,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>    
 </tr>
 <tr>
     <td>3</td>    
@@ -1753,7 +1773,9 @@ Leetcode Python & C#
     <td>#</td>
     <td>Title</td>  
     <td>Difficulty</td>
-    <td>Code</td>    
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>      
 </tr>
 
 <tr>
