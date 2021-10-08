@@ -37,6 +37,7 @@ public:
         return head->next;
 
     }
+    //下面這個比較快
     ListNode* mergeTwoLists_2(ListNode* l1, ListNode* l2) {
         ListNode head (0);       
         ListNode *dummy = &head;        
@@ -48,9 +49,8 @@ public:
                 l1 = l1->next;
             }
             else{
-
-                 dummy->next = new ListNode(l2->val);
-                 l2 = l2->next;
+                dummy->next = new ListNode(l2->val);
+                l2 = l2->next;
             }  
             dummy = dummy->next;    
         } 
