@@ -237,7 +237,7 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>46</td>    
+    <td>*46</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a></td>         
@@ -1018,11 +1018,10 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0039.%20Combination%20Sum.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>46</td>    
+    <td>*46</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a>  
     </td>         
 </tr>
 <tr>
