@@ -92,6 +92,22 @@ dp,先建立可以換的數字,就會變成coin change
 第一次只有square = 1的選擇,所以每一次的選擇只能從dp[i] = dp[i - 1] + 1
 <table>
     <tr>
+        <td>square/n</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>      
+        <td>11</td>
+        <td>12</td>     
+    </tr>
+    <tr>
         <td>0</td>
         <td>1</td>
         <td>2</td>
@@ -112,6 +128,22 @@ dp,先建立可以換的數字,就會變成coin change
 假設要兌換7,那一定就是先換一個4在換剩下的dp[3]dp[i] = min(dp[i - 4] + 1,dp[i])
 <table>
     <tr>
+        <td>square/n</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>      
+        <td>11</td>
+        <td>12</td>     
+    </tr>
+    <tr>
         <td>0</td>
         <td>1</td>
         <td>2</td>
@@ -129,6 +161,22 @@ dp,先建立可以換的數字,就會變成coin change
 </table>
 第三次多了只有square = 9的選擇,在i < square 不用管,因為n不夠兌換,兌換優先選擇square = 9,dp[i] = min(dp[i - 9] + 1,dp[i])<br>
 <table>
+    <tr>
+        <td>square/n</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>      
+        <td>11</td>
+        <td>12</td>     
+    </tr>
     <tr>
         <td>0</td>
         <td>1</td>
