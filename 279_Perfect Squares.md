@@ -108,8 +108,8 @@ dp,先建立可以換的數字,就會變成coin change
     </tr>
 </table>
 
-第二次多了只有square = 4的選擇,在i < square 不用管,因為n不夠兌換,兌換優先選擇square = 4,假設要兌換7,那一定就是先換一個4在換剩下的dp[3]<br>
-dp[i] = min(dp[i - square] + 1,dp[i])
+第二次多了只有square = 4的選擇,在i < square 不用管,因為n不夠兌換,兌換優先選擇square = 4<br>
+假設要兌換7,那一定就是先換一個4在換剩下的dp[3]dp[i] = min(dp[i - 4] + 1,dp[i])
 <table>
     <tr>
         <td>0</td>
@@ -127,7 +127,7 @@ dp[i] = min(dp[i - square] + 1,dp[i])
         <td>3</td>     
     </tr>
 </table>
-第三次多了只有square = 9的選擇,在i < square 不用管,因為n不夠兌換,兌換優先選擇square = 9,dp[i] = min(dp[i - square] + 1,dp[i])<br>
+第三次多了只有square = 9的選擇,在i < square 不用管,因為n不夠兌換,兌換優先選擇square = 9,dp[i] = min(dp[i - 9] + 1,dp[i])<br>
 <table>
     <tr>
         <td>0</td>
