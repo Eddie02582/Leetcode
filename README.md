@@ -703,7 +703,8 @@ Leetcode Python & C#
     <td>Medium</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/279_Perfect%20Squares.py">Python</a></td>
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279_Perfect%20Squares.cpp">C++</a></td>      
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>  
+           
 </tr>
 <tr>
     <td>316</td>    
@@ -1487,7 +1488,8 @@ Leetcode Python & C#
     <td>Medium</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/279_Perfect%20Squares.py">Python</a></td>
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279_Perfect%20Squares.cpp">C++</a></td>      
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>  
+           
 </tr>
 <tr>
     <td>486</td>    
