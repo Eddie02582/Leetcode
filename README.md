@@ -697,7 +697,14 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0268.%20Missing%20Number.cpp">C++</a></td>      
 </tr>
-
+<tr>
+    <td>279</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/279_Perfect%20Squares.md">Perfect Squares</a></td> 
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/279_Perfect%20Squares.py">Python</a></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279_Perfect%20Squares.cpp">C++</a></td>      
+</tr>
 <tr>
     <td>316</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
@@ -1473,6 +1480,14 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a>
     </td>         
+</tr>
+<tr>
+    <td>279</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/279_Perfect%20Squares.md">Perfect Squares</a></td> 
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/279_Perfect%20Squares.py">Python</a></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279_Perfect%20Squares.cpp">C++</a></td>      
 </tr>
 <tr>
     <td>486</td>    
