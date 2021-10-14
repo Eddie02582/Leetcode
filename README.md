@@ -242,7 +242,8 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a></td>         
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0046.%20Permutations.cpp">C++</a></td>  
+
 </tr>
 <tr>
     <td>47</td>    
