@@ -99,8 +99,7 @@ class Solution:
 
 ``` 
 
-```c+++
-
+```c++
 #include <iostream>
 #include <vector>
 
