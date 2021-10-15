@@ -592,12 +592,9 @@ Leetcode Python & C#
     <td>198</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a>      
-    </td>         
-    <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a></td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0198.%20House%20Robber.cpp">C++</a></td>      
 </tr>
 <tr>
     <td>199</td>    
@@ -1459,10 +1456,9 @@ Leetcode Python & C#
     <td>198</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a>      
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a></td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0198.%20House%20Robber.cpp">C++</a></td>      
 </tr>
 <tr>
     <td>216</td>    

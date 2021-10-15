@@ -50,4 +50,63 @@ public class Solution {
 }
 ```
 
+#### C++
 
+```c++
+
+#include <iostream>
+#include <vector> 
+using namespace std;
+
+class Solution {
+public:
+    int rob_(vector<int>& nums) {
+        int size = nums.size();        
+        vector<int> dp(size + 1, 0);
+         dp[1] = nums[0];
+        for (int i = 2;i <= size; i ++){            
+            dp[i] = max(dp[i - 1],dp[i - 2] + nums[i - 1]);
+        }        
+        return dp[size];
+    }
+};
+
+```
+簡化只需要儲存前一項和前前項
+
+```c++
+// Your First C++ Program
+
+#include <iostream>
+#include <vector> 
+using namespace std;
+
+class Solution {
+public:
+    int rob_(vector<int>& nums) {
+        int size = nums.size();        
+        vector<int> dp(size + 1, 0);
+         dp[1] = nums[0];
+        for (int i = 2;i <= size; i ++){            
+            dp[i] = max(dp[i - 1],dp[i - 2] + nums[i - 1]);
+        }        
+        return dp[size];
+    }
+
+    int rob_simple(vector<int>& nums) {
+        int prev_two = 0;
+        int prev_one = nums[0];
+      
+        for (int i = 1;i < nums.size(); i ++){  
+            int current = max(prev_one,prev_two +  nums[i]);  
+            prev_two = prev_one;     
+            prev_one = current;            
+           
+        }        
+        return prev_one;
+    }
+
+
+};
+
+```
