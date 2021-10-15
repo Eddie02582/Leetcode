@@ -24,39 +24,9 @@ Example 2:
 ```
 
 
-## 思路 backtracking 
-會timeout,如果沒有求出所有組合的方法不建議使用,建議使用dp
 
 
-``` python
-class Solution:
-    def __init__(self):
-        self.count = 0
-    def uniquePaths(self, m: int, n: int) -> int:
-        self.count = 0
-        def backtracking(right,down):
-            if right == 0 and down == 0:
-                self.count += 1
-                return
-            if right > 0:
-                backtracking(right - 1,down)
-            if down > 0:
-                backtracking(right,down - 1)        
-        
-        
-        
-        
-        backtracking(m-1,n-1)
-        
-        return self.count
-``` 
-
-
-
-
-
-
-## 思路
+## 思路 動態規劃
 除了第一列或是第一行只有一種走法,其餘每一個一定是從上方或左下方來,所以path(i,j) = path(i - 1,j) + path(i,j - 1)
 ```    
     path(i,j) = 1 , i == 0 or j == 0    
@@ -65,10 +35,7 @@ class Solution:
 ```
 
 
-
-
 #### Python
-使用動態規劃
 ``` python
     def uniquePaths(self, m: int, n: int) -> int: 
         table = [[0] * m for _ in range(n)]   
@@ -83,7 +50,37 @@ class Solution:
         return table[n - 1][m - 1] 
 ``` 
 
-使用遞迴,這邊注意會timeout,所以使用一個字典記錄値,避免重複計算
+
+
+####  C++
+簡化使用一維dp 陣列
+
+```c++
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    int uniquePaths(int m, int n) {      
+        vector<int> dp;
+        for (int i = 0;i < n;i ++){
+            dp.push_back(1);
+        }
+        
+        for (int i = 1;i<m;i++){
+            for (int j = 1;j <n ;j++){
+                dp[j] = dp[j] + dp[j - 1];  
+            }            
+        }        
+        return dp[n - 1];
+    }
+};
+```
+
+## 思路 遞迴
+
+就是把動態規畫寫成遞迴版本,注意會timeout,所以使用一個字典記錄値,避免重複計算
 
 ``` python
 from collections import defaultdict
@@ -102,27 +99,38 @@ class Solution:
 
 ``` 
 
-使用內嵌函數
-``` python
-class Solution:
-    def uniquePaths(self, m: int, n: int) -> int:   
-        visited = dict()
-        def check_path(m,n):            
-            if (m, n) in visited:
-                return visited[(m, n)]  
+```c+++
 
-            if m == 1 or n == 1:
-                return 1                
-            result = check_path(m - 1, n ) + check_path(m, n - 1)
-            visited[(m, n)] = result           
-            return result
+#include <iostream>
+#include <vector>
 
-        return check_path(m,n)
+using namespace std;
 
-``` 
+class Solution {
+public:
+    int recursion(int m, int n,vector<vector<int>> &dp) {       
+        if (m == 1 || n == 1)
+            return 1;
+        else if  ( m < 0 || n < 0)
+            return 0;
+        else if (dp[m][n] == - 1)
+            dp[m][n] = recursion(m - 1,n,dp) + recursion(m,n - 1,dp);
+        return dp[m][n];
+    }
+    int uniquePaths(int m, int n) {      
+        
+        vector<vector<int>> dp (m+1, vector<int>(n+1, -1));
+        return recursion(m, n,dp);
+    }
+
+};
 
 
-## 思路
+```
+
+
+
+## 思路 數學公式
 (m -1)右與(n-1)左排列即是((m-1)+(n-1))!/((m-1)!*(n-1))!
 
 ``` python
