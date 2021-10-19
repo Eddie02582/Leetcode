@@ -325,11 +325,9 @@ Leetcode Python & C#
     <td>64</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/064_Minimum%20Path%20Sum.md">Minimum Path Sum</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a></td>     
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0064.%20Minimum%20Path%20Sum.cpp">C++</a></td>        
 </tr>
 <tr>
     <td>66</td>    
@@ -1423,9 +1421,9 @@ Leetcode Python & C#
     <td>64</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/064_Minimum%20Path%20Sum.md">Minimum Path Sum</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a></td>     
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0064.%20Minimum%20Path%20Sum.cpp">C++</a></td>        
 </tr>
 <tr>
     <td>70</td>    
