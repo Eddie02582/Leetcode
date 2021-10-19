@@ -1786,6 +1786,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/402_Remove%20K%20Digits.py">Python</a>
     </td>         
 </tr>
+<tr>
+    <td>#496</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/496_Next%20Greater%20Element%20I.md">Next Greater Element I</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/496_Next%20Greater%20Element%20I.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0496.%20Next%20Greater%20Element%20I.cpp">C++</a></td>             
+</tr>
 </table>
 
 

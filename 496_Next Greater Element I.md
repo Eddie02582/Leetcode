@@ -87,6 +87,9 @@ public:
 ```
 
 
+
+
+<a href = "https://leetcode.com/submissions/detail/573505693/">58%</a>
 ``` c++
 #include <vector>
 #include <iostream>
@@ -103,14 +106,12 @@ public:
         for (int i = 0;i< nums1.size();i++){
             loc[nums1[i]] = i;
         }       
-        for (int j = 0;j < nums2.size();j++){
+        for (int j = 0;j < nums2.size();j++){  
             while(!s.empty() && s.top() < nums2[j]){
                 if(loc.count(s.top())){
-                    ans[loc[s.top()]] = nums2[j];
-                    s.pop();
+                    ans[loc[s.top()]] = nums2[j];                 
                 }
-                else
-                    break;                
+                s.pop();                      
             }  
             s.push(nums2[j]);
         }     
@@ -118,7 +119,50 @@ public:
     }
 
 };
-
-
 ``` 
+一樣的做法,只是先儲存sol,在填入ans,比較快
+
+<a href = "https://leetcode.com/problems/next-greater-element-i/submissions/">93.23%</a>
+
+``` c++
+#include <vector>
+#include <iostream>
+#include <unordered_map>
+#include <stack>
+using namespace std;
+
+class Solution {
+public:  
+    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+        vector<int>ans(nums1.size() ,-1);
+        stack<int>s;
+        unordered_map <int,int> sol;
+            
+        for (int i = 0;i < nums2.size();i++){
+            while(!s.empty() && s.top() < nums2[i]){                
+                sol[s.top()] = nums2[i];
+                s.pop();
+            }
+            s.push(nums2[i]);
+        }     
+        for (int i = 0;i < nums1.size();i++){
+            if(sol.count(nums1[i]))
+                ans[i] = sol[nums1[i]];
+        }
+
+        return ans;
+    }
+
+};
+
+
+
+
+
+
+
+
+
+
+```
 
