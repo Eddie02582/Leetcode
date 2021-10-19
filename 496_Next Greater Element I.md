@@ -1,4 +1,4 @@
-# Find All Duplicates in an Array
+# Next Greater Element I
 
 
 ## 原題目:
