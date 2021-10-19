@@ -287,11 +287,9 @@ Leetcode Python & C#
     <td>*55</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.md">Jump Game</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a></td>         
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">Python</a></td>  
 </tr>
 <tr>
     <td>58</td>    
@@ -1402,6 +1400,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>*55</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.md">Jump Game</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">Python</a></td>  
+</tr>
+<tr>
     <td>62</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique Paths</a></td> 
     <td>Medium</td>  
@@ -1577,9 +1583,9 @@ Leetcode Python & C#
     <td>*55</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.md">Jump Game</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">Python</a></td>  
 </tr>
 <tr>
     <td>954</td>    
