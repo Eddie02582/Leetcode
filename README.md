@@ -753,6 +753,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>389</td>    
+    <td>Find the Difference</a></td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0389.%20Find%20the%20Difference.cpp">C++</a></td>
+</tr>
+<tr>
     <td>397</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/397_Integer%20Replacement.md">Integer Replacement</a></td> 
     <td>Medium</td>  
@@ -877,6 +885,14 @@ Leetcode Python & C#
     </td>         
     <td></td> 
     <td></td>     
+</tr>
+<tr>
+    <td>#645</td>    
+    <td>Set Mismatch</a></td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0645.%20Set%20Mismatch.cpp">C++</a></td>
 </tr>
 <tr>
     <td>653</td>    
@@ -1140,6 +1156,22 @@ Leetcode Python & C#
     <td>Medium</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
     </td>
+</tr>
+<tr>
+    <td>389</td>    
+    <td>Find the Difference</a></td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0389.%20Find%20the%20Difference.cpp">C++</a></td>
+</tr>
+<tr>
+    <td>#645</td>    
+    <td>Set Mismatch</a></td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0645.%20Set%20Mismatch.cpp">C++</a></td>
 </tr>
 
 </table>
