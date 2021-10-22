@@ -556,15 +556,12 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>136</td>    
+    <td>136</td>
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
     <td>Easy</td>  
-    <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a>, 
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/136_Single%20Number.js">Javascript</a>, 
-    </td>         
-    <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a></td>    
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0136.%20Single%20Number.cpp">C++</a></td>            
 </tr>
 <tr>
     <td>141</td>    
@@ -586,7 +583,7 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>191</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Single Number</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Number of 1 Bits.md</a></td> 
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/191_Number%20of%201%20Bits.py">Python</a></td>    
     <td></td>
@@ -1141,7 +1138,7 @@ Leetcode Python & C#
     <td>C++</</td>   
 </tr>
 <tr>
-    <td>136</td>    Single Number
+    <td>136</td>
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a></td>    
