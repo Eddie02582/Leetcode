@@ -289,7 +289,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a></td>         
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">Python</a></td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">C++</a></td>  
 </tr>
 <tr>
     <td>58</td>    
@@ -1473,7 +1473,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/055_Jump%20Game.py">Python</a></td>         
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">Python</a></td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">C++</a></td>  
 </tr>
 <tr>
     <td>62</td>    
