@@ -975,6 +975,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>#1009</td>    
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/1009_Complement%20of%20Base%2010%20Integer.md">Complement of Base 10 Integer</a></td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1009.%20Complement%20of%20Base%2010%20Integer.cpp">C++</a></td>
+</tr>
+<tr>
     <td>1302</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1302_Deepest%20Leaves%20Sum.md">Deepest Leaves Sum</a></td> 
     <td>Medium</td>  
@@ -1133,17 +1141,24 @@ Leetcode Python & C#
     <td>C++</</td>   
 </tr>
 <tr>
-    <td>136</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Number of 1 Bits</a></td> 
+    <td>136</td>    Single Number
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
     <td>Easy</td>  
-    <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a>, 
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/136_Single%20Number.js">Javascript</a>, 
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a></td>    
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0136.%20Single%20Number.cpp">C++</a></td>            
+</tr>
+<tr>
+    <td>137</td>    
+    <td> Single Number II</td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td></td>
 </tr>
 <tr>
     <td>#191</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Single Number</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Number of 1 Bits</a></td> 
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/191_Number%20of%201%20Bits.py">Python</a></td>    
     <td></td>
@@ -1167,13 +1182,20 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>#645</td>    
-    <td>Set Mismatch</a></td> 
+    <td>Set Mismatch</td> 
     <td>Easy</td>  
     <td></td> 
     <td></td>     
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0645.%20Set%20Mismatch.cpp">C++</a></td>
 </tr>
-
+<tr>
+    <td>#1009</td>    
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/1009_Complement%20of%20Base%2010%20Integer.md">Complement of Base 10 Integer</a></td> 
+    <td>Easy</td>  
+    <td></td> 
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1009.%20Complement%20of%20Base%2010%20Integer.cpp">C++</a></td>
+</tr>
 </table>
 
 
