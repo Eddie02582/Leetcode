@@ -681,9 +681,9 @@ Leetcode Python & C#
     <td>226</td>    
     <td>Invert Binary Tree</td> 
     <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a></td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/226_Invert%20Binary%20Tree.py">Python</a></td>         
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">C++</a></td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
 </tr
 <tr>
     <td>242</td>    
@@ -1124,6 +1124,14 @@ Leetcode Python & C#
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0094.%20Binary%20Tree%20Inorder%20Traversal.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>226</td>    
+    <td>Invert Binary Tree</td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/226_Invert%20Binary%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
+</tr
+<tr>
     <td>1448</td>    
     <td>Count Good Nodes in Binary Tree</td> 
     <td>Medium</td>  
@@ -1391,6 +1399,14 @@ Leetcode Python & C#
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,         
     </td>         
 </tr>
+<tr>
+    <td>226</td>    
+    <td>Invert Binary Tree</td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/226_Invert%20Binary%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
+</tr
 <tr>
     <td>397</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/397_Integer%20Replacement.md">Integer Replacement</a></td> 
