@@ -678,6 +678,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>226</td>    
+    <td>Invert Binary Tree</td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">C++</a></td>    
+</tr
+<tr>
     <td>242</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
     <td>Easy</td>       
