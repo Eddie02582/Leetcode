@@ -31,22 +31,60 @@ class Solution:
 ``` 
 
 ## 思路2
-
+依序比較從高位到低位,不相等回傳
 
 ``` python
 class Solution:
-    def rangeBitwiseAnd(self, m: int, n: int) -> int:    
-       
+    def rangeBitwiseAnd(self, left: int, right: int) -> int:
         ans = 0
         for i in range(31,-1,-1):  
-            dm =  m & (1 << i) 
-            dn =  n &(1 << i)
+            dm =  (left >> i)&1;
+            dn =  (right >> i)&1;     
             if dm != dn:
                 return ans
             elif dm and dn:
-                ans += 1 << i  
+                ans += dm << i  
         
         return ans
 
 ```
 
+```c++
+class Solution {
+public:
+    int rangeBitwiseAnd(int left, int right) {
+        int ans = 0;
+        for(int i = 31;i >=0;i--){
+            int m = (left >> i)&1;
+            int n = (right >> i)&1;            
+            if(m != n){
+                break;
+            }
+            ans += (m << i);             
+        }
+        return ans;
+    }
+};
+```
+
+## 思路3 
+
+每次往右直到相等
+
+```c++
+class Solution {
+public:
+    int rangeBitwiseAnd(int left, int right) {
+        int cnt =0;
+        
+        while(left!=right)
+        {
+            right >>= 1;
+            left >>= 1;
+            cnt++;
+        }
+        
+        return right << cnt;
+    }
+};
+```
