@@ -82,8 +82,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/015_3Sum.py">Python</a></td>     
     <td></td> 
-    <td></td>     
-</tr>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0015.%203Sum.cpp">Python</a></td>   
 <tr>
     <td>16</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/016_3Sum%20Closest.md">3Sum Closest</a></td> 
@@ -1913,7 +1912,14 @@ Leetcode Python & C#
     <td>C#</td> 
     <td>C++</</td>      
 </tr>
-
+<tr>
+    <td>15</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/015_3Sum.md">3Sum</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/015_3Sum.py">Python</a></td>     
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0015.%203Sum.cpp">Python</a></td>   
+<tr>
 <tr>
     <td>633</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.md">Sum of Square Numbers</a></td> 
