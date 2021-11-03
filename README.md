@@ -15,7 +15,7 @@ Leetcode Python & C#
     <td>1</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
     <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py"></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</td>
     <td></td>     
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0001.%20Two%20Sum.cpp">C++</a></td>  
 </tr>
@@ -23,7 +23,7 @@ Leetcode Python & C#
     <td>2</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py"></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
     <td></td>     
     <td><a href="">C++</a></td> 
    
@@ -1154,6 +1154,14 @@ Leetcode Python & C#
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0094.%20Binary%20Tree%20Inorder%20Traversal.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>129</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/129_Sum%20Root%20to%20Leaf%20Numbers.py">Python</a></td>         
+    <td></td> 
+     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp">C++</a> </td> 
+</tr>
+<tr>
     <td>226</td>    
     <td>Invert Binary Tree</td> 
     <td>Easy</td>  
@@ -1284,6 +1292,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  
     </td>         
 </tr> 
+<tr>
+    <td>129</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/129_Sum%20Root%20to%20Leaf%20Numbers.py">Python</a></td>         
+    <td></td> 
+     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp">C++</a> </td> 
+</tr>
 <tr>
     <td>130</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/130_Surrounded%20Regions.md">Surrounded Regions</a></td> 
@@ -1427,6 +1443,14 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  
     </td>         
+</tr>
+<tr>
+    <td>129</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/129_Sum%20Root%20to%20Leaf%20Numbers.py">Python</a></td>         
+    <td></td> 
+     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp">C++</a> </td> 
 </tr>
 <tr>
     <td>130</td>    
@@ -1696,6 +1720,15 @@ Leetcode Python & C#
     <td>C++</</td>  
 </tr> 
 <tr>
+    <td>2</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
+    <td></td>     
+    <td><a href="">C++</a></td> 
+   
+</tr>
+<tr>
     <td>21</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
     <td>Easy</td>  
@@ -1763,7 +1796,7 @@ Leetcode Python & C#
     <td>1</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
     <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py"></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</td>
     <td></td>     
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0001.%20Two%20Sum.cpp">C++</a></td>  
 </tr>
