@@ -25,7 +25,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py"></td>
     <td></td>     
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0001.%20Two%20Sum.cpp">C++</a></td> 
+    <td><a href="">C++</a></td> 
    
 </tr>
 <tr>
@@ -1043,9 +1043,7 @@ Leetcode Python & C#
     <td>1448</td>    
     <td>Count Good Nodes in Binary Tree</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a>    </td>         
     <td></td> 
     <td></td>     
 </tr>
@@ -1701,12 +1699,9 @@ Leetcode Python & C#
     <td>21</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a>, 
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/JavaScript/021_Merge%20Two%20Sorted%20Lists.js">Javascript</a>,   
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Java/mergeTwoLists.java">Java</a>,   
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a>      
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a></td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>141</td>    
