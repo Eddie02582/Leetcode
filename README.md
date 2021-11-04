@@ -811,8 +811,9 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td></td>         
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
 </tr>
+
 <tr>
     <td>406</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/406_Queue%20Reconstruction%20by%20Heigh.md">Queue Reconstruction by Height</a></td> 
@@ -1178,6 +1179,15 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
 </tr>
 <tr>
+    <td>404</td>    
+    <td>Sum of Left Leaves</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
+</tr>
+
+<tr>
     <td>993</td>    
     <td><a href="">Cousins in Binary Tree</a></td> 
     <td>Easy</td>  
@@ -1341,7 +1351,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/397_Integer%20Replacement.py">Python</a>
     </td>         
 </tr>
-
+<tr>
+    <td>404</td>    
+    <td>Sum of Left Leaves</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
+</tr>
 
 
 <tr>
@@ -1500,6 +1517,14 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/397_Integer%20Replacement.py">Python</a>
     </td>         
+</tr>
+<tr>
+    <td>404</td>    
+    <td>Sum of Left Leaves</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>515</td>    
