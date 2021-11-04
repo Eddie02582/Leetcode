@@ -806,6 +806,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>404</td>    
+    <td>Sum of Left Leaves</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td></td>     
+</tr>
+<tr>
     <td>406</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/406_Queue%20Reconstruction%20by%20Heigh.md">Queue Reconstruction by Height</a></td> 
     <td>Medium</td>  
