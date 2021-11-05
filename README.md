@@ -824,6 +824,16 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
+
+<tr>
+    <td>441</td>    
+    <td>Arranging Coins</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0441.%20Arranging%20Coins.cpp">C++</a></td>     
+</tr>
+
 <tr>
     <td>*442</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Find All Duplicates in an Array</a></td> 
@@ -1142,6 +1152,32 @@ Leetcode Python & C#
     </td>         
 </tr>
 </table>
+
+
+
+# Binary Search
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>     
+</tr>
+<tr>
+    <td>441</td>    
+    <td>Arranging Coins</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0441.%20Arranging%20Coins.cpp">C++</a></td>     
+</tr>
+</table>
+
+
+
+
 
 
 # Binary Tree
