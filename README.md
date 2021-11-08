@@ -451,9 +451,9 @@ Leetcode Python & C#
     <td>96</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees.md">Unique Binary Search Trees</a></td> 
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a></td>     
+    <td></td>   
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0096.%20Unique%20Binary%20Search%20Trees.cpp">C++</a></td>       
 </tr>
 
 <tr>
@@ -1698,9 +1698,9 @@ Leetcode Python & C#
     <td>96</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees.md">Unique Binary Search Trees</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a></td>     
+    <td></td>   
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0096.%20Unique%20Binary%20Search%20Trees.cpp">C++</a></td>       
 </tr>
 <tr>
     <td>120</td>    
