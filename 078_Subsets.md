@@ -32,7 +32,7 @@ Example:
 2. output = [],choice = [1] => new_output = [],[1]<br>
 3. output = [],[1],choice = [2] => new_output = [],[1],[2],[1,2]<br>
 4. output = [],[1],[2],[1,2],choice = [3] => new_output = [],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]<br>
-
+->[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 #### Python
 ``` python
 class Solution(object):
@@ -51,15 +51,45 @@ class Solution(object):
             output += temp
         return output
 ```
+#### C++
+```c++
+#include<vector>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> ans;
+        ans.push_back(vector<int>{});
+
+        for (int n:nums ){
+            vector<vector<int>> subs = ans;           
+            for (vector<int> sub :subs ){
+                sub.push_back(n);
+                ans.push_back(sub);
+            }
+            
+        }
+        return ans;
+
+    }
+};
+```
 
 
-
-->[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 
 
 
 ## 思路backtrack
 
+0:[]
+1:[1],[2],[3]
+2:[1,2],[1,3],[2,3]
+3:[1,2,3]
+
+
+->[[],[1],[2],[3],[1,2],[1,3],[2,3],[1,2,3]]
 
 #### Python
 
@@ -82,13 +112,42 @@ class Solution(object):
         return output
 
 ```
-0:[]
-1:[1],[2],[3]
-2:[1,2],[1,3],[2,3]
-3:[1,2,3]
+
+#### C++
+```c++
+class Solution {
+public:   
+
+    vector<vector<int>> subset_ans;
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<int> path;
+        for (int i = 0;i<=nums.size();i++){
+            helper(nums,path,0,i);        
+        }
+        return subset_ans;
+
+    }
+    void helper(vector<int>& nums,vector<int>& path,int start,int n){       
+        if(path.size() == n)
+        {
+            subset_ans.push_back(path);
+            return ;
+        }
+        if(start == nums.size()){
+            return;
+        }        
+        path.push_back(nums[start]);
+        helper(nums,path,start + 1,n);
+        path.pop_back();
+        helper(nums,path,start + 1,n);
+
+    }
+
+};
+```
 
 
-->[[],[1],[2],[3],[1,2],[1,3],[2,3],[1,2,3]]
+## 思路backtrack 2
 
 backtrack 的思路,每次都有選與不選的選擇
 
@@ -103,6 +162,7 @@ backtrack 的思路,每次都有選與不選的選擇
 ->[],[3],[2],[2,3],[1],[1,3],[1,2],[1,2,3]
 ```   
 
+#### Python
 ``` python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:        
@@ -120,6 +180,40 @@ class Solution:
         return ans
 
 ```
+#### C++
+```
+#include<vector>
+using namespace std;
+
+class Solution {
+public:  
+
+    vector<vector<int>> subset_ans;
+
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<int> path;       
+        helper(nums,path,0);     
+        return subset_ans;
+
+    }
+
+    void helper(vector<int>& nums,vector<int>& path,int start){              
+        if(start == nums.size()){
+            subset_ans.push_back(path);
+            return;
+        }  
+            
+        path.push_back(nums[start]);
+        helper(nums,path,start + 1);
+        path.pop_back();
+        helper(nums,path,start + 1);  
+
+    }
+
+};
+```
+
+
 
 ## 思路dfs
 ```
