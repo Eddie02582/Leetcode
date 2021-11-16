@@ -181,7 +181,7 @@ class Solution:
 
 ```
 #### C++
-```
+```c++
 #include<vector>
 using namespace std;
 
