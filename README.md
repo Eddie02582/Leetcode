@@ -785,6 +785,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>368</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/368_Largest%20Divisible%20Subset.md">Largest Divisible Subset</a></td> 
+    <td>Medium</td>  
+    <td></td>
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0368.%20Largest%20Divisible%20Subset.cpp">C++</a></td>  
+</tr>
+<tr>
     <td>389</td>    
     <td>Find the Difference</a></td> 
     <td>Easy</td>  
@@ -1758,6 +1766,14 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>  
            
+</tr>
+<tr>
+    <td>368</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/368_Largest%20Divisible%20Subset.md">Largest Divisible Subset</a></td> 
+    <td>Medium</td>  
+    <td></td>
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0368.%20Largest%20Divisible%20Subset.cpp">C++</a></td>  
 </tr>
 <tr>
     <td>486</td>    
