@@ -715,6 +715,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0229.%20Majority%20Element%20II.cpp">C++</a></td>    
 </tr
 <tr>
+    <td>230</td>    
+    <td>Kth Smallest Element in a BST</td> 
+    <td>Medium</td>       
+    <td></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>242</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
     <td>Easy</td>       
@@ -1230,6 +1238,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
 </tr>
 <tr>
+    <td>230</td>    
+    <td>Kth Smallest Element in a BST</td> 
+    <td>Medium</td>       
+    <td></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>404</td>    
     <td>Sum of Left Leaves</td> 
     <td>Easy</td>  
@@ -1562,6 +1578,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
 </tr>
 <tr>
+    <td>230</td>    
+    <td>Kth Smallest Element in a BST</td> 
+    <td>Medium</td>       
+    <td></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>397</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/397_Integer%20Replacement.md">Integer Replacement</a></td> 
     <td>Medium</td>  
@@ -1764,8 +1788,7 @@ Leetcode Python & C#
     <td>Medium</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/279_Perfect%20Squares.py">Python</a></td>
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>  
-           
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>             
 </tr>
 <tr>
     <td>368</td>    
