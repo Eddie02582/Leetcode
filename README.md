@@ -877,12 +877,12 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>443</td>    
+    <td>448</td>    
     <td>Find All Numbers Disappeared in an Array</td> 
     <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp">C++</a></td>     
 </tr>
 
 <tr>
@@ -2004,6 +2004,14 @@ Leetcode Python & C#
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/350_%20Intersection%20of%20Two%20Arrays%20II.py">Python</a>     
     </td>
+</tr>
+<tr>
+    <td>448</td>    
+    <td>Find All Numbers Disappeared in an Array</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>#567</td>    
