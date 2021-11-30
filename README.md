@@ -692,11 +692,9 @@ Leetcode Python & C#
     <td>221</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/221_Maximal%20Square.md">Maximal Square</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a></td>         
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0221.%20Maximal%20Square.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>226</td>    
@@ -1804,9 +1802,9 @@ Leetcode Python & C#
     <td>221</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/221_Maximal%20Square.md">Maximal Square</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0221.%20Maximal%20Square.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>279</td>    
