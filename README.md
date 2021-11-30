@@ -902,6 +902,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0496.%20Next%20Greater%20Element%20I.cpp">C++</a></td>             
 </tr>
 <tr>
+    <td>503</td>    
+    <td>Next Greater Element II</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0503.%20Next%20Greater%20Element%20II.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>515</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Find Largest Value in Each Tree Row.</a></td> 
     <td>Medium</td>  
@@ -2167,6 +2175,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/496_Next%20Greater%20Element%20I.py">Python</a></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0496.%20Next%20Greater%20Element%20I.cpp">C++</a></td>             
+</tr>
+<tr>
+    <td>503</td>    
+    <td>Next Greater Element II</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0503.%20Next%20Greater%20Element%20II.cpp">C++</a></td>             
 </tr>
 </table>
 
