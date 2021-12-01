@@ -372,6 +372,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>74</td>    
+    <td>Search a 2D Matrix</td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0074.%20Search%20a%202D%20Matrix.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>76</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
     <td>Hard</td>  
@@ -1219,6 +1227,14 @@ Leetcode Python & C#
     <td>Python</td>
     <td>C#</td> 
     <td>C++</</td>     
+</tr>
+<tr>
+    <td>74</td>    
+    <td>Search a 2D Matrix</td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0074.%20Search%20a%202D%20Matrix.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>441</td>    
