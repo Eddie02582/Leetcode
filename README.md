@@ -310,6 +310,14 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
+    <td>59</td>    
+    <td>Spiral Matrix II</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0059.%20Spiral%20Matrix%20II.cpp">C++</a></td>  
+</tr>
+<tr>
     <td>62</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique Paths</a></td> 
     <td>Medium</td>  
