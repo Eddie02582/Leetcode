@@ -299,6 +299,17 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0055.%20Jump%20Game.cpp">C++</a></td>  
 </tr>
+
+<tr>
+    <td>56</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/056_Merge%20Intervals.md">Merge Intervals</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/056_Merge%20Intervals.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0056.%20Merge%20Intervals.cpp">C++</a></td>  
+</tr>
+
+
 <tr>
     <td>58</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/058_Length%20of%20Last%20Word.md">Length of Last Word</a></td> 
