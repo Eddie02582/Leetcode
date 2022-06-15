@@ -63,22 +63,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0014.%20Longest%20Common%20Prefix.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>15</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/015_3Sum.md">3Sum</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/015_3Sum.py">Python</a></td>     
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0015.%203Sum.cpp">C++</a></td>
-</tr>    
-<tr>
-    <td>16</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/016_3Sum%20Closest.md">3Sum Closest</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/016_3Sum%20Closest.py">Python</a></td> 
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0016.%203Sum%20Closest.cpp">C++</a></td>     
-</tr>
-<tr>
     <td>19</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List.md</a></td> 
     <td>Medium</td>  
@@ -279,17 +263,6 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/067_Add%20Binary.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-
-<tr>
-    <td>76</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
-    <td>Hard</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/076_Minimum%20Window%20Substring.py">Python</a>  
     </td>         
     <td></td> 
     <td></td>     
@@ -566,24 +539,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0344.%20Reverse%20String.cpp">C++</a></td>  
 </tr>
-<tr>
-    <td>349</td>    
-    <td>Intersection of Two Arrays</td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/349_Intersection%20of%20Two%20Arrays.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>350</td>    
-    <td>Intersection of Two Arrays II</td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/350_%20Intersection%20of%20Two%20Arrays%20II.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
+
 
 <tr>
     <td>402</td>    
@@ -635,14 +591,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>448</td>    
-    <td>Find All Numbers Disappeared in an Array</td> 
-    <td>Easy</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp">C++</a></td>     
-</tr>
+
 <tr>
     <td>#496</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/496_Next%20Greater%20Element%20I.md">Next Greater Element I</a></td> 
@@ -669,33 +618,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>575</td>    
-    <td>Distribute Candies</td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/575_Distribute%20Candies.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>594</td>    
-    <td>Longest Harmonious Subsequence</td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/594_Longest%20Harmonious%20Subsequence.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>599</td>    
-    <td>Minimum Index Sum of Two Lists</td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/599_Minimum%20Index%20Sum%20of%20Two%20Lists.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>637</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/637_Average%20of%20Levels%20in%20Binary%20Tree.md">Average of Levels in Binary Tree</a></td> 
