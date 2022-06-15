@@ -418,24 +418,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>141</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>142</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>191</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Number of 1 Bits.md</a></td> 
     <td>Easy</td>  
@@ -1480,8 +1462,9 @@ Leetcode Python & C#
     <td>141</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
     <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
-    </td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/141_Linked%20List%20Cycle.cpp">C++</a></td>
 </tr> 
 
 <tr>
@@ -1492,12 +1475,22 @@ Leetcode Python & C#
     </td>
 </tr> 
 <tr>
+    <td>142</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
+    </td>
+    <td></td> 
+    <td></td>     
+</tr>
+<tr>
     <td>876</td>    
     <td>Middle of the Linked List</td> 
     <td>Easy</td>  
-    <td></td>         
+    <td></td>  
+    <td></td>        
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/0876.%20Middle%20of%20the%20Linked%20List.cpp">C++</a></td>     
-    <td></td>     
+
 </tr>
 
 </table>
