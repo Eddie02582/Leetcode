@@ -1493,8 +1493,8 @@ Leetcode Python & C#
 </tr> 
 <tr>
     <td>876</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/877_Stone%20Game.md">Stone Game</a></td> 
-    <td>Medium</td>  
+    <td>Middle of the Linked List</td> 
+    <td>Easy</td>  
     <td></td>         
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/0876.%20Middle%20of%20the%20Linked%20List.cpp">C++</a></td>     
     <td></td>     
