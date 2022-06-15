@@ -1459,12 +1459,21 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>83</td>    
+    <td>Remove Duplicates from Sorted List</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/083_Remove%20Duplicates%20from%20Sorted%20List.py">Python</a></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0083.%20Remove%20Duplicates%20from%20Sorted%20List.cpp">C++</a></td>              
+</tr> 
+
+<tr>
     <td>141</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
     <td>Easy</td>       
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
     <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/141_Linked%20List%20Cycle.cpp">C++</a></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0141.%20Linked%20List%20Cycle.cpp">C++</a></td>              
 </tr> 
 
 <tr>
