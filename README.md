@@ -383,14 +383,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>74</td>    
-    <td>Search a 2D Matrix</td> 
-    <td>Medium</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0074.%20Search%20a%202D%20Matrix.cpp">C++</a></td>     
-</tr>
-<tr>
     <td>76</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
     <td>Hard</td>  
@@ -464,14 +456,6 @@ Leetcode Python & C#
     </td>         
     <td></td> 
     <td></td>     
-</tr>
-<tr>
-    <td>94</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/094_Binary%20Tree%20Inorder%20Traversal.md">Binary Tree Inorder Traversal</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/094_Binary%20Tree%20Inorder%20Traversal.py">Python</a></td>         
-    <td></td> 
-    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0094.%20Binary%20Tree%20Inorder%20Traversal.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>*95</td>    
@@ -586,14 +570,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0128.%20Longest%20Consecutive%20Sequence.cpp">C++</a> </td> 
 </tr>
 <tr>
-    <td>129</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/129_Sum%20Root%20to%20Leaf%20Numbers.py">Python</a></td>         
-    <td></td> 
-     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp">C++</a> </td> 
-</tr>
-<tr>
     <td>130</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/130_Surrounded%20Regions.md">Surrounded Regions</a></td> 
     <td>Medium</td>  
@@ -602,14 +578,6 @@ Leetcode Python & C#
     </td>         
     <td></td> 
     <td></td>     
-</tr>
-<tr>
-    <td>136</td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/136_Single%20Number.py">Python</a></td>    
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0136.%20Single%20Number.cpp">C++</a></td>            
 </tr>
 <tr>
     <td>141</td>    
@@ -652,16 +620,6 @@ Leetcode Python & C#
     <td>
         <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/199_Binary%20Tree%20Right%20Side%20View.py">Python</a>, 
         <a href="">#</a>, 
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>200</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
-    <td>Medium</td>  
-    <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
     </td>         
     <td></td> 
     <td></td>     
@@ -724,14 +682,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0221.%20Maximal%20Square.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>226</td>    
-    <td>Invert Binary Tree</td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/226_Invert%20Binary%20Tree.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0226.%20Invert%20Binary%20Tree.cpp">C++</a></td>    
-</tr>
-<tr>
     <td>229--</td>    
     <td>Majority Element II</td> 
     <td>Easy</td>  
@@ -739,14 +689,6 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0229.%20Majority%20Element%20II.cpp">C++</a></td>    
 </tr
-<tr>
-    <td>230</td>    
-    <td>Kth Smallest Element in a BST</td> 
-    <td>Medium</td>       
-    <td></td>
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp">C++</a></td>             
-</tr>
 <tr>
     <td>242</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
@@ -779,15 +721,6 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/316_Remove%20Duplicate%20Letters.py">Python</a>
     </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>318</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
-    <td>Medium</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
-    </td>
     <td></td> 
     <td></td>     
 </tr>
@@ -826,24 +759,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0368.%20Largest%20Divisible%20Subset.cpp">C++</a></td>  
 </tr>
 <tr>
-    <td>389</td>    
-    <td>Find the Difference</a></td> 
-    <td>Easy</td>  
-    <td></td> 
-    <td></td>     
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0389.%20Find%20the%20Difference.cpp">C++</a></td>
-</tr>
-<tr>
-    <td>397</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/397_Integer%20Replacement.md">Integer Replacement</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/397_Integer%20Replacement.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>402</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Remove K Digits</a></td> 
     <td>Medium</td>  
@@ -852,14 +767,6 @@ Leetcode Python & C#
     </td>         
     <td></td> 
     <td></td>     
-</tr>
-<tr>
-    <td>404</td>    
-    <td>Sum of Left Leaves</td> 
-    <td>Easy</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
 </tr>
 
 <tr>
@@ -936,17 +843,6 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0503.%20Next%20Greater%20Element%20II.cpp">C++</a></td>             
 </tr>
-<tr>
-    <td>515</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Find Largest Value in Each Tree Row.</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-
 <tr>
     <td>567</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/567_Permutation%20in%20String.md">Permutation in String</a></td> 
@@ -1052,94 +948,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>797</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/797.%20All%20Paths%20From%20Source%20to%20Target.md">All Paths From Source to Target</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/797_All%20Paths%20From%20Source%20to%20Target.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0797.%20All%20Paths%20From%20Source%20to%20Target.cpp">C++</a></td>             
-</tr>
 
-
-<tr>
-    <td>877</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/877_Stone%20Game.md">Stone Game</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/877_Stone%20Game.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>931</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/931_Minimum%20Falling%20Path%20Sum.md">Minimum Falling Path Sum</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/931_Minimum%20Falling%20Path%20Sum.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>983</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/983_Minimum%20Cost%20For%20Tickets.md">Minimum Cost For Tickets</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/983_Minimum%20Cost%20For%20Tickets.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>993</td>    
-    <td><a href="">Cousins in Binary Tree</a></td> 
-    <td>Easy</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0993.%20Cousins%20in%20Binary%20Tree.cpp">C++</a></td>             
-</tr>
-<tr>
-    <td>#1009</td>    
-    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/1009_Complement%20of%20Base%2010%20Integer.md">Complement of Base 10 Integer</a></td> 
-    <td>Easy</td>  
-    <td></td> 
-    <td></td>     
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1009.%20Complement%20of%20Base%2010%20Integer.cpp">C++</a></td>
-</tr>
-<tr>
-    <td>1302</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1302_Deepest%20Leaves%20Sum.md">Deepest Leaves Sum</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1302_Deepest%20Leaves%20Sum.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>1306</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1306_Jump%20Game%20III.md">Jump Game III</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1306_Jump%20Game%20III.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>1342</td>    
-    <td><a href="">Number of Steps to Reduce a Number to Zero</a></td> 
-    <td>Easy</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1342.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20to%20Zero.cpp">C++</a></td>             
-</tr>
-<tr>
-    <td>1448</td>    
-    <td>Count Good Nodes in Binary Tree</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a>    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
 
 </table>
 
@@ -1941,6 +1750,15 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/203_Remove%20Linked%20List%20Elements.py">Python</a>     
     </td>
 </tr> 
+<tr>
+    <td>876</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/877_Stone%20Game.md">Stone Game</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/0876.%20Middle%20of%20the%20Linked%20List.cpp">C++</a></td>     
+    <td></td>     
+</tr>
+
 </table>
 
 
