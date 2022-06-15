@@ -10,15 +10,8 @@ Leetcode Python & C#
     <td>Python</td>
     <td>C#</td> 
     <td>C++</</td>  
-</tr>  
-<tr>
-    <td>1</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/001_TwoSum.md">TwoSum</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/001_TwoSum.py">Python</td>
-    <td></td>     
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0001.%20Two%20Sum.cpp">C++</a></td>  
-</tr>
+</tr> 
+
 <tr>
     <td>2</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
@@ -28,14 +21,7 @@ Leetcode Python & C#
     <td><a href="">C++</a></td> 
    
 </tr>
-<tr>
-    <td>3</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.md">Longest Substring Without Repeating Characters</a></td>
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Longest%20Substring%20Without%20Repeating%20Characters.py">Python</a></td>    
-    <td></td> 
-    <td></td> 
-</tr>
+
 <tr>
     <td>6</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/006_ZigZag%20Conversion.md">ZigZag Conversion</a></td>
@@ -93,14 +79,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0016.%203Sum%20Closest.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>17</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/017_Letter%20Combinations%20of%20a%20Phone%20Number.md">Letter Combinations of a Phone Number</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/017_Letter%20Combinations%20of%20a%20Phone%20Number.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>19</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List.md</a></td> 
     <td>Medium</td>  
@@ -123,14 +101,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a></td>         
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
-</tr>
-<tr>
-    <td>22</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/022_Generate%20Parentheses.md">Generate Parentheses</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>       
 </tr>
 <tr>
     <td>24</td>    
@@ -189,28 +159,12 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0035.%20Search%20Insert%20Position.cpp">C++</a></td>         
 </tr>
 <tr>
-    <td>36</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Valid Sudoku</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/036_Valid%20Sudoku.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>37</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/037_Sudoku%20Solver.md">Sudoku Solver</a></td> 
     <td>Hard</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/037_Sudoku%20Solver.py">Python</a></td>         
     <td></td> 
     <td></td>     
-</tr>
-<tr>
-    <td>39</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0039.%20Combination%20Sum.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>40</td>    
@@ -245,39 +199,10 @@ Leetcode Python & C#
      <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0045.%20Jump%20Game%20II.cpp">C++</a></td>  
 </tr>
 <tr>
-    <td>*46</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0046.%20Permutations.cpp">C++</a></td>  
-
-</tr>
-<tr>
     <td>47</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/047_Permutations%20II.md">Permutations II</a></td> 
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/047_Permutations%20II.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>49</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/049_Group%20Anagrams.md">Group Anagrams</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/049_Group%20Anagrams.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>53</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/053_Maximum%20Subarray.md">Maximum Subarray</a></td> 
-    <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/053_Maximum%20Subarray.py">Python</a>  
-    </td>         
     <td></td> 
     <td></td>     
 </tr>
@@ -328,14 +253,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0059.%20Spiral%20Matrix%20II.cpp">C++</a></td>  
 </tr>
-<tr>
-    <td>62</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/062_Unique%20Paths.md">Unique Paths</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/062_Unique%20Paths.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0062.%20Unique%20Paths.cpp">C++</a></td>    
-</tr>
+
 <tr>
     <td>63</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">Unique Paths II</a></td> 
@@ -344,14 +262,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0063.%20Unique%20Paths%20II.cpp">C++</a></td>   
 </tr>
-<tr>
-    <td>64</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/064_Minimum%20Path%20Sum.md">Minimum Path Sum</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/064_Minimum%20Path%20Sum.py">Python</a></td>     
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0064.%20Minimum%20Path%20Sum.cpp">C++</a></td>        
-</tr>
+
 <tr>
     <td>66</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/066_Plus%20One.md">Plus One</a></td> 
@@ -372,16 +283,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>70</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/070_Climbing%20Stairs.md">Climbing Stairs</a></td> 
-    <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/070_Climbing%20Stairs.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>76</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
@@ -438,16 +340,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>91</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/091_Decode%20Ways.md">Decode Ways</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/091_Decode%20Ways.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>93</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/093_Restore%20IP%20Addresses.md">Restore IP Addresses</a></td> 
     <td>Medium</td>  
@@ -457,23 +349,6 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>*95</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees%20II.md">Unique Binary Search Trees II</a></td> 
-    <td>Medium</td>  
-    <td></td>     
-    <td></td>   
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0095.%20Unique%20Binary%20Search%20Trees%20II.cpp">C++</a></td>       
-</tr>
-<tr>
-    <td>*96</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees.md">Unique Binary Search Trees</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a></td>     
-    <td></td>   
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0096.%20Unique%20Binary%20Search%20Trees.cpp">C++</a></td>       
-</tr>
-
 <tr>
     <td>100</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/096_Unique%20Binary%20Search%20Trees.md">Same Tree</a></td> 
@@ -540,17 +415,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>120</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/120_Triangle.md">Triangle</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">C#</a>      
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>121</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.md">Best Time to Buy and Sell Stock</a></td> 
@@ -605,14 +470,7 @@ Leetcode Python & C#
     <td></td>
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0191.%20Number%20of%201%20Bits.cpp">C++</a></td>  
 </tr>
-<tr>
-    <td>198</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/198_House%20Robber.py">Python</a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/198.house-robber.cs">C#</a></td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0198.%20House%20Robber.cpp">C++</a></td>      
-</tr>
+
 <tr>
     <td>199</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
@@ -655,16 +513,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>216</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/216_Combination%20Sum%20III.md">Combination Sum III</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/216_Combination%20Sum%20III.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>217</td>    
     <td>Contains Duplicate</a></td> 
@@ -673,14 +522,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0217.%20Contains%20Duplicate.cpp">C++</a></td>     
 </tr>
-<tr>
-    <td>221</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/221_Maximal%20Square.md">Maximal Square</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/221_Maximal%20Square.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0221.%20Maximal%20Square.cpp">C++</a></td>     
-</tr>
+
 <tr>
     <td>229--</td>    
     <td>Majority Element II</td> 
@@ -705,15 +547,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0268.%20Missing%20Number.cpp">C++</a></td>      
 </tr>
-<tr>
-    <td>279</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/279_Perfect%20Squares.md">Perfect Squares</a></td> 
-    <td>Medium</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/279_Perfect%20Squares.py">Python</a></td>
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>  
-           
-</tr>
+
 <tr>
     <td>316</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
@@ -750,14 +584,7 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>368</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/368_Largest%20Divisible%20Subset.md">Largest Divisible Subset</a></td> 
-    <td>Medium</td>  
-    <td></td>
-    <td></td>     
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0368.%20Largest%20Divisible%20Subset.cpp">C++</a></td>  
-</tr>
+
 <tr>
     <td>402</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Remove K Digits</a></td> 
@@ -815,17 +642,6 @@ Leetcode Python & C#
     <td></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp">C++</a></td>     
-</tr>
-
-<tr>
-    <td>486</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/486_Predict%20the%20Winner.md">Predict the Winner</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/486_Predict%20the%20Winner.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
 </tr>
 <tr>
     <td>#496</td>    
@@ -998,8 +814,10 @@ Leetcode Python & C#
     <td>*46</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0046.%20Permutations.cpp">C++</a></td>  
+
 </tr>
 <tr>
     <td>77</td>    
@@ -1581,9 +1399,9 @@ Leetcode Python & C#
     <td>63</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/063_Unique%20Paths%20II.md">Unique Paths II</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/063_Unique%20Paths%20II.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/063_Unique%20Paths%20II.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0063.%20Unique%20Paths%20II.cpp">C++</a></td>   
 </tr>
 <tr>
     <td>64</td>    
@@ -1866,10 +1684,11 @@ Leetcode Python & C#
     <td>217</td>    
     <td>Contains Duplicate</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/217_Contains%20Duplicate.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/217_Contains%20Duplicate.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0217.%20Contains%20Duplicate.cpp">C++</a></td>     
 </tr>
+
 <tr>
     <td>219</td>    
     <td><a href="">Contains Duplicate II</a></td> 
