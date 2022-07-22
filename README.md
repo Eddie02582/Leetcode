@@ -892,7 +892,16 @@ Leetcode Python & C#
     <td></td>
 </tr>
 <tr>
-    <td>#191</td>    
+    <td>190</td>    
+    <td>Reverse Bits</a></td> 
+    <td>Easy</td>  
+    <td></td>    
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0190.%20Reverse%20Bits.cpp">C++</a></td>  
+
+</tr>
+<tr>
+    <td>191</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Number of 1 Bits</a></td> 
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/191_Number%20of%201%20Bits.py">Python</a></td>    
@@ -913,7 +922,7 @@ Leetcode Python & C#
     <td>Easy</td>       
     <td></td>    
     <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0191.%20Number%20of%201%20Bits.cpp">C++</a></td>   
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0338.%20Counting%20Bits.cpp">C++</a></td>   
 </tr>
 <tr>
     <td>389</td>    
