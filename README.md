@@ -908,6 +908,14 @@ Leetcode Python & C#
     </td>
 </tr>
 <tr>
+    <td>338</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/338_Counting%20Bits.md">Counting Bits</a></td> 
+    <td>Easy</td>       
+    <td></td>    
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0191.%20Number%20of%201%20Bits.cpp">C++</a></td>   
+</tr>
+<tr>
     <td>389</td>    
     <td>Find the Difference</a></td> 
     <td>Easy</td>  
