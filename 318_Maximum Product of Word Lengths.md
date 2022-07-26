@@ -47,7 +47,7 @@ class Solution(object):
 ``` 
 
 ## 思路 bit
-將每個字元轉成相對應2進位的數字,這邊使用|,而非+,使用+會計算到重複字元,如果word字元沒重複,那麼他們轉成數值做&是0
+將每個字元轉成相對應2進位的數字,如果word字元沒重複,那麼他們轉成數值做&是0
 
 
 #### Python
@@ -67,6 +67,30 @@ class Solution:
                     ans = max(ans, len(words[i] * len(words[j])))
         return ans 
 ``` 
+
+```cpp
+class Solution {
+public:
+    int maxProduct(vector<string>& words) {
+        int res = 0;
+        vector<int> mask(words.size(), 0);
+        for(int i = 0; i < words.size();i++){
+            for (char &c : words[i]) {           
+                mask[i] |= 1 << (c - 'a');
+            }
+            for(int j = 0; j < i;j++){
+                if (!(mask[i] & mask[j])) {
+                
+                    res = max(res, int(words[i].size() * words[j].size()));
+                }
+            }           
+         
+        }
+        return res;
+        
+    }
+};
+```
 
 
 
