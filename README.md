@@ -913,8 +913,9 @@ Leetcode Python & C#
     <td>318</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.md">Maximum Product of Word Lengths</a></td> 
     <td>Medium</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a>     
-    </td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/318_Maximum%20Product%20of%20Word%20Lengths.py">Python</a></td>
+    <td></td>   
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0318.%20Maximum%20Product%20of%20Word%20Lengths.cpp">C++</a></td>   
 </tr>
 <tr>
     <td>338</td>    
