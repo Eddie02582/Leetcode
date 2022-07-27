@@ -1488,6 +1488,14 @@ Leetcode Python & C#
 </tr>
 
 <tr>
+    <td>*82</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/082_Remove%20Duplicates%20from%20Sorted%20List%20II.md">Remove Duplicates from Sorted List II</a></td>   
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/082_Remove%20Duplicates%20from%20Sorted%20ListII.py">Python</a></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0082.%20Remove%20Duplicates%20from%20Sorted%20List%20II.cpp">C++</a></td>              
+</tr> 
+<tr>
     <td>83</td>    
     <td>Remove Duplicates from Sorted List</a></td> 
     <td>Easy</td>       
