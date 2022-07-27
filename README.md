@@ -62,14 +62,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0014.%20Longest%20Common%20Prefix.cpp">C++</a></td>     
 </tr>
-<tr>
-    <td>19</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List.md</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/019_Remove%20Nth%20Node%20From%20End%20of%20List.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>20</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020_Valid%20Parentheses.md">Valid Parentheses</a></td> 
@@ -1457,9 +1450,17 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
     <td></td>     
-    <td><a href="">C++</a></td> 
-   
+    <td><a href="">C++</a></td>    
 </tr>
+<tr>
+    <td>19</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List.md</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/019_Remove%20Nth%20Node%20From%20End%20of%20List.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp">C++</a></td>     
+</tr>
+
 <tr>
     <td>21</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
