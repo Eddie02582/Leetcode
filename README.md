@@ -1477,6 +1477,15 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>61</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/061_Rotate%20List.md">Rotate List</a></td>    
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0061.%20Rotate%20List.cpp">C++</a></td>  
+</tr>
+
+<tr>
     <td>83</td>    
     <td>Remove Duplicates from Sorted List</a></td> 
     <td>Easy</td>       
