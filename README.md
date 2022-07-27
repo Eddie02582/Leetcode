@@ -87,14 +87,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>24</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/024_Swap%20Nodes%20in%20PairsGenerate.md">Swap Nodes in Pairs</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/024_Swap%20Nodes%20in%20PairsGenerate.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>26</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/026_%20Remove%20Duplicates%20from%20Sorted%20Array.md">Remove Duplicates from Sorted Array.py</a></td> 
     <td>Easy</td>  
@@ -1476,6 +1468,15 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
 </tr>
+<tr>
+    <td>24</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/024_Swap%20Nodes%20in%20PairsGenerate.md">Swap Nodes in Pairs</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/024_Swap%20Nodes%20in%20PairsGenerate.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0024_Swap%20Nodes%20in%20Pairs.cpp ">C++</a></td>  
+</tr>
+
 <tr>
     <td>61</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/061_Rotate%20List.md">Rotate List</a></td>    
