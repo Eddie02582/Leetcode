@@ -51,27 +51,44 @@ class Solution(object):
 
 
 ## 思路2
-改善上面的做法,再其前面新增一個假節點,這邊採用length--的做法
+改善上面的做法,再其前面新增一個假節點,就不需要特別處理當要拿掉第一個點時
 
 
 ## Code
 
-#### Python
+#### c++
 ```python
-class Solution:
-    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
-        runner = head       
-        for _ in range(n):
-            runner = runner.next
-
-        dummy = walker = ListNode(next=head)
-
-        while runner:
-            walker = walker.next
-            runner = runner.next
-           
-        walker.next = walker.next.next
-        return dummy.next
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode* dummy = new ListNode(0, head);        
+        ListNode * curr = head;
+        int size = 1;
+        while (curr->next){
+            ++size;
+            curr = curr->next;
+        }
+        
+        int removeIndex = size - n;
+        curr = dummy;        
+        while (removeIndex--)
+        {
+            curr = curr->next;
+        }
+        curr->next = curr->next->next;
+        return dummy->next;
+    }
+};
  ```
 
 
