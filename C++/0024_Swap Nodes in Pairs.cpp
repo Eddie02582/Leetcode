@@ -11,8 +11,7 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-
-        ListNode* dummy  = ListNode(0,head)    
+        ListNode* dummy = new ListNode(0, head);
         ListNode* curr = head;  
         ListNode* prev = dummy;         
         while (curr && curr->next){  
@@ -20,7 +19,7 @@ public:
             ListNode* node1 = curr;
             ListNode* node2 = curr->next;
             // 0->1->2->3   0->2->1->3
-            node1->next = node2->next-next; //1->3
+            node1->next = node2->next; //1->3
             prev->next = node2;   //0->2
             node2->next = node1;  // 2->1  
             //update
@@ -28,7 +27,6 @@ public:
             curr = node1->next; 
           
         }        
-        return dummy .next;
+        return dummy->next;
     }
 };
-
