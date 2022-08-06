@@ -11,17 +11,6 @@ Leetcode Python & C#
     <td>C#</td> 
     <td>C++</</td>  
 </tr> 
-
-<tr>
-    <td>2</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
-    <td></td>     
-    <td><a href="">C++</a></td> 
-   
-</tr>
-
 <tr>
     <td>6</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/006_ZigZag%20Conversion.md">ZigZag Conversion</a></td>
@@ -243,16 +232,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>67</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/067_Add%20Binary.md">Add Binary</a></td> 
-    <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/067_Add%20Binary.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>77</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
     <td>Medium</td>  
@@ -402,15 +381,6 @@ Leetcode Python & C#
     <td></td> 
     <td></td>     
 </tr>
-<tr>
-    <td>191</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Number of 1 Bits.md</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/191_Number%20of%201%20Bits.py">Python</a></td>    
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0191.%20Number%20of%201%20Bits.cpp">C++</a></td>  
-</tr>
-
 <tr>
     <td>199</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
@@ -860,6 +830,15 @@ Leetcode Python & C#
     <td>C#</td> 
     <td>C++</</td>   
 </tr>
+<tr>
+    <td>67</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/067_Add%20Binary.md">Add Binary</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/067_Add%20Binary.py">Python</a></td>         
+    <td></td> 
+    <td></td>     
+</tr>
+
 <tr>
     <td>136</td>
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
