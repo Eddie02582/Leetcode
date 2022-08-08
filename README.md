@@ -1371,6 +1371,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>             
 </tr>
 <tr>
+    <td>300</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/300_Longest%20Increasing%20Subsequence.md">Longest Increasing Subsequence</a></td> 
+    <td>Medium</td>       
+    <td></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0300.%20Longest%20Increasing%20Subsequence.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>368</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/368_Largest%20Divisible%20Subset.md">Largest Divisible Subset</a></td> 
     <td>Medium</td>  
