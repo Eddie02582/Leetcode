@@ -836,9 +836,8 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/067_Add%20Binary.py">Python</a></td>         
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0067.%20Add%20Binary.cpp">C++</a></td>     
 </tr>
-
 <tr>
     <td>136</td>
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/136_Single%20Number.md">Single Number</a></td> 
