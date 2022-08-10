@@ -11,17 +11,6 @@ Leetcode Python & C#
     <td>C#</td> 
     <td>C++</</td>  
 </tr> 
-
-<tr>
-    <td>2</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
-    <td></td>     
-    <td><a href="">C++</a></td> 
-   
-</tr>
-
 <tr>
     <td>6</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/006_ZigZag%20Conversion.md">ZigZag Conversion</a></td>
@@ -243,16 +232,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>67</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/067_Add%20Binary.md">Add Binary</a></td> 
-    <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/067_Add%20Binary.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>77</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
     <td>Medium</td>  
@@ -403,15 +382,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>191</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/191_Number%20of%201%20Bits.md">Number of 1 Bits.md</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/191_Number%20of%201%20Bits.py">Python</a></td>    
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0191.%20Number%20of%201%20Bits.cpp">C++</a></td>  
-</tr>
-
-<tr>
     <td>199</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/199_Binary%20Tree%20Right%20Side%20View.md">Binary Tree Right Side View</a></td> 
     <td>Easy</td>  
@@ -508,16 +478,7 @@ Leetcode Python & C#
 </tr>
 
 
-<tr>
-    <td>402</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/442_Find%20All%20Duplicates%20in%20an%20Array.md">Remove K Digits</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/402_Remove%20K%20Digits.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 
 <tr>
     <td>406</td>    
@@ -859,6 +820,14 @@ Leetcode Python & C#
     <td>Python</td>
     <td>C#</td> 
     <td>C++</</td>   
+</tr>
+<tr>
+    <td>67</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/067_Add%20Binary.md">Add Binary</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/067_Add%20Binary.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0067.%20Add%20Binary.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>136</td>
@@ -1393,6 +1362,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0279.Perfect%20Squares.cpp">C++</a></td>             
 </tr>
 <tr>
+    <td>300</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/300_Longest%20Increasing%20Subsequence.md">Longest Increasing Subsequence</a></td> 
+    <td>Medium</td>       
+    <td></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0300.%20Longest%20Increasing%20Subsequence.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>368</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/368_Largest%20Divisible%20Subset.md">Largest Divisible Subset</a></td> 
     <td>Medium</td>  
@@ -1798,9 +1775,9 @@ Leetcode Python & C#
     <td>402</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/402_Remove%20K%20Digits.md">Remove K Digits</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/402_Remove%20K%20Digits.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/402_Remove%20K%20Digits.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0402.%20Remove%20K%20Digits.cpp">C++</a></td>    
 </tr>
 <tr>
     <td>#496</td>    
