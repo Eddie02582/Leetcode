@@ -725,6 +725,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0074.%20Search%20a%202D%20Matrix.cpp">C++</a></td>     
 </tr>
+
 <tr>
     <td>108</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/108_Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md">Convert Sorted Array to Binary Search Tree</a></td> 
@@ -765,6 +766,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/094_Binary%20Tree%20Inorder%20Traversal.py">Python</a></td>         
     <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0094.%20Binary%20Tree%20Inorder%20Traversal.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>98</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/098_Validate%20Binary%20Search%20Tree.md">Validate Binary Search Tree</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
 </tr>
 <tr>
     <td>108</td>    
@@ -1106,6 +1115,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/094_Binary%20Tree%20Inorder%20Traversal.py">Python</a></td>         
     <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0094.%20Binary%20Tree%20Inorder%20Traversal.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>98</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/098_Validate%20Binary%20Search%20Tree.md">Validate Binary Search Tree</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
 </tr>
 <tr>
     <td>112</td>    
