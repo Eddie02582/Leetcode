@@ -1778,6 +1778,14 @@ Leetcode Python & C#
     </td>    
 </tr>
 <tr>
+    <td>30</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/030_Substring%20with%20Concatenation%20of%20All%20Words.md">Substring with Concatenation of All Words</a></td>
+    <td>Hard</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0030.%20Substring%20with%20Concatenation%20of%20All%20Words.cpp">C++</a></td> >    
+</tr>
+<tr>
     <td>76</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/076_Minimum%20Window%20Substring.md">Minimum Window Substring</a></td> 
     <td>Hard</td>  
