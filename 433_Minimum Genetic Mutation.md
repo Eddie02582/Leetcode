@@ -43,7 +43,7 @@ Constraints:
 
 #### c++
 
-
+< a href = "https://leetcode.com/submissions/detail/774020184/">Solution</a>
 ``` C++
 class Solution {
 public:
