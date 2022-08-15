@@ -1024,7 +1024,7 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>433</td>    
+    <td>*433</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/433_Minimum%20Genetic%20Mutation.md">Minimum Genetic Mutation</td> 
     <td>Medium</td>  
     <td></td>         
