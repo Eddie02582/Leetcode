@@ -8,8 +8,7 @@ public:
     string longestCommonPrefix(vector<string>& strs) {
         if (strs.size() == 1)
             return strs[0];
-        sort(strs.begin(),strs.end());
-        int i = 0;       
+        sort(strs.begin(),strs.end());       
         string prefix = "";
         int size = strs.size();
         for (int i = 0; i < strs[0].size() & i < strs[size - 1].size() ;i++ ){           
