@@ -1772,6 +1772,16 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/771_Jewels%20and%20Stones.py">Python</a>     
     </td>
 </tr>
+<tr>
+    <td>*1388</td>        
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/1338_Reduce%20Array%20Size%20to%20The%20Half.md">Reduce Array Size to The Half</a></td>
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1338.%20Reduce%20Array%20Size%20to%20The%20Half.cpp">C++</a></td>     
+</tr>
+
+
 </table>
 
 
