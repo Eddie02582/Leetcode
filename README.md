@@ -1680,9 +1680,9 @@ Leetcode Python & C#
     <td>73</td>    
     <td>Set Matrix Zeroes</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/073_Set%20Matrix%20Zeroes.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/073_Set%20Matrix%20Zeroes.py">Python</a></td>  
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0073.%20Set%20Matrix%20Zeroes.cpp">C++</a></td>  
 </tr>
 <tr>
     <td>217</td>    
