@@ -1492,7 +1492,7 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
     <td></td>     
-    <td><a href="">C++</a></td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0002.%20Add%20Two%20Numbers.cpp">C++</a></td>    
 </tr>
 <tr>
     <td>19</td>    
