@@ -1554,7 +1554,14 @@ Leetcode Python & C#
     <td></td>
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0141.%20Linked%20List%20Cycle.cpp">C++</a></td>              
 </tr> 
-
+<tr>
+    <td>160</td>    
+    <td>Intersection of Two Linked Lists</a></td> 
+    <td>Easy</td>       
+    <td></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0160.%20Intersection%20of%20Two%20Linked%20Lists.cpp">C++</a></td>              
+</tr> 
 <tr>
     <td>203</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/203_Remove%20Linked%20List%20Elements.md">Remove Linked List Elements</a></td> 
