@@ -1555,6 +1555,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0141.%20Linked%20List%20Cycle.cpp">C++</a></td>              
 </tr> 
 <tr>
+    <td>142</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0142.%20Linked%20List%20Cycle%20II.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>160</td>    
     <td>Intersection of Two Linked Lists</a></td> 
     <td>Easy</td>       
@@ -1569,15 +1577,7 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/203_Remove%20Linked%20List%20Elements.py">Python</a>     
     </td>
 </tr> 
-<tr>
-    <td>142</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a>     
-    </td>
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>876</td>    
     <td>Middle of the Linked List</td> 
