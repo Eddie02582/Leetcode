@@ -27,7 +27,6 @@ s consists of lowercase English letters.
 
 
 ## 思路
-要判斷是否有重複可使用set
 
 #### Python
 
