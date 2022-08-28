@@ -1934,7 +1934,25 @@ Leetcode Python & C#
 </tr>
 </table>
 
-
+# Others
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>      
+</tr>
+<tr>
+    <td>1329</td>    
+    <td>Sort the Matrix Diagonally</a></td> 
+    <td>Medium</td>  
+    <td></td>     
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0015.%203Sum.cpp">C++</a></td>
+</tr> 
+</table>
 
 
 
