@@ -1011,9 +1011,8 @@ Leetcode Python & C#
     <td>200</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
     <td>Medium</td>  
-    <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,       
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a></td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0200_Number%20of%20Islands.cpp">C++</a></td>      
 </tr>
 <tr>
     <td>397</td>    
@@ -1185,9 +1184,8 @@ Leetcode Python & C#
     <td>200</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/200_Number%20of%20Islands.md">Number of Islands</a></td> 
     <td>Medium</td>  
-    <td>
-        <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a>,         
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Number%20of%20Islands.py">Python</a></td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0200_Number%20of%20Islands.cpp">C++</a></td>      
 </tr>
 <tr>
     <td>226</td>    
