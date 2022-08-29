@@ -1854,7 +1854,15 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0020.%20Valid%20Parentheses.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>*316</td>    
+    <td>*155</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/155.%20Min%20Stack.md">Min Stack</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0155.%20Min%20Stack.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>**316</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
     <td>Medium</td>  
     <td>
@@ -1926,7 +1934,25 @@ Leetcode Python & C#
 </tr>
 </table>
 
-
+# Others
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>      
+</tr>
+<tr>
+    <td>1329</td>    
+    <td>Sort the Matrix Diagonally</a></td> 
+    <td>Medium</td>  
+    <td></td>     
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1329.%20Sort%20the%20Matrix%20Diagonally.cpp">C++</a></td>
+</tr> 
+</table>
 
 
 

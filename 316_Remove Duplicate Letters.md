@@ -27,7 +27,6 @@ s consists of lowercase English letters.
 
 
 ## 思路
-要判斷是否有重複可使用set
 
 #### Python
 
@@ -49,13 +48,14 @@ class Solution(object):
     <li>對於每一個字符，如果其對應的剩餘出現次數大於 1，我們可以選擇丟棄（也可以選擇不丟棄），否則不可以丟棄。</li>
     <li>是否丟棄的標準和上面題目類似。如果棧中相鄰的元素字典序更大，那麼我們選擇丟棄相鄰的棧中的元素。</li>
 </ul> 
+
 #### Python
 
 
 ``` python
 class Solution:
-    def removeDuplicateLetters(self, s) -> int:
-        import collections
+	import collections
+    def removeDuplicateLetters(self, s) -> int:        
         stack = []
         remain_counter = collections.Counter(s)
 
@@ -67,23 +67,6 @@ class Solution:
             remain_counter[c] -= 1
         return ''.join(stack)
 ``` 
-
-``` python
-class Solution:
-    def removeDuplicateLetters(self, s) -> int:
-        stack = []
-        remain_counter = collections.Counter(s)
-
-        for c in s:
-            if c not in stack:
-                while stack and c < stack[-1] and  remain_counter[stack[-1]] > 0:
-                    stack.pop()
-                stack.append(c)
-            remain_counter[c] -= 1
-        return ''.join(stack)
-``` 
-
-
 
 
 
