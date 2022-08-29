@@ -38,6 +38,81 @@ grid[i][j] is '0' or '1'.
 
 ## 思路DFS
 
+#### c++
+
+```c++
+class Solution {
+public:
+    //dfs
+    int numIslands(vector<vector<char>>& grid) {
+        int m = grid.size(), n = grid[0].size();
+        vector<vector<bool>> visited (m, vector<bool>(n));       
+        int islands = 0;    
+        for( int i = 0; i < m;i++){
+            for(int j = 0; j < n;j++){                
+                if(!visited[i][j] && grid[i][j] == '1'){                 
+                    dfs(grid,visited,i,j);          
+                    islands += 1;
+                }                    
+                 
+            }
+
+        }             
+        
+         return islands;
+    }
+    
+    void dfs(vector<vector<char>>& grid,vector<vector<bool>> &visited,int x,int y){    
+        int m = grid.size(), n = grid[0].size();
+        if (x < 0 || x == m || y <0 || y == n || visited[x][y] || grid[x][y] == '0')
+            return;  
+        visited[x][y] = true;        
+        dfs(grid,visited,x,y - 1); 
+        dfs(grid,visited,x,y + 1);
+        dfs(grid,visited,x + 1,y);
+        dfs(grid,visited,x - 1,y);   
+    }     
+    
+};
+```
+
+簡化直接修改grid代表已經拜訪過<br>
+
+<a href = "https://leetcode.com/submissions/detail/786046453/">98%</a>
+
+```
+class Solution {
+public:
+    //dfs
+    int numIslands(vector<vector<char>>& grid) {
+        int m = grid.size(), n = grid[0].size();        
+        int islands = 0;    
+        for( int i = 0; i < m;i++){
+            for(int j = 0; j < n;j++){                
+                if(grid[i][j] == '1'){                 
+                    dfs(grid,i,j);          
+                    islands += 1;
+                }  
+            }
+        }   
+         return islands;
+    }    
+    void dfs(vector<vector<char>>& grid,int x,int y){    
+        int m = grid.size(), n = grid[0].size();
+        if (x < 0 || x == m || y <0 || y == n ||  grid[x][y] != '1')
+            return;  
+        grid[x][y] = '*';        
+        dfs(grid,x,y - 1); 
+        dfs(grid,x,y + 1);
+        dfs(grid,x + 1,y);
+        dfs(grid,x - 1,y);   
+    }  
+};
+```
+
+
+
+
 
 
 #### Python
@@ -62,7 +137,57 @@ class Solution:
         return num_island 
 ``` 
 
+
+
+
+
+
 ## 思路BFS
+
+#### c++
+
+```c++
+class Solution {
+public:
+    int numIslands(vector<vector<char>>& grid) {
+        int m = grid.size(), n = grid[0].size();      
+        vector<vector<int>> adds {{0,1},{0,-1},{1,0},{-1,0}};
+        int islands = 0;  
+        
+        for( int i = 0; i < m;i++){
+            for(int j = 0; j < n;j++){                
+                if(grid[i][j] == '1'){
+                    queue <vector<int>> q;          
+                    q.push(vector<int>{i,j});
+                    grid[i][j] = '*';                    
+                    while(!q.empty()){                                        
+                        int cur_x = q.front()[0],cur_y = q.front()[1]; 
+                        q.pop(); 
+                        for( auto add:adds ){
+                            int x = cur_x + add[0]; 
+                            int y = cur_y + add[1];
+                            if(x < m && x >= 0 && y <n && y >=0 && grid[x][y] == '1'){
+                                    grid[x][y] = '*';
+                                    q.push(vector <int>{x,y});
+                                }
+                        }
+                     }
+                    islands += 1;
+                }   
+            }
+
+        }             
+        
+         return islands;
+    }
+};
+```
+
+
+
+
+
+####python
 
 ``` python
 class Solution:
@@ -84,3 +209,20 @@ class Solution:
                     num_island += 1        
         return num_island
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
