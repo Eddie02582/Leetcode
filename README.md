@@ -1474,121 +1474,6 @@ Leetcode Python & C#
 </tr>
 </table>
 
-# Linked List
-<table>
-<tr>
-    <td>#</td>
-    <td>Title</td>  
-    <td>Difficulty</td>
-    <td>Python</td>
-    <td>C#</td> 
-    <td>C++</</td>  
-</tr> 
-<tr>
-    <td>2</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
-    <td></td>     
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0002.%20Add%20Two%20Numbers.cpp">C++</a></td>    
-</tr>
-<tr>
-    <td>19</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/019_Remove%20Nth%20Node%20From%20End%20of%20List.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp">C++</a></td>     
-</tr>
-
-<tr>
-    <td>21</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
-</tr>
-<tr>
-    <td>24</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/024_Swap%20Nodes%20in%20PairsGenerate.md">Swap Nodes in Pairs</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/024_Swap%20Nodes%20in%20PairsGenerate.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0024_Swap%20Nodes%20in%20Pairs.cpp ">C++</a></td>  
-</tr>
-
-<tr>
-    <td>61</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/061_Rotate%20List.md">Rotate List</a></td>    
-    <td>Medium</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0061.%20Rotate%20List.cpp">C++</a></td>  
-</tr>
-
-<tr>
-    <td>*82</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/082_Remove%20Duplicates%20from%20Sorted%20List%20II.md">Remove Duplicates from Sorted List II</a></td>   
-    <td>Medium</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/082_Remove%20Duplicates%20from%20Sorted%20ListII.py">Python</a></td>
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0082.%20Remove%20Duplicates%20from%20Sorted%20List%20II.cpp">C++</a></td>              
-</tr> 
-<tr>
-    <td>83</td>    
-    <td>Remove Duplicates from Sorted List</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/083_Remove%20Duplicates%20from%20Sorted%20List.py">Python</a></td>
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0083.%20Remove%20Duplicates%20from%20Sorted%20List.cpp">C++</a></td>              
-</tr> 
-
-<tr>
-    <td>141</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0141.%20Linked%20List%20Cycle.cpp">C++</a></td>              
-</tr> 
-<tr>
-    <td>142</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0142.%20Linked%20List%20Cycle%20II.cpp">C++</a></td>     
-</tr>
-<tr>
-    <td>160</td>    
-    <td>Intersection of Two Linked Lists</a></td> 
-    <td>Easy</td>       
-    <td></td>
-    <td></td>
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0160.%20Intersection%20of%20Two%20Linked%20Lists.cpp">C++</a></td>              
-</tr> 
-<tr>
-    <td>203</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/203_Remove%20Linked%20List%20Elements.md">Remove Linked List Elements</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/203_Remove%20Linked%20List%20Elements.py">Python</a>     
-    </td>
-</tr> 
-
-<tr>
-    <td>876</td>    
-    <td>Middle of the Linked List</td> 
-    <td>Easy</td>  
-    <td></td>  
-    <td></td>        
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/0876.%20Middle%20of%20the%20Linked%20List.cpp">C++</a></td>     
-
-</tr>
-
-</table>
-
-
 
 # Graph
 <table>
@@ -1790,6 +1675,156 @@ Leetcode Python & C#
 </table>
 
 
+
+
+# Linked List
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>  
+</tr> 
+<tr>
+    <td>2</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/002_Add%20Two%20Numbers.md">Add Two Numbers</a></td>
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/002_Add%20Two%20Numbers.py">Python</td>
+    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0002.%20Add%20Two%20Numbers.cpp">C++</a></td>    
+</tr>
+<tr>
+    <td>19</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/019_Remove%20Nth%20Node%20From%20End%20of%20List.md">Remove Nth Node From End of List</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/019_Remove%20Nth%20Node%20From%20End%20of%20List.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp">C++</a></td>     
+</tr>
+
+<tr>
+    <td>21</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a></td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>24</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/024_Swap%20Nodes%20in%20PairsGenerate.md">Swap Nodes in Pairs</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/024_Swap%20Nodes%20in%20PairsGenerate.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0024_Swap%20Nodes%20in%20Pairs.cpp ">C++</a></td>  
+</tr>
+
+<tr>
+    <td>61</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/061_Rotate%20List.md">Rotate List</a></td>    
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0061.%20Rotate%20List.cpp">C++</a></td>  
+</tr>
+
+<tr>
+    <td>*82</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/082_Remove%20Duplicates%20from%20Sorted%20List%20II.md">Remove Duplicates from Sorted List II</a></td>   
+    <td>Medium</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/082_Remove%20Duplicates%20from%20Sorted%20ListII.py">Python</a></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0082.%20Remove%20Duplicates%20from%20Sorted%20List%20II.cpp">C++</a></td>              
+</tr> 
+<tr>
+    <td>83</td>    
+    <td>Remove Duplicates from Sorted List</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/083_Remove%20Duplicates%20from%20Sorted%20List.py">Python</a></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0083.%20Remove%20Duplicates%20from%20Sorted%20List.cpp">C++</a></td>              
+</tr> 
+
+<tr>
+    <td>141</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/141_Linked%20List%20Cycle%20I.md">Linked List Cycle</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0141.%20Linked%20List%20Cycle.cpp">C++</a></td>              
+</tr> 
+<tr>
+    <td>142</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/142_Linked%20List%20Cycle%20II.md">Linked List Cycle II</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/141_Linked%20List%20Cycle.py">Python</a></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0142.%20Linked%20List%20Cycle%20II.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>160</td>    
+    <td>Intersection of Two Linked Lists</a></td> 
+    <td>Easy</td>       
+    <td></td>
+    <td></td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0160.%20Intersection%20of%20Two%20Linked%20Lists.cpp">C++</a></td>              
+</tr> 
+<tr>
+    <td>203</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/203_Remove%20Linked%20List%20Elements.md">Remove Linked List Elements</a></td> 
+    <td>Easy</td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/203_Remove%20Linked%20List%20Elements.py">Python</a>     
+    </td>
+</tr> 
+
+<tr>
+    <td>876</td>    
+    <td>Middle of the Linked List</td> 
+    <td>Easy</td>  
+    <td></td>  
+    <td></td>        
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C++/0876.%20Middle%20of%20the%20Linked%20List.cpp">C++</a></td>     
+
+</tr>
+
+</table>
+
+
+
+
+# Matrix
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>      
+</tr>
+<tr>
+    <td>48</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/048_Rotate%20Image.md">Rotate Image</a></td> 
+    <td>Medium</td>  
+    <td></td>     
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0048.%20Rotate%20Image.cpp">C++</a></td>
+</tr>
+<tr>
+    <td>1329</td>    
+    <td>Sort the Matrix Diagonally</a></td> 
+    <td>Medium</td>  
+    <td></td>     
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1329.%20Sort%20the%20Matrix%20Diagonally.cpp">C++</a></td>
+</tr> 
+</table>
+
+
+
+
 # Sliding Window
 <table>
 <tr>
@@ -1932,25 +1967,6 @@ Leetcode Python & C#
 </tr>
 </table>
 
-# Others
-<table>
-<tr>
-    <td>#</td>
-    <td>Title</td>  
-    <td>Difficulty</td>
-    <td>Python</td>
-    <td>C#</td> 
-    <td>C++</</td>      
-</tr>
-<tr>
-    <td>1329</td>    
-    <td>Sort the Matrix Diagonally</a></td> 
-    <td>Medium</td>  
-    <td></td>     
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1329.%20Sort%20the%20Matrix%20Diagonally.cpp">C++</a></td>
-</tr> 
-</table>
 
 
 
