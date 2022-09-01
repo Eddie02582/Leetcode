@@ -837,9 +837,9 @@ Leetcode Python & C#
     <td>1448</td>    
     <td>Count Good Nodes in Binary Tree</td> 
     <td>Medium</td>  
-    <td>
-		<a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.cpp">C++</a></td>    
 </tr>
 </table>
 
@@ -1285,11 +1285,11 @@ Leetcode Python & C#
 </tr>
 <tr>
     <td>1448</td>    
-    <td>Count Good Nodes in Binary Tree</a></td> 
+    <td>Count Good Nodes in Binary Tree</td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/1448_Count%20Good%20Nodes%20in%20Binary%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.cpp">C++</a></td>    
 </tr>
 </table>
 
