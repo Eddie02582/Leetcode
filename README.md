@@ -1059,9 +1059,9 @@ Leetcode Python & C#
     <td>637</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/637_Average%20of%20Levels%20in%20Binary%20Tree.md">Average of Levels in Binary Tree</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/637_Average%20of%20Levels%20in%20Binary%20Tree.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/637_Average%20of%20Levels%20in%20Binary%20Tree.py">Python</a></td>  
+    <td></td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0637.%20Average%20of%20Levels%20in%20Binary%20Tree.cpp">C++</a></td>        
 </tr>
 <tr>
     <td>653</td>    
