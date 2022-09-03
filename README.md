@@ -1088,6 +1088,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>967</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/967.%20Numbers%20With%20Same%20Consecutive%20Differences.md">Numbers With Same Consecutive Differences</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0967.%20Numbers%20With%20Same%20Consecutive%20Differences.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>993</td>    
     <td><a href="">Cousins in Binary Tree</a></td> 
     <td>Easy</td>  
@@ -1258,6 +1266,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/797_All%20Paths%20From%20Source%20to%20Target.py">Python</a></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0797.%20All%20Paths%20From%20Source%20to%20Target.cpp">C++</a></td>             
+</tr>
+<tr>
+    <td>967</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/967.%20Numbers%20With%20Same%20Consecutive%20Differences.md">Numbers With Same Consecutive Differences</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0967.%20Numbers%20With%20Same%20Consecutive%20Differences.cpp">C++</a></td>             
 </tr>
 <tr>
     <td>993</td>    
