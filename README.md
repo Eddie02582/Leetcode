@@ -1101,7 +1101,7 @@ Leetcode Python & C#
     <td>Hard</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.py">Python</a></td>         
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp">C++</a></td>             
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp">*C++</a></td>             
 </tr>
 <tr>
     <td>993</td>    
