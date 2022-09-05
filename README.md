@@ -1031,6 +1031,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>429</td>    
+    <td>N-ary Tree Level Order Traversal</td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0429.%20N-ary%20Tree%20Level%20Order%20Traversal.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>*433</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/433_Minimum%20Genetic%20Mutation.md">Minimum Genetic Mutation</td> 
     <td>Medium</td>  
@@ -1242,6 +1250,14 @@ Leetcode Python & C#
     <td></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0404.%20Sum%20of%20Left%20Leaves.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>429</td>    
+    <td>N-ary Tree Level Order Traversal</td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0429.%20N-ary%20Tree%20Level%20Order%20Traversal.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>515</td>    
