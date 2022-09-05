@@ -1096,6 +1096,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0967.%20Numbers%20With%20Same%20Consecutive%20Differences.cpp">C++</a></td>             
 </tr>
 <tr>
+    <td>987</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.md">Vertical Order Traversal of a Binary Tree</a></td> 
+    <td>Hard</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp">C++</a></td>             
+</tr>
+<tr>
     <td>993</td>    
     <td><a href="">Cousins in Binary Tree</a></td> 
     <td>Easy</td>  
@@ -1274,6 +1282,14 @@ Leetcode Python & C#
     <td></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0967.%20Numbers%20With%20Same%20Consecutive%20Differences.cpp">C++</a></td>             
+</tr>
+<tr>
+    <td>987</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.md">Vertical Order Traversal of a Binary Tree</a></td> 
+    <td>Hard</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp">C++</a></td>             
 </tr>
 <tr>
     <td>993</td>    
