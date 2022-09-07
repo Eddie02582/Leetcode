@@ -1268,6 +1268,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>606</td>    
+    <td>Construct String from Binary Tree</a></td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0606.%20Construct%20String%20from%20Binary%20Tree.cpp">C++</a></td>    
+</tr>
+<tr>
     <td>653</td>    
     <td>Two Sum IV - Input is a BST</a></td> 
     <td>Easy</td>  
@@ -1275,6 +1283,7 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a>
     </td>         
 </tr>
+
 <tr>
     <td>695</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
