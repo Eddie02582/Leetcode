@@ -970,9 +970,10 @@ Leetcode Python & C#
     <td>112</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/112_Path%20Sum.md">Path Sum</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  
-    </td>         
+    <td> <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  </td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0112.%20Path%20Sum.cpp   ">C++</a></td>   
+
 </tr> 
 <tr>
     <td>*127</td>    
@@ -1171,14 +1172,12 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
 </tr>
-<tr>
     <td>112</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/112_Path%20Sum.md">Path Sum</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  
-    </td>         
-</tr>
+    <td> <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/112_Path%20Sum.py">Python</a>  </td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0112.%20Path%20Sum.cpp   ">C++</a></td>   
 <tr>
     <td>129</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 

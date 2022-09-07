@@ -41,14 +41,13 @@ class Solution(object):
 ```c++
 class Solution {
 public:
-
-    bool hasPathSum(TreeNode* root, int targetSum) {   
-        if (root == NULL)
+    bool hasPathSum(TreeNode* root, int targetSum) {
+        if(!root)        
             return false;
-        targetSum ==  targetSum - root->val;
-        if (root->left == NULL & root->right == NULL) 
-            return targetSum == 0;  
-        return hasPathSum(root->left,targetSum) || hasPathSum(root->right,targetSum);
+        targetSum -= root->val;
+        if (!root->right && !root->left)
+            return targetSum == 0;       
+        return  hasPathSum(root->left,targetSum) || hasPathSum(root->right,targetSum);
     }
 };
 ```
@@ -81,4 +80,43 @@ class Solution:
                 queue.append(node.right)   
         return False
 ```
+
+
+#### c++
+
+```c++
+class Solution {
+public:
+    bool hasPathSum(TreeNode* root, int targetSum) {
+        if (!root)
+            return false;
+        queue<TreeNode*> q;
+        q.push(root);
+        
+        while(!q.empty()){
+            TreeNode* node = q.front();
+            q.pop();
+            if(!node->left && !node->right && node->val == targetSum){
+                return true;
+            }
+            if(node->left){
+                node->left->val += node->val;
+                q.push(node->left);
+            }
+            if(node->right){
+                node->right->val += node->val;
+                q.push(node->right);
+            }  
+        }  
+        return false;
+    }
+};
+```
+
+
+
+
+
+
+
 

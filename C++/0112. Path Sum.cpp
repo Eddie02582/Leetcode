@@ -26,28 +26,13 @@ class Solution {
 public:
 
     bool hasPathSum(TreeNode* root, int targetSum) {   
-        if (root == NULL)
+        if(!root)        
             return false;
-        targetSum ==  targetSum - root->val;
-        if (root->left == NULL & root->right == NULL) 
-            return targetSum == 0;  
-        return hasPathSum(root->left,targetSum) || hasPathSum(root->right,targetSum);
-    }
-
-
-    bool hasPathSum2(TreeNode* root, int targetSum) {   
-        return dfs(root,targetSum);
-    }
-    
-    bool dfs(TreeNode* root, int targetSum)
-    {   
-        if (root == NULL)
-            return false;
-        targetSum ==  targetSum - root->val;
-        if (root->left == NULL & root->right == NULL)        
-            return targetSum == 0;             
-        return dfs(root->left,targetSum) || dfs(root->right,targetSum);
-    }
+        targetSum -= root->val;
+        if (!root->right && !root->left)
+            return targetSum == 0;       
+        return  hasPathSum(root->left,targetSum) || hasPathSum(root->right,targetSum);
+    }  
 };
 
 
