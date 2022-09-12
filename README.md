@@ -2020,6 +2020,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.py">Python</a>
     </td>         
 </tr>
+<tr>
+    <td>948</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/948_Bag%20of%20Toke.md">Bag of Toke</a></td> 
+    <td>Medium</td>  
+    <td></td> 
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0948.%20Bag%20of%20Tokens.cpp">C++</a></td>     
+</tr>
 </table>
 
 
