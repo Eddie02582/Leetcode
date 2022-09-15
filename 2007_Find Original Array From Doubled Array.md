@@ -1,6 +1,6 @@
 # Find Original Array From Doubled Array
 
-## ­ìÃD¥Ø:
+## åŸé¡Œç›®:
 ```
 An integer array original is transformed into a doubled array changed by appending twice the value of every element in original, 
 
@@ -37,9 +37,9 @@ Constraints:
 
 
 
-## «ä¸ô 
+## æ€è·¯ 
 
-¥ı±Æ§Ç,µM«á¥Ñ¤p¶}©l°t¹ï,¦pªG°t¹ï¨ì´N²¾°£,¦pªG¨S°t¹ï¨ì´N¦^¶ÇªÅ°}¦C,§Q¥Îmap°Oºñ¨C­Ó¼Æ¦rªº¦U¼Æ,°t¹ï§¹§Y²¾°£¦U¼Æ
+å…ˆæ’åº,ç„¶å¾Œç”±å°é–‹å§‹é…å°,å¦‚æœé…å°åˆ°å°±ç§»é™¤,å¦‚æœæ²’é…å°åˆ°å°±å›å‚³ç©ºé™£åˆ—,åˆ©ç”¨mapè¨˜ç¶ æ¯å€‹æ•¸å­—çš„å„æ•¸,é…å°å®Œå³ç§»é™¤å„æ•¸
 
 
 #### c++
