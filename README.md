@@ -1725,7 +1725,14 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1338.%20Reduce%20Array%20Size%20to%20The%20Half.cpp">C++</a></td>     
 </tr>
-
+<tr>
+    <td>2007</td>        
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/2007_Find%20Original%20Array%20From%20Doubled%20Array.md">Find Original Array From Doubled Array</a></td>
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.cpp">C++</a></td>     
+</tr>
 
 </table>
 
