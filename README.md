@@ -2020,6 +2020,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0016.%203Sum%20Closest.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>283</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/283_Move%20Zeroes.md">Move Zeroes</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/283_Move%20Zeroes.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0283.%20Move%20Zeroes.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>633</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.md">Sum of Square Numbers</a></td> 
     <td>Medium</td>  
