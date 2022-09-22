@@ -957,6 +957,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>       
 </tr>
 <tr>
+    <td>104</td>    
+    <td>Maximum Depth of Binary Tree</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0104.%20Maximum%20Depth%20of%20Binary%20Tree.cpp">C++</a></td> 
+</tr> 
+<tr>
     <td>112</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/112_Path%20Sum.md">Path Sum</a></td> 
     <td>Easy</td>  
@@ -1161,6 +1169,14 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
 </tr>
+<tr>
+    <td>104</td>    
+    <td>Maximum Depth of Binary Tree</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0104.%20Maximum%20Depth%20of%20Binary%20Tree.cpp">C++</a></td> 
+</tr> 
 <tr>
     <td>112</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/112_Path%20Sum.md">Path Sum</a></td> 
