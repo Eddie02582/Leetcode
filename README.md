@@ -1957,6 +1957,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0155.%20Min%20Stack.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>*232</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/232.%20Implement%20Queue%20using%20Stacks.md">Implement Queue using Stacks</a></td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0232.%20Implement%20Queue%20using%20Stacks.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>**316</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/316_Remove%20Duplicate%20Letters.md">Remove Duplicate Letters</a></td> 
     <td>Medium</td>  
