@@ -1386,9 +1386,10 @@ Leetcode Python & C#
     <td>53</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/053_Maximum%20Subarray.md">Maximum Subarray</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/053_Maximum%20Subarray.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/053_Maximum%20Subarray.py">Python</a></td>    
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0053.%20Maximum%20Subarray.cpp  ">C++</a></td>  
+
 </tr>
 <tr>
     <td>*55</td>    
