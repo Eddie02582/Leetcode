@@ -614,7 +614,8 @@ Leetcode Python & C#
     <td>Medium</td>  
     <td></td>         
     <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0036.%20Valid%20Sudoku.cpp">C++</a></td>       
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0036.%20Valid%20Sudoku.cpp">C++</a></td>       
 </tr>
 
 </table>
@@ -629,14 +630,13 @@ Leetcode Python & C#
     <td>Difficulty</td>
     <td>Python</td>
     <td>C#</td> 
-    <td>C++</</td>  
+    <td>C++</td>  
 </tr>
 <tr>
     <td>17</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/017_Letter%20Combinations%20of%20a%20Phone%20Number.md">Letter Combinations of a Phone Number</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/017_Letter%20Combinations%20of%20a%20Phone%20Number.py">Python</a> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/017_Letter%20Combinations%20of%20a%20Phone%20Number.py">Python</a> 
     </td>         
 </tr>  
 <tr>
