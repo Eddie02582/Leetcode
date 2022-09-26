@@ -590,15 +590,36 @@ Leetcode Python & C#
     <td>743</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/743_Network%20Delay%20Time.md">Network Delay Time</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/743_Network%20Delay%20Time.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/743_Network%20Delay%20Time.py">Python</a></td>         
     <td></td> 
     <td></td>     
 </tr>
 
 
 </table>
+
+# Array
+<table>
+<tr>
+    <td>#</td>
+    <td>Title</td>  
+    <td>Difficulty</td>
+    <td>Python</td>
+    <td>C#</td> 
+    <td>C++</</td>  
+</tr>
+<tr>
+    <td>36</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/036_Valid%20Sudoku.md">Generate Parentheses</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>       
+</tr>
+
+</table>
+
+
 
 # Backtracking
 <table>
