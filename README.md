@@ -812,6 +812,22 @@ Leetcode Python & C#
      <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp">C++</a> </td> 
 </tr>
 <tr>
+    <td>144</td>    
+    <td>Binary Tree Preorder Traversal</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0144.%20Binary%20Tree%20Preorder%20Traversal.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>145</td>    
+    <td>Binary Tree Postorder Traversal</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0145.%20Binary%20Tree%20Postorder%20Traversal.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>226</td>    
     <td>Invert Binary Tree</td> 
     <td>Easy</td>  
