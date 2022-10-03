@@ -307,16 +307,7 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 
-<tr>
-    <td>121</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.md">Best Time to Buy and Sell Stock</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.py">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 <tr>
     <td>128</td>    
     <td><a href="">Longest Consecutive Sequence</a></td> 
@@ -1471,7 +1462,7 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Python</a></td>        
     <td></td> 
-    <td></td>     
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0118.%20Pascal's%20Triangle.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>120</td>    
@@ -1481,6 +1472,14 @@ Leetcode Python & C#
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Dynamic%20Programming/120_Triangle.py">Python</a>,
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/120.triangle.cs">C#</a>      
     </td>         
+</tr>
+<tr>
+    <td>121</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.md">Best Time to Buy and Sell Stock</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.py">Python</a></td>        
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>198</td>    
