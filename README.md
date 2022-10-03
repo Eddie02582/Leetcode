@@ -51,23 +51,6 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0014.%20Longest%20Common%20Prefix.cpp">C++</a></td>     
 </tr>
-
-<tr>
-    <td>20</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/020_Valid%20Parentheses.md">Valid Parentheses</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/020_Valid%20Parentheses.py">Python</a></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0020.%20Valid%20Parentheses.cpp">C++</a></td>     
-</tr>
-<tr>
-    <td>21</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/021_Merge%20Two%20Sorted%20Lists.md">Merge Two Sorted Lists</a></td> 
-    <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/021_Merge%20Two%20Sorted%20Lists.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/021_Merge%20Two%20Sorted%20Lists.cs">C#</a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0021.%20Merge%20Two%20Sorted%20Lists.cpp">C++</a></td>     
-</tr>
 <tr>
     <td>26</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/026_%20Remove%20Duplicates%20from%20Sorted%20Array.md">Remove Duplicates from Sorted Array.py</a></td> 
@@ -310,16 +293,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102.%20Binary%20Tree%20Level%20Order%20Traversal.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>118</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/118_Pascal's%20Triangle.md">Pascal's Triangle</a></td> 
-    <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Python</a>  
-    </td>         
     <td></td> 
     <td></td>     
 </tr>
@@ -1491,6 +1464,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/096_Unique%20Binary%20Search%20Trees.py">Python</a></td>     
     <td></td>   
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0096.%20Unique%20Binary%20Search%20Trees.cpp">C++</a></td>       
+</tr>
+<tr>
+    <td>118</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/118_Pascal's%20Triangle.md">Pascal's Triangle</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/118_Pascal's%20Triangle.py">Python</a></td>        
+    <td></td> 
+    <td></td>     
 </tr>
 <tr>
     <td>120</td>    
