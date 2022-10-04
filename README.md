@@ -279,24 +279,6 @@ Leetcode Python & C#
 </tr>
 
 <tr>
-    <td>101</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
-    <td>Easy</td>  
-    <td>
-    <a href="#">Python</a>  
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>102</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102.%20Binary%20Tree%20Level%20Order%20Traversal.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>119</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/119_Pascal's%20Triangle%20II.md">Pascal's Triangle II</a></td> 
     <td>Easy</td>  
@@ -761,6 +743,30 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
 </tr>
 <tr>
+    <td>101</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/101_Same%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0101.%20Symmetric%20Tree.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>102</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102.%20Binary%20Tree%20Level%20Order%20Traversal.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0102.%20Binary%20Tree%20Level%20Order%20Traversal.cpp ">C++</a></td>    
+</tr>
+<tr>
+    <td>104</td>    
+    <td>Maximum Depth of Binary Tree</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0104.%20Maximum%20Depth%20of%20Binary%20Tree.cpp">C++</a></td> 
+</tr> 
+<tr>
     <td>129</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
     <td>Medium</td>  
@@ -949,6 +955,22 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a></td>         
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>       
+</tr>
+<tr>
+    <td>101</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/101_Same%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0101.%20Symmetric%20Tree.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>102</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/102_Binary%20Tree%20Level%20Order%20Traversal.md">Binary Tree Level Order Traversal</a></td> 
+    <td>Medium</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/102.%20Binary%20Tree%20Level%20Order%20Traversal.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0102.%20Binary%20Tree%20Level%20Order%20Traversal.cpp ">C++</a></td>    
 </tr>
 <tr>
     <td>104</td>    
@@ -1162,6 +1184,14 @@ Leetcode Python & C#
     <td></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
+</tr>
+<tr>
+    <td>101</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/101_Same%20Tree.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0101.%20Symmetric%20Tree.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>104</td>    
