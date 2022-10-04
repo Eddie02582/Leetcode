@@ -960,7 +960,7 @@ Leetcode Python & C#
     <td>101</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/101_Symmetric%20Tree.md">Symmetric Tree</a></td> 
     <td>Easy</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/101_Same%20Tree.py">Python</a></td>         
+    <td></td>         
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0101.%20Symmetric%20Tree.cpp">C++</a></td>     
 </tr>
