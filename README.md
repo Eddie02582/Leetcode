@@ -386,14 +386,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0229.%20Majority%20Element%20II.cpp">C++</a></td>    
 </tr
-<tr>
-    <td>242</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
-    <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a></td>
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0242.%20Valid%20Anagram.cpp">C++</a></td>      
-</tr>
+
 <tr>
     <td>268</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/268_Missing%20Number.md">Missing Number</a></td> 
@@ -1683,8 +1676,9 @@ Leetcode Python & C#
     <td>242</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.md">Valid Anagram</a></td> 
     <td>Easy</td>       
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a>     
-    </td>
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/242_Valid%20Anagram.py">Python</a></td>
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0242.%20Valid%20Anagram.cpp">C++</a></td>      
 </tr>
 <tr>
     <td>318</td>    

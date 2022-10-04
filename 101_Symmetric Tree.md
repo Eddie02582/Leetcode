@@ -40,13 +40,32 @@ Bonus points if you could solve it both recursively and iteratively.
 ``` python
     def isSymmetric(self, root: TreeNode) -> bool:
         def isSame(t1,t2):
-            return t1 and t2 and t1.val==t2.val and isSame(t1.left,t2.right) and isSame(t1.right,t2.left) or t1 is t2
-        
-        if root==None:
-            return True
-        return isSame(root.left,root.right)
-        
+            return t1 and t2 and t1.val==t2.val and isSame(t1.left,t2.right) and isSame(t1.right,t2.left) or t1 is t2       
+        return isSame(root.left,root.right)        
 ```  
+
+### c++
+```c++
+class Solution {
+public:
+    bool isSymmetric(TreeNode* root) {
+        if (!root)
+            return false;
+        return isSymmetric(root->left,root->right) ;        
+    }        
+    bool isSymmetric(TreeNode* left,TreeNode* right){
+
+        if(!left && !right)
+            return true;
+        else if (!left || !right)
+            return false; 
+        else if (left->val != right->val)
+            return false;        
+        return isSymmetric(left->left,right->right) && isSymmetric(left->right,right->left);
+    }
+};
+```
+
 
 ## BFS
 每次將每一層加入隊列,並判斷每層是否對稱
@@ -65,9 +84,7 @@ class Solution(object):
         queue =[[root]]
         count = 1
         while queue:
-            nodes = queue.pop()
-
-            
+            nodes = queue.pop()            
             l ,r = 0 , len(nodes) - 1
             while l < r :
                 if nodes[l] and not nodes[r]:
@@ -124,12 +141,9 @@ class Solution(object):
                     return False
                 elif root1.right and not root2.left:
                     return False
-
-
                 if root1.left:
                     queue.append(root1.left)
                     queue.append(root2.right)
-
                 if root1.right:
                     queue.append(root1.right)
                     queue.append(root2.left)
