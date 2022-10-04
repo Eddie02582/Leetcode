@@ -712,6 +712,22 @@ Leetcode Python & C#
     <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp">C++</a></td>     
 </tr>
+<tr>
+    <td>700</td>    
+    <td>Search in a Binary Search Tree</td> 
+    <td>Easy</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0700.%20Search%20in%20a%20Binary%20Search%20Tree.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>701</td>    
+    <td>Insert into a Binary Search Tree</td>    
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0701.%20Insert%20into%20a%20Binary%20Search%20Tree.cpp">C++</a></td>     
+</tr>
 </table>
 
 
