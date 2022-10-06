@@ -21,4 +21,22 @@ public:
         else
             return searchBST(root->left,val);
     }
+    
+    TreeNode* searchBST_(TreeNode* root, int val) {
+        queue<TreeNode*> q;
+        q.push(root);        
+        while(!q.empty()){
+            TreeNode* node = q.front();
+            q.pop();
+            if(node->val == val)
+                return node;
+            if(val > node->val && node->right)
+                q.push(node->right);
+            else if(node->left)
+                q.push(node->left);            
+        }      
+        
+        return NULL;
+    }
+    
 };

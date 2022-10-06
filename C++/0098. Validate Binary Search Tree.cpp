@@ -14,12 +14,12 @@
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        if(root == NULL)
+        if(!root)
             return true;           
         return checkBST(root,LONG_MIN,LONG_MAX);
     }
     bool checkBST(TreeNode* root,long lower,long upper){
-        if(root == NULL)
+        if(!root)
             return true;
         if  (root->val >= upper || root->val <= lower)
             return false;   

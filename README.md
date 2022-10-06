@@ -489,9 +489,7 @@ Leetcode Python & C#
     <td>653</td>    
     <td>Two Sum IV - Input is a BST</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a></td>         
     <td></td> 
     <td></td>     
 </tr>
