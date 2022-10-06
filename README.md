@@ -695,6 +695,14 @@ Leetcode Python & C#
     <td>C++</</td>     
 </tr>
 <tr>
+    <td>98</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/098_Validate%20Binary%20Search%20Tree.md">Validate Binary Search Tree</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
+</tr>
+<tr>
     <td>108</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/108_Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md">Convert Sorted Array to Binary Search Tree</a></td> 
     <td>Easy</td>  
@@ -710,6 +718,15 @@ Leetcode Python & C#
     <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp">C++</a></td>     
 </tr>
+<tr>
+    <td>653</td>    
+    <td>Two Sum IV - Input is a BST</a></td> 
+    <td>Easy</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a></td>   
+    <td></td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.cpp">C++</a></td> 
+</tr>
+
 <tr>
     <td>700</td>    
     <td>Search in a Binary Search Tree</td> 
@@ -747,14 +764,6 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/094_Binary%20Tree%20Inorder%20Traversal.py">Python</a></td>         
     <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0094.%20Binary%20Tree%20Inorder%20Traversal.cpp">C++</a></td>     
-</tr>
-<tr>
-    <td>98</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/098_Validate%20Binary%20Search%20Tree.md">Validate Binary Search Tree</a></td> 
-    <td>Medium</td>  
-    <td></td>         
-    <td></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0098.%20Validate%20Binary%20Search%20Tree.cpp">C++</a></td>       
 </tr>
 <tr>
     <td>101</td>    
@@ -1111,9 +1120,9 @@ Leetcode Python & C#
     <td>653</td>    
     <td>Two Sum IV - Input is a BST</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a></td>   
+    <td></td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.cpp">C++</a></td> 
 </tr>
 <tr>
     <td>690</td>    
@@ -1339,9 +1348,9 @@ Leetcode Python & C#
     <td>653</td>    
     <td>Two Sum IV - Input is a BST</a></td> 
     <td>Easy</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/653_Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py">Python</a></td>   
+    <td></td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.cpp">C++</a></td> 
 </tr>
 
 <tr>
