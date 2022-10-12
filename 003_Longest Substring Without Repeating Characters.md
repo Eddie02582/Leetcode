@@ -44,6 +44,10 @@ ex: "pwwkew" <br>
 
 ## Code
 
+
+
+
+
 #### Python
 使用map記錄是否出現
 ```python
@@ -108,7 +112,32 @@ class Solution:
 
 
 
+#### c++
 
+```c++
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int left = 0,right = 0;
+        int longestLength = 0;
+        unordered_set<char> char_set;
+        
+        while(right < s.size()){
+            if(char_set.count(s[right])){
+                while(s[left] != s[right]){
+                    char_set.erase(s[left]);
+                    left++;
+                }
+                left++;
+            }           
+            char_set.insert(s[right]);            
+            longestLength = max(longestLength,right - left + 1);
+            right++;
+        }
+        return longestLength;
+    } 
+};
+```
 
 
 
