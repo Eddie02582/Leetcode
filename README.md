@@ -456,16 +456,7 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0503.%20Next%20Greater%20Element%20II.cpp">C++</a></td>             
 </tr>
-<tr>
-    <td>567</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/567_Permutation%20in%20String.md">Permutation in String</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
+
 
 <tr>
     <td>637</td>    
@@ -499,16 +490,6 @@ Leetcode Python & C#
     <td>Easy</td>  
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/690_Employee%20Importance.py">Python</a>
-    </td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
-    <td>695</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
-    <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
     </td>         
     <td></td> 
     <td></td>     
@@ -1161,9 +1142,9 @@ Leetcode Python & C#
     <td>695</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0695.%20Max%20Area%20of%20Island.cpp">C++</a></td>
 </tr>
 <tr>
     <td>967</td>    
@@ -1377,14 +1358,13 @@ Leetcode Python & C#
     <td></td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.cpp">C++</a></td> 
 </tr>
-
 <tr>
     <td>695</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/695_Max%20Area%20of%20Island.md">Max Area of Island</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/695_Max%20Area%20of%20Island.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0695.%20Max%20Area%20of%20Island.cpp">C++</a></td>
 </tr>
 <tr>
     <td>797</td>    
@@ -1796,12 +1776,12 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>#567</td>    
+    <td>567</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/567_Permutation%20in%20String.md">Permutation in String</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0567.%20Permutation%20in%20String.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>575</td>    
@@ -2035,12 +2015,12 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
-    <td>#567</td>    
+    <td>567</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/567_Permutation%20in%20String.md">Permutation in String</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a>
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/567_Permutation%20in%20String.py">Python</a></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0567.%20Permutation%20in%20String.cpp">C++</a></td>     
 </tr>
 </table>
 
