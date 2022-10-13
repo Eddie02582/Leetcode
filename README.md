@@ -1255,6 +1255,14 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0113.%20Path%20Sum%20II.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>116</td>    
+    <td>Populating Next Right Pointers in Each Node</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp">C++</a></td>     
+</tr>
+<tr>
     <td>129</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/129_Sum%20Root%20to%20Leaf%20Numbers.md">Sum Root to Leaf Numbers</a></td> 
     <td>Medium</td>  
