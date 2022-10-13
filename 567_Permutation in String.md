@@ -33,35 +33,6 @@ output:['cbab', 'cbba', 'abbc', 'bcba', 'cbab', 'cbab', 'babc']
 當遇到字元不在need,表示這窗口不符合,可以直接將l移到r+1,或是當window字元個數超過need,移動左邊指針直到window字元個數小於need
 
 #### Python
-```python
-def find_permutation(s1,s2):
-    window,need = {},{}
-    for s in s1:
-        need[s] = need.get(s,0) + 1
-        
-    ans = []
-    l,r = 0,0
-    while r < len(s2) :
-        if s2[r] in need:
-            window[s2[r]] =  window.get(s2[r],0) + 1
-            if window == need:
-                ans.append(s2[l:r + 1])   
-                window[s2[l]] -= 1
-                l += 1
-            else:
-                while window[s2[r]] > need[s2[r]]:                    
-                    if s2[l] in window:
-                        window[s2[l]] -= 1  
-                    l += 1
-            r += 1
-        else:
-            window = {}
-            r += 1
-            l = r      
-    return ans
-```
-所以567這題可以簡化成
-
 ``` python
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -88,31 +59,57 @@ class Solution:
 ``` 
 
 ## 思路2
+用freqS1記錄s1字元,並記綠s1有幾個不重複字元,雙指針移動,right指針移動,有種情況
+
+<ul>
+    <li>freqS2[right] >freqS1[right]:表示不符合必須移動left指針使得freqS2[right] <= freqS1[right],移動時若造成原本字元符合match必須減1</li>
+    <li>freqS2[right] == freqS1[right]:match++</li>
+</ul>
+
+
+#### c++
+```c++
+class Solution {
+public:
+    bool checkInclusion(string s1, string s2) {        
+        int freqS1 [26] = {0};
+        int freqS2 [26] = {0};         
+        int char_cnt = 0;
+        int match = 0;
+        for(auto c :s1){
+            if(!freqS1[c - 'a'])
+                char_cnt++;
+            freqS1[c - 'a']++;                
+        }        
+        int left = 0,right = 0;   
+        while (right < s2.size()){  
+            freqS2[s2[right] -'a']++;  
+            if(freqS2[s2[right] -'a']  == freqS1[s2[right] -'a']){
+                match++;
+            }
+            else{                
+                while(freqS2[s2[right] -'a'] > freqS1[s2[right] -'a']){                
+                    if(freqS1[s2[left] -'a'] > 0 && freqS2[s2[left] -'a']  == freqS1[s2[left] -'a']){
+                            match--;
+                    }
+                    freqS2[s2[left] -'a']--;
+                    left++;
+                }  
+            }            
+            if(match == char_cnt)
+                 return true;   
+            right++;            
+        }
+        return false;
+    }
+};
+```
+
+
+## 思路3
+
+#### Python
 一樣的思路但使用r - l +1判斷長度是否符合,如果長度符合,那麼l指針必須向左移動,並移除l指針的元素
-```
-def find_permutation2(s1,s2):
-	from collections import Counter,defaultdict
-	need = Counter(s1)
-	window = defaultdict(int)		   
-	ans = []
-	l,r = 0,0
-	while r < len(s2) :
-	
-		if s2[r] in need:
-			window[s2[r]] +=1
-			
-		if r - l + 1 ==len(s1):
-			if window == need:
-				ans.append(s2[l:r + 1])  
-			if s2[l] in window:            
-				window[s2[l]] -= 1
-			l += 1        
-		r += 1            
-	return ans
-```
-
-所以567這題可以簡化成
-
 ``` python
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -134,3 +131,54 @@ class Solution:
         	r += 1            
         return False  
 ``` 
+
+#### c++
+```c++
+class Solution {
+public:
+    bool checkArrayEqual(int a[], int b[]){
+        for(int i=0; i<26; i++){            
+             if(a[i]!=b[i]) 
+                return false;
+        }
+        return true;
+    }
+    bool checkInclusion(string s1, string s2) {        
+        int freqS1 [26] = {0};
+        int freqS2 [26] = {0}; 
+        
+        for(auto c :s1){         
+            freqS1[c - 'a']++;         
+        }
+        
+        int left = 0,right = 0;   
+        while (right < s2.size()){              
+            freqS2[s2[right] -'a']++;
+            
+            if (right - left + 1 == s1.size()){
+                //check 
+                if(checkArrayEqual(freqS1,freqS2))
+                    return true;                
+                
+                freqS2[s2[left] -'a']--;
+                left++;                
+            }
+            right++;  
+        }
+        return false;
+    }
+};
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
