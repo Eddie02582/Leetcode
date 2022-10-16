@@ -215,14 +215,6 @@ Leetcode Python & C#
     <td></td>     
 </tr>
 <tr>
-    <td>77</td>    
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/077_Combinations.py">Python</a></td>         
-    <td></td> 
-    <td></td>     
-</tr>
-<tr>
     <td>78</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Subsets</a></td> 
     <td>Medium</td>  
@@ -594,9 +586,10 @@ Leetcode Python & C#
     <td>77</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/077_Combinations.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/077_Combinations.py">Python</a></td>  
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0077.%20Combinations.cpp">C++</a></td>
+   
 </tr>
 <tr>
     <td>78</td>    
