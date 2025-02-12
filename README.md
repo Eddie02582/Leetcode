@@ -1542,6 +1542,15 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp">C++</a></td>     
 </tr>
 <tr>
+    <td>139</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/139_Word%20Break.md">Word Break</a></td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td></td>     
+</tr>
+
+<tr>
     <td>198</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/198_House%20Robber.md">House Robber</a></td> 
     <td>Medium</td>  
