@@ -55,8 +55,6 @@ c++
 <a href = "https://leetcode.com/submissions/detail/567071106/">95%</a>
 
 ```c++
-#include <iostream>
-#include <vector>
 #include <unordered_map>
 
 using namespace std;
@@ -64,23 +62,18 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> lookup;   
-        for (int i = 0; i < nums.size(); i++)
-        {
-            int n = target - nums[i];
-            if (lookup.find(n) != lookup.end()) 
-                return { lookup[n], i};
-            lookup[nums[i]] = i;        
+        unordered_map<int,int> lookup;
+        for(int index = 0;index < nums.size();index++){
+            int complement = target - nums[index];
+            auto it = lookup.find(complement);
+            if (it != lookup.end()) {
+                return {it->second, index};
+            }       
+            lookup[nums[index]] = index;
         }
-        return {};          
-    }  
-
+        return {};       
+    }
 };
-
-
-
-
-
 
 ```
 
