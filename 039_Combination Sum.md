@@ -62,34 +62,6 @@ class Solution(object):
         return res   
 ``` 
 
-backtracking 每次都有選與不選的抉擇,如果選了index不動下次還可以再選,如果不選的話就跳下一個選項
-``` python
-class Solution(object):
-    def combinationSum(self, candidates, target):
-        """
-        :type candidates: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
-        def backtracking(index,path,res):
-            if res == 0 :
-                ans.append(path[:])
-                return
-            elif res < 0:
-                return         
-            elif len(candidates) == index:
-                return 
-            n = candidates[index]
-            backtracking(index,path + [n],res - n)
-            backtracking(index + 1,path,res)
-
-        ans = []    
-        backtracking(0,[],target)      
-        return ans
-```
-
-
-
 
 #### C#
 
@@ -122,8 +94,73 @@ public class Solution {
 }
 ```
 
+#### C++
 
+```c++
+class Solution {
+public:
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>> result;
+		vector<int> combinations;
+		backtracking(candidates,0,result,target,combinations);
+		return result;
+		
+    }
+	
+	void backtracking(const vector<int>& candidates,int start,vector<vector<int>> &result,int res,vector<int> &combinations){
+		if (res == 0){
+			result.push_back(combinations);
+			return;
+		}
+		else if(res < 0){
+			return;
+		}		
+		for(int i = start ;i < candidates.size();++i){
+			int candidate = candidates[i];			
+			combinations.push_back(candidate);
+			backtracking(candidates,i,result,res - candidate,combinations);
+			combinations.pop_back();
+		}
+		
+	}
+	
+};
+```
 
+加上排序 + 剪枝：
+
+```c++
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>> result;
+        vector<int> combinations;
+        sort(candidates.begin(), candidates.end()); // 预排序
+        backtracking(candidates, 0, result, target, combinations);
+        return result;
+    }
+    
+    void backtracking(const vector<int>& candidates, int start, vector<vector<int>>& result, int res, vector<int>& combinations) {
+        if (res == 0) {
+            result.push_back(combinations);
+            return;
+        }
+
+        for (int i = start; i < candidates.size(); ++i) {
+            if (candidates[i] > res) break; // 剪枝：如果当前数已经大于剩余目标值，直接退出循环
+
+            combinations.push_back(candidates[i]);
+            backtracking(candidates, i, result, res - candidates[i], combinations);
+            combinations.pop_back();
+        }        
+    }
+};
+```
 
 
 
@@ -194,7 +231,49 @@ public class Solution {
 
 
 
+#### C++
 
+```c++
+#include <vector>
+#include <unordered_map>
+
+class Solution {
+public:
+    std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int target) {
+        // 用 unordered_map 代替 defaultdict
+        std::unordered_map<int, std::vector<std::vector<int>>> dp;
+        
+        // 初始化 dp[0] 为一个空组合
+        dp[0] = {{}};
+        
+        // 遍歷所有候選數字
+        for (int candidate : candidates) {
+            for (int n = candidate; n <= target; ++n) {
+                // 如果 dp[n - candidate] 存在
+                if (dp.find(n - candidate) != dp.end()) {
+                    // 遍歷 dp[n - candidate] 中的所有組合，並加入目前的 candidate
+                    for (auto& comb : dp[n - candidate]) {
+                        std::vector<int> newComb = comb;
+                        newComb.push_back(candidate);
+                        dp[n].push_back(newComb);
+                    }
+                }
+            }
+        }   
+        return dp[target];
+    }
+};
+
+
+
+
+
+
+
+
+
+
+```
 
 
 
