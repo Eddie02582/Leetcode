@@ -72,37 +72,78 @@ public class Solution {
 #### c++
 
 ```c++
-#include<vector>
-#include<string>
-#include<iostream>
-
-using namespace std;
 class Solution {
 public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> ans;
-
-        generate(ans,"",n,n);
-        return ans;
-    }
-    //100% reduce 
-    //https://leetcode.com/submissions/detail/567617937/
-    void generate(vector<string> &ans,string s,int left,int right){
-       
-        if(left == 0 & right == 0){
-            ans.push_back(s);
-            return; 
+    void backtrack(string& cur, int left, int right, int n, vector<string>& result) {
+        if (cur.size() == 2 * n) {
+            result.push_back(cur);
+            return;
         }
-        if(left > 0)
-            generate(ans,s + "(",left - 1,right);  
-        if(right > 0 && left < right )
-            generate(ans,s + ")",left,right - 1); 
+
+        if (left < n) {
+            cur.push_back('(');
+            backtrack(cur, left + 1, right, n, result);
+            cur.pop_back();  
+        }
+
+        if (right < left) {
+            cur.push_back(')');
+            backtrack(cur, left, right + 1, n, result);
+            cur.pop_back();  
+        }
+    }
+
+    vector<string> generateParenthesis(int n) {
+        vector<string> result;
+        string cur;
+        backtrack(cur, 0, 0, n, result);
+        return result;
     }
 };
-
-
-
 ```
+
+
+比較簡潔但是可能內存多一點,不使用push_back,string &cur=>string cur
+```c++
+#include <vector>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+class Solution {
+public:
+    void backtrack(string cur, int left, int right, int n, vector<string>& result) {
+        // 终止条件：括号组合长度达到 2n
+        if (cur.size() == 2 * n) {
+            result.push_back(cur);
+            return;
+        }
+
+        // 选择放置 '('
+        if (left < n) {
+            backtrack(cur + "(", left + 1, right, n, result);
+        }
+
+        // 选择放置 ')'
+        if (right < left) {
+            backtrack(cur + ")", left, right + 1, n, result);
+        }
+    }
+
+    vector<string> generateParenthesis(int n) {
+        vector<string> result;
+        backtrack("", 0, 0, n, result);
+        return result;
+    }
+};
+```
+
+
+
+
+
+
 
 ## 思路 BFS 
 類似BFS 思路,只是加了判斷

@@ -33,58 +33,61 @@ Example:
 
 ## Code
 
-#### Python
+#### C++
 
 
-使用雙層迴圈第一層歷遍所在digital,第2層對應的文字
+```c++
+#include <iostream>
+#include <vector>
+#include <unordered_map>
 
-<a href = "https://leetcode.com/submissions/detail/383624541/">Accepted Solutions</a>
-```python
-class Solution:
-    def letterCombinations(self, digits):
-        if not digits:
-            return []
-        mapping = {'2':"abc",'3':"def",'4':'ghi','5':'jkl','6':"mno",'7':"pqrs",'8':"tuv",'9':"wxyz"}
-        ans = []
-        def backtracking(word,start):
-            if len(word) == len(digits):
-                ans.append(word)
-                return
-            for i in range(start,len(digits)):
-                for letter in mapping[digits[i]]:
-                    backtracking(word + letter,i + 1)        
-        backtracking("",0)   
-        return ans
-```   
+using namespace std;
 
-簡化
+class Solution {
+public:
+    vector<string> letterCombinations(string digits) {
+        if (digits.empty()) return {};  // 边界处理
+        unordered_map<char, string> phoneMap{
+            {'2', "abc"}, {'3', "def"}, {'4', "ghi"}, {'5', "jkl"},
+            {'6', "mno"}, {'7', "pqrs"}, {'8', "tuv"}, {'9', "wxyz"}
+        };
+        vector<string> result;
+        string combination;
+        backtrack(digits, phoneMap, 0, combination, result);
+        return result;
+    }
 
-```python
-        if not digits:
-            return []
-        
-        phone = {'2': ['a', 'b', 'c'],
-           '3': ['d', 'e', 'f'],
-           '4': ['g', 'h', 'i'],
-           '5': ['j', 'k', 'l'],
-           '6': ['m', 'n', 'o'],
-           '7': ['p', 'q', 'r', 's'],
-           '8': ['t', 'u', 'v'],
-           '9': ['w', 'x', 'y', 'z']}  
-        
-        res = []
-        
-        def backtracking(res_digital,s):
-            if not res_digital:
-                res.append(s)
-                return   
-            for letter in phone[res_digital[0]]:
-                backtracking(res_digital[1:],s + letter )
-        
-        
-        backtracking(digits,'')
-        return res
+private:
+    void backtrack(const string& digits, unordered_map<char, string>& phoneMap, 
+                   int index, string& combination, vector<string>& result) {
+        if (index == digits.size()) {
+            result.push_back(combination);
+            return;
+        }
+
+        char digit = digits[index];
+        string letters = phoneMap[digit];
+
+        for (char letter : letters) {
+            combination.push_back(letter);
+            backtrack(digits, phoneMap, index + 1, combination, result);
+            combination.pop_back();  // 回溯，撤销选择
+        }
+    }
+};
+
+
+
+
+
+
+
+
+
+
 ```
+
+
 
 類似作法,改成記錄每次digits位置
 ```python
