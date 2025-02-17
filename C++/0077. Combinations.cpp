@@ -6,6 +6,7 @@ public:
         backtracking(k,n,1,path);
         return combination;
     }  
+private:
     void backtracking(int k,int n,int curr,vector<int>&path){
         if(path.size() == k){
             combination.push_back(path);           
