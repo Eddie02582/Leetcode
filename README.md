@@ -1103,6 +1103,14 @@ Leetcode Python & C#
     </td>         
 </tr>
 <tr>
+    <td>547</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/547_Number%20of%20Provinces.md">Number of Provinces</a></td> 
+    <td>Medium</td>
+	<td></td>	
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0547.Number%20of%20Provinces.cpp">Python</a></td>
+	<td></td>		
+</tr>
+<tr>
     <td>633</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/633_Sum%20of%20Square%20Numbers.md">Sum of Square Numbers</a></td> 
     <td>Medium</td>  
@@ -1345,6 +1353,14 @@ Leetcode Python & C#
     <td>
     <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/515_Find%20Largest%20Value%20in%20Each%20Tree%20Row.py">Python</a>
     </td>         
+</tr>
+<tr>
+    <td>547</td>    
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/547_Number%20of%20Provinces.md">Number of Provinces</a></td> 
+    <td>Medium</td>
+	<td></td>	
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0547.Number%20of%20Provinces.cpp">Python</a></td>
+	<td></td>		
 </tr>
 <tr>
     <td>606</td>    
