@@ -1107,8 +1107,8 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/547_Number%20of%20Provinces.md">Number of Provinces</a></td> 
     <td>Medium</td>
 	<td></td>	
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0547.Number%20of%20Provinces.cpp">C++</a></td>
 	<td></td>		
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0547.Number%20of%20Provinces.cpp">C++</a></td>	
 </tr>
 <tr>
     <td>633</td>    
@@ -1359,8 +1359,8 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/547_Number%20of%20Provinces.md">Number of Provinces</a></td> 
     <td>Medium</td>
 	<td></td>	
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0547.Number%20of%20Provinces.cpp">C++</a></td>
 	<td></td>		
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0547.Number%20of%20Provinces.cpp">C++</a></td>	
 </tr>
 <tr>
     <td>606</td>    
