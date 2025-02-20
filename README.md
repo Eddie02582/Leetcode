@@ -2059,6 +2059,23 @@ Leetcode Python & C#
     <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0567.%20Permutation%20in%20String.cpp">C++</a></td>     
 </tr>
+<tr>
+    <td>1004</td>    
+    <td>Max Consecutive Ones III</td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1004.%20Max%20Consecutive%20Ones%20III.cpp">C++</a></td>     
+</tr>
+<tr>
+    <td>1456</td>    
+    <td>Maximum Number of Vowels in a Substring of Given Length</td> 
+    <td>Medium</td>  
+    <td></td>         
+    <td></td> 
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.cpp">C++</a></td>     
+</tr>
+
 </table>
 
 # Stack
