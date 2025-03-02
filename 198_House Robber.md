@@ -83,16 +83,6 @@ using namespace std;
 
 class Solution {
 public:
-    int rob_(vector<int>& nums) {
-        int size = nums.size();        
-        vector<int> dp(size + 1, 0);
-         dp[1] = nums[0];
-        for (int i = 2;i <= size; i ++){            
-            dp[i] = max(dp[i - 1],dp[i - 2] + nums[i - 1]);
-        }        
-        return dp[size];
-    }
-
     int rob_simple(vector<int>& nums) {
         int prev_two = 0;
         int prev_one = nums[0];
