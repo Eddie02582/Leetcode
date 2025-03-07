@@ -71,6 +71,8 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 
    ```
+   
+### Code
 ```cpp
 class Solution {
 public:
