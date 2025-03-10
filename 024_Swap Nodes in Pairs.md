@@ -69,22 +69,52 @@ public:
         ListNode* curr = head;  
         ListNode* prev = dummy;         
         while (curr && curr->next){  
-            
-            ListNode* node1 = curr;
-            ListNode* node2 = curr->next;
-            // 0->1->2->3   0->2->1->3
-            node1->next = node2->next; //1->3
-            prev->next = node2;   //0->2
-            node2->next = node1;  // 2->1  
-            //update
-            prev = node1;              
-            curr = node1->next; 
+			ListNode* next = curr->next;
+			ListNode* next2 = curr->next->next;
+			//0->2
+			prevNode->next = next;
+			//2->1
+			next->next = curr;
+			//1->3
+			curr->next = next2;
+			//update
+			prevNode = curr;
+			curr = next2;
           
         }        
         return dummy->next;
     }
 };
 ```
-
+先換1->3 少一個變數
+```c++
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        if (!head)
+			return head;
+		
+		ListNode* dummy = new ListNode(0,head);
+		ListNode* prevNode = dummy;
+		ListNode* curr = head;
+		while(curr && curr->next ){
+			ListNode* next = curr->next;			
+			//1->3
+			curr->next = curr->next->next;
+			//0->2
+			prevNode->next = next;
+			//2->1
+			next->next = curr;
+			
+			//update
+			prevNode = curr;
+			curr = curr->next;
+			
+		}
+		
+		return dummy->next;
+    }
+};
+```
 
 
