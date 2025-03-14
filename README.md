@@ -117,37 +117,31 @@ Leetcode Python & C#
 <tr>
     <td>74</td>    
     <td>Search a 2D Matrix</td> 
-    <td>Medium</td>  
-    <td></td> 
+    <td>Medium</td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0074.%20Search%20a%202D%20Matrix.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>278</td>    
     <td>First Bad Version</td> 
     <td>Easy</td>  
-    <td></td>         
-    <td></td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0278.%20First%20Bad%20Version.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>441</td>    
     <td>Arranging Coins</td> 
     <td>Easy</td>  
-    <td></td>
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0441.%20Arranging%20Coins.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>704</td>    
     <td>Binary Search</td> 
-    <td>Easy</td>  
-    <td></td>  
+    <td>Easy</td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0704.%20Binary%20Search.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>2226</td>    
     <td>Maximum Candies Allocated to K Children</td> 
-    <td>Medium</td>  
-    <td></td>  
+    <td>Medium</td> 
     <td><a href = "https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/2226.%20Maximum%20Candies%20Allocated%20to%20K%20Children.cpp">C++</a></td>     
 </tr>
 </table>
