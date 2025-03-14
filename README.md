@@ -5,17 +5,13 @@ Leetcode Python & C#
 <tr>
     <td>#</td>
     <td>Title</td>  
-    <td>Difficulty</td>
-    <td>Python</td>
-    <td>C#</td> 
+    <td>Difficulty</td>    
     <td>C++</td>  
 </tr>
 <tr>
     <td>17</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/017_Letter%20Combinations%20of%20a%20Phone%20Number.md">Letter Combinations of a Phone Number</a></td> 
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/017_Letter%20Combinations%20of%20a%20Phone%20Number.py">Python</a></td>  
-	<td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>   
 
 	
@@ -24,41 +20,39 @@ Leetcode Python & C#
     <td>22</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/022_Generate%20Parentheses.md">Generate Parentheses</a></td> 
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/Backtracking/022_Generate%20Parentheses.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/22.generate-parentheses.cs">C#</a></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0022.%20Generate%20Parentheses.cpp">C++</a></td>       
 </tr>
 <tr>
     <td>37</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/037_Sudoku%20Solver.md">Sudoku Solver</a></td> 
     <td>Hard</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/037_Sudoku%20Solver.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/037_Sudoku%20Solver.py">Python</a></td>         
 </tr>
 <tr>
     <td>39</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/039_Combination%20Sum.md">Combination Sum</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/039_Combination%20Sum.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/39.combination-sum.cs">C#</a></td> 
+    <td>Medium</td>     
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0039.%20Combination%20Sum.cpp">C++</a></td>     
 </tr>
 <tr>
     <td>*46</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/046_Permutations.py">Python</a></td>         
-    <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0046.%20Permutations.cpp">C++</a></td>  
 
 </tr>
 <tr>
+    <td>51</td>    
+    <td>N-Queens</td> 
+    <td>Hard</td>  
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0051.%20N-Queens.cpp">++</</a></td>         
+</tr>
+<tr>
+
+<tr>
     <td>77</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/077_Combinations.md">Combinations</a></td> 
     <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/077_Combinations.py">Python</a></td>  
-    <td></td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0077.%20Combinations.cpp">C++</a></td>
    
 </tr>
@@ -66,16 +60,12 @@ Leetcode Python & C#
     <td>78</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/078_Subsets.md">Subsets</a></td> 
     <td>Medium</td>  
-    <td>
-    <a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/078_Subsets.py">Python</a>  
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/078_Subsets.py">Python</a></td>        
 </tr>
 <tr>
     <td>113</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/113_Path%20Sum%20II.md">Path Sum II</a></td> 
-    <td>Medium</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/Python/113_Path%20Sum%20II.py">Python</a></td>         
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%23/113.path-sum-ii.cs">C#</a></td> 
+    <td>Medium</td> 
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0113.%20Path%20Sum%20II.cpp">C++</a></td>     
 </tr>
 <tr>
@@ -90,11 +80,7 @@ Leetcode Python & C#
     <td>437</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/437_Path%20Sum%20III.md">Path Sum III</a></td> 
     <td>Medium</td>  
-    <td></td>         
-    <td></a></td> 
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0437.%20Path%20Sum%20III.cpp">C++</a></td> 
-    
-    </td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0437.%20Path%20Sum%20III.cpp">C++</a></td>     
 </tr>
 </table>
 
