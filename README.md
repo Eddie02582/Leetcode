@@ -35,7 +35,7 @@ Leetcode Python & C#
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0039.%20Combination%20Sum.cpp">C++</a></td>     
 </tr>
 <tr>
-    <td>*46</td>    
+    <td>46</td>    
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/046_Permutations.md">Permutations</a></td> 
     <td>Medium</td>  
     <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0046.%20Permutations.cpp">C++</a></td>  
@@ -45,7 +45,7 @@ Leetcode Python & C#
     <td>51</td>    
     <td>N-Queens</td> 
     <td>Hard</td>  
-    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0051.%20N-Queens.cpp">++</</a></td>         
+    <td><a href="https://github.com/Eddie02582/Leetcode/blob/master/C%2B%2B/0051.%20N-Queens.cpp">C++</</a></td>         
 </tr>
 <tr>
 
